@@ -1,0 +1,122 @@
+
+@font-face {
+  font-family: "Geist";
+  src: url("fonts/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("fonts/Geist-Italic-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+:root {
+  --primary: #111;
+  --warning: #f59e0b;
+  --font-sans: "Geist", system-ui, sans-serif;
+}
+
+.hero {
+  background: #2a2a2a url('./map.svg') no-repeat left top / auto 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  overflow: hidden;
+  color: #ccc;
+  --primary: #ccc;
+
+  .hero-map {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: auto;
+    height: 90%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .hero-nav {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-8);
+    padding: var(--space-6) 0;
+
+    a {
+      color: #e4e4e7;
+      text-decoration: none;
+    }
+  }
+
+  .hero-inner {
+    max-width: 800px;
+    position: relative;
+    margin-block: auto;
+
+    h1 {
+      font-size: 4rem;
+      line-height: 4.4rem;
+      color: #eee;
+    }
+
+    .intro {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-map {
+    opacity: 0.25;
+  }
+}
+
+.section-head {
+  margin-bottom: var(--space-8);
+
+  p {
+    margin-top: var(--space-1);
+    color: var(--muted-foreground);
+  }
+}
+
+.card {
+  img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: var(--space-4);
+    border-radius: var(--radius-medium);
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .logo {
+    width: auto;
+    height: 22px;
+    margin-bottom: var(--space-2);
+  }
+}
+
+.meta {
+  justify-content: space-between;
+  margin-top: var(--space-4);
+
+  a {
+    color: var(--muted-foreground);
+  }
+}
+
+.band {
+  margin: var(--space-16) 0;
+  padding: var(--space-16) 0;
+  background: var(--muted);
+}

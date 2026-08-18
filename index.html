@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>4th Cross Labs — Open source, built in production</title>
+  <meta name="description" content="FOSS projects built & dog-fooded at JP Nagar 4th Cross. Self-hosted, single-binary tools, apps and libraries we run in production.">
+
+  <link rel="stylesheet" href="https://unpkg.com/@knadh/oat/oat.min.css">
+  <link rel="stylesheet" href="static/style.css">
+  <script src="https://unpkg.com/@knadh/oat/oat.min.js" defer></script>
+</head>
+<body>
+
+  <header class="hero">
+    <!-- <img class="hero-map" src="static/map.png" alt="" aria-hidden="true"> -->
+    <nav class="hero-nav container">
+      <a href="#projects">Projects</a>
+      <a href="#">Blog</a>
+      <a href="https://github.com/">GitHub</a>
+    </nav>
+    <div class="hero-inner container">
+      <h1>We are an open-source hacker collective</h1>
+      <p class="intro">Named after after 4th Cross JP Nagar, the Bengaluru, street from where we started hacking.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-head">
+        <h2>Featured projects (12)</h2>
+        <p>Full-featured, self-hosted applications ready to run out of the box.</p>
+      </div>
+
+      <div class="row">
+        <article class="card col-6">
+          <img src="static/listmonk.png" alt="listmonk newsletter dashboard">
+          <h3>listmonk</h3>
+          <p>High performance, self-hosted newsletter and mailing list manager with a modern dashboard. Single binary app.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 22k</span>
+            <a href="https://github.com/knadh">@knadh</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <img src="static/libredesk.png" alt="libredesk IVR flow builder">
+          <img class="logo" src="static/libredesk-logo.png" alt="libredesk">
+          <p>Open source, self-hosted omnichannel customer support desk. Live chat, email, and more in a single binary.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 2.7k</span>
+            <a href="https://github.com/abhinavxd">@abhinavxd</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <img src="static/logchef.png" alt="logchef log analytics interface">
+          <h3>logchef</h3>
+          <p>Lightweight, single-binary log analytics interface for ClickHouse, focused on high-performance querying and visualization.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 22k</span>
+            <a href="https://github.com/mr-karan">@mr-karan</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <img src="static/bureaucat.png" alt="Bureaucat landing page">
+          <h3>Bureaucat</h3>
+          <p>A no-nonsense, open source self-service workflow execution platform.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 2.7k</span>
+            <a href="https://github.com/cvhariharan">@cvhariharan</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <h3>Whatomate</h3>
+          <p>An open-source, self-hosted WhatsApp integration and automation platform.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 22k</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <h3>osqm</h3>
+          <p>An open source osquery manager for fleet-wide endpoint visibility.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 2.7k</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Statement band -->
+    <section class="band">
+      <div class="container">
+        <h2>Built in production, shared with everyone</h2>
+        <p>Every project listed here is software we run in production at 4th Cross Labs. We build in the open
+           because good infrastructure should be accessible — not locked behind enterprise pricing.</p>
+
+        <div class="row">
+          <div class="col-4">
+            <h3>Self-hosted first</h3>
+            <p>Every app ships as a compact, dependency-free binary you run on your own infrastructure.</p>
+          </div>
+          <div class="col-4">
+            <h3>Dog-fooded daily</h3>
+            <p>We run each project in production. If it breaks for you, it breaks for us too.</p>
+          </div>
+          <div class="col-4">
+            <h3>Permissive licenses</h3>
+            <p>Apache 2.0, MIT, AGPL — pick what works for your use case.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Libraries & Tools -->
+    <section id="libraries">
+      <div class="section-head">
+        <h2>Libraries &amp; Tools <span class="badge">8</span></h2>
+        <p>Infrastructure primitives, proxies, and developer tools.</p>
+      </div>
+
+      <div class="row">
+        <article class="card col-6">
+          <h3>dungbeetle</h3>
+          <p>Distributed job server for queuing and executing heavy SQL read jobs asynchronously. Supports MySQL, Postgres, ClickHouse.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 1262</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <h3>sqlite-blob</h3>
+          <p>A blob store based on SQLite, compatible with the Redis protocol.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 1262</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <h3>tagflow</h3>
+          <p>Native rich content runtime for Flutter apps, with HTML rendering, trusted JSON documents, and live content patches.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 1262</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <h3>hedwig</h3>
+          <p>High performance and minimalist SMTP server.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 1262</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <img class="logo" src="static/koan-logo.png" alt="koan">
+          <p>Simple, extremely lightweight, extensible configuration management library for Go. Supports JSON, TOML, YAML, env, command line, file, S3 etc. Alternative to viper.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 1262</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+
+        <article class="card col-6">
+          <h3>tasqueue</h3>
+          <p>A background jobs library for Go that allows pluggable brokers/store for distribution.</p>
+          <div class="hstack meta">
+            <span class="badge outline" data-variant="warning">★ 1262</span>
+            <a href="https://github.com/">@userid</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <div class="row">
+      <div class="col-6">
+        <strong>4crosslabs</strong>
+        <p>Open source, built in production.</p>
+      </div>
+      <nav class="col-6 meta hstack">
+        <a href="https://github.com/">GitHub</a>
+        <a href="#">Blog</a>
+        <a href="#">Changelog</a>
+      </nav>
+    </div>
+    <p><small>© 2026 4th Cross Labs</small></p>
+  </footer>
+
+</body>
+</html>
