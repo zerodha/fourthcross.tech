@@ -1,6 +1,26 @@
 # Services, libraries and utilities, sorted by stars. Same schema as
 # data/featured.yml — see the field documentation there.
 
+- name: doggo
+  description: Command-line DNS client for humans. Written in Go.
+  category: utils
+  language: Go
+  license: GPL-3.0
+  stars: 4434
+  topics:
+    - dns
+    - dns-client
+    - doh
+  updated_at: "2026-08-19T14:08:31Z"
+  github_uri: mr-karan/doggo
+  repo_url: https://github.com/mr-karan/doggo
+  homepage_url: https://doggo.mrkaran.dev
+  image:
+  logo:
+  author_name: Karan Sharma
+  author_github: mr-karan
+  author_avatar:
+
 - name: koanf
   description: Simple, extremely lightweight, extensible, configuration management library for Go. Supports JSON, TOML, YAML, env, command line, file, S3 etc. Alternative to viper.
   category: libs
@@ -29,6 +49,31 @@
   logo: koan-logo.png
   author_name: Kailash Nadh
   author_github: knadh
+  author_avatar:
+
+- name: whatomate
+  description: Whatomate is an open source, self-hosted WhatsApp integration with chat, automation and voice calling.
+  category: services
+  language: Go
+  license: AGPL-3.0
+  stars: 1442
+  topics:
+    - whatsapp
+    - whatsapp-api
+    - whatsapp-automation
+    - whatsapp-bot
+    - whatsapp-calling
+    - whatsapp-chat
+    - whatsapp-voice-call
+    - whatsapp-voip
+  updated_at: "2026-08-17T05:16:37Z"
+  github_uri: shridarpatil/whatomate
+  repo_url: https://github.com/shridarpatil/whatomate
+  homepage_url: https://whatomate.io
+  image:
+  logo:
+  author_name: shridarpatil
+  author_github: shridarpatil
   author_avatar:
 
 - name: csvtotable
@@ -76,6 +121,62 @@
   author_github: knadh
   author_avatar:
 
+- name: Tasqueue
+  description: A background jobs library for Go that allows pluggable brokers/store for distribution.
+  category: libs
+  language: Go
+  license: BSD-2-Clause
+  stars: 465
+  topics:
+    - background-jobs
+    - distributed-systems
+    - go
+    - golang
+    - jobqueue
+    - queue
+    - tasqueue
+  updated_at: "2026-01-31T18:42:27Z"
+  github_uri: kalbhor/Tasqueue
+  repo_url: https://github.com/kalbhor/Tasqueue
+  homepage_url:
+  image:
+  logo: logos/tasqueue.svg
+  author_name: kalbhor
+  author_github: kalbhor
+  author_avatar:
+
+- name: frappe_whatsapp
+  description: WhatsApp Cloud API integration for Frappe and ERPNext.
+  category: libs
+  language: Python
+  license:
+  stars: 464
+  topics:
+    - erpnext
+    - erpnext-whatsapp
+    - facebook
+    - frappe
+    - frappe-framework
+    - frappe-whatsapp
+    - frappe-whatsapp-integration
+    - notifications
+    - whatsapp
+    - whatsapp-api
+    - whatsapp-automation
+    - whatsapp-chat
+    - whatsapp-cloud-api
+    - whatsapp-integration
+    - whatsappnotify
+  updated_at: "2026-08-04T12:27:02Z"
+  github_uri: shridarpatil/frappe_whatsapp
+  repo_url: https://github.com/shridarpatil/frappe_whatsapp
+  homepage_url:
+  image:
+  logo:
+  author_name: shridarpatil
+  author_github: shridarpatil
+  author_avatar:
+
 - name: otpgateway
   description: Standalone server for user address and OTP verification flows with pluggable providers (e-mail, SMS, bank penny drops etc.)
   category: services
@@ -100,28 +201,84 @@
   author_github: knadh
   author_avatar:
 
-- name: Tasqueue
-  description: A background jobs library for Go that allows pluggable brokers/store for distribution.
-  category: libs
-  language: Go
-  license: BSD-2-Clause
-  stars: 410
-  topics:
-    - background-jobs
-    - distributed-systems
-    - go
-    - golang
-    - jobqueue
-    - queue
-    - tasqueue
-  updated_at: "2025-02-24T05:31:55Z"
-  github_uri: kalbhor/Tasqueue
-  repo_url: https://github.com/kalbhor/Tasqueue
+- name: ezhil
+  description: Clean and minimal personal blog theme for Hugo
+  category: utils
+  language: HTML
+  license: MIT
+  stars: 444
+  topics: []
+  updated_at: "2023-10-31T00:42:47Z"
+  github_uri: vividvilla/ezhil
+  repo_url: https://github.com/vividvilla/ezhil
   homepage_url:
   image:
-  logo: logos/tasqueue.svg
-  author_name: kalbhor
-  author_github: kalbhor
+  logo:
+  author_name: vividvilla
+  author_github: vividvilla
+  author_avatar:
+
+- name: flowctl
+  description: An open source self-service workflow execution platform
+  category: services
+  language: Go
+  license: Apache-2.0
+  stars: 330
+  topics:
+    - automation
+    - devops
+    - orchestration
+    - platform-engineering
+    - scheduler
+    - self-service
+    - workflow
+    - workflow-automation
+  updated_at: "2026-08-18T10:28:46Z"
+  github_uri: cvhariharan/flowctl
+  repo_url: https://github.com/cvhariharan/flowctl
+  homepage_url: https://flowctl.net
+  image:
+  logo:
+  author_name: Hariharan
+  author_github: cvhariharan
+  author_avatar:
+
+- name: kite-mcp-server
+  description: MCP (Model Context Protocol) server for the Zerodha Kite trading platform.
+  category: services
+  language: Go
+  license: MIT
+  stars: 302
+  topics: []
+  updated_at: "2026-08-19T23:40:52Z"
+  github_uri: zerodha/kite-mcp-server
+  repo_url: https://github.com/zerodha/kite-mcp-server
+  homepage_url: https://mcp.kite.trade
+  image:
+  logo:
+  author_name:
+  author_github:
+  author_avatar:
+
+- name: simples3
+  description: Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)
+  category: libs
+  language: Go
+  license:
+  stars: 208
+  topics:
+    - aws
+    - aws-s3
+    - aws-signature-v4
+    - golang
+  updated_at: "2026-05-21T17:59:16Z"
+  github_uri: rhnvrm/simples3
+  repo_url: https://github.com/rhnvrm/simples3
+  homepage_url:
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
   author_avatar:
 
 - name: flutter_displaymode
@@ -182,27 +339,6 @@
   logo:
   author_name: Karan Sharma
   author_github: mr-karan
-  author_avatar:
-
-- name: simples3
-  description: Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)
-  category: libs
-  language: Go
-  license:
-  stars: 161
-  topics:
-    - aws
-    - aws-s3
-    - aws-signature-v4
-    - golang
-  updated_at: "2025-04-23T17:57:44Z"
-  github_uri: rhnvrm/simples3
-  repo_url: https://github.com/rhnvrm/simples3
-  homepage_url:
-  image:
-  logo:
-  author_name: Rohan Verma
-  author_github: rhnvrm
   author_avatar:
 
 - name: kubekutr
@@ -267,9 +403,9 @@
   category: utils
   language: Dart
   license: MIT
-  stars: 110
+  stars: 128
   topics: []
-  updated_at: "2025-02-27T09:55:41Z"
+  updated_at: "2025-07-31T10:30:35Z"
   github_uri: ajinasokan/autopilot
   repo_url: https://github.com/ajinasokan/autopilot
   homepage_url:
@@ -289,6 +425,23 @@
   updated_at: "2025-02-13T10:09:57Z"
   github_uri: ajinasokan/flutter_fgbg
   repo_url: https://github.com/ajinasokan/flutter_fgbg
+  homepage_url:
+  image:
+  logo:
+  author_name: Ajin Asokan
+  author_github: ajinasokan
+  author_avatar:
+
+- name: apkc
+  description: apkc is a bare-bones Android app build system that lets you build simple native Android apps without the entire Android IDE
+  category: utils
+  language: Go
+  license: MIT
+  stars: 83
+  topics: []
+  updated_at: "2025-05-22T09:32:07Z"
+  github_uri: ajinasokan/apkc
+  repo_url: https://github.com/ajinasokan/apkc
   homepage_url:
   image:
   logo:
@@ -345,6 +498,30 @@
   author_github: knadh
   author_avatar:
 
+- name: simplesessions
+  description: simplesessions is a Go session management library that is completely agnostic of HTTP libraries and frameworks, backend stores, and even cookie jars.
+  category: libs
+  language: Go
+  license: MIT
+  stars: 78
+  topics:
+    - session
+    - session-cookie
+    - session-handler
+    - session-management
+    - session-manager
+    - session-store
+    - sessions
+  updated_at: "2025-07-01T07:35:48Z"
+  github_uri: zerodha/simplesessions
+  repo_url: https://github.com/zerodha/simplesessions
+  homepage_url:
+  image:
+  logo:
+  author_name: vividvilla
+  author_github: vividvilla
+  author_avatar:
+
 - name: pfxsigner
   description: A CLI utility and web server for digitally signing PDFs with docsign loaded from PFX (PKCS#12) files
   category: utils
@@ -389,28 +566,26 @@
   author_github:
   author_avatar:
 
-- name: simplesessions
-  description: simplesessions is a Go session management library that is completely agnostic of HTTP libraries and frameworks, backend stores, and even cookie jars.
+- name: flutter_curl
+  description: Flutter plugin to use libcurl for HTTP calls
   category: libs
-  language: Go
+  language: Dart
   license: MIT
-  stars: 64
+  stars: 67
   topics:
-    - session
-    - session-cookie
-    - session-handler
-    - session-management
-    - session-manager
-    - session-store
-    - sessions
-  updated_at: "2025-03-20T18:51:58Z"
-  github_uri: vividvilla/simplesessions
-  repo_url: https://github.com/vividvilla/simplesessions
+    - curl
+    - flutter
+    - http
+    - libcurl
+    - quic
+  updated_at: "2026-07-08T07:13:17Z"
+  github_uri: ajinasokan/flutter_curl
+  repo_url: https://github.com/ajinasokan/flutter_curl
   homepage_url:
   image:
   logo:
-  author_name: vividvilla
-  author_github: vividvilla
+  author_name: Ajin Asokan
+  author_github: ajinasokan
   author_avatar:
 
 - name: slim-ui
@@ -476,26 +651,43 @@
   author_github: joeirimpan
   author_avatar:
 
-- name: flutter_curl
-  description: Flutter plugin to use libcurl for HTTP calls
-  category: libs
-  language: Dart
-  license: MIT
-  stars: 56
+- name: hedwig
+  description: High performance and minimalist SMTP server
+  category: services
+  language: Rust
+  license: AGPL-3.0
+  stars: 60
   topics:
-    - curl
-    - flutter
-    - http
-    - libcurl
-    - quic
-  updated_at: "2025-02-12T10:10:33Z"
-  github_uri: ajinasokan/flutter_curl
-  repo_url: https://github.com/ajinasokan/flutter_curl
+    - mail-server
+    - rust
+    - rust-smtp
+    - smtp
+    - smtp-server
+  updated_at: "2026-07-27T16:06:33Z"
+  github_uri: iamd3vil/hedwig
+  repo_url: https://github.com/iamd3vil/hedwig
+  homepage_url: https://hedwig-mail.dev
+  image:
+  logo: logos/hedwig.svg
+  author_name: Sarat Chandra
+  author_github: iamd3vil
+  author_avatar:
+
+- name: exampro
+  description: Proctored exams for the Frappe framework
+  category: services
+  language: JavaScript
+  license: MIT
+  stars: 58
+  topics: []
+  updated_at: "2026-08-19T07:14:18Z"
+  github_uri: lebmatter/exampro
+  repo_url: https://github.com/lebmatter/exampro
   homepage_url:
   image:
   logo:
-  author_name: Ajin Asokan
-  author_github: ajinasokan
+  author_name: Labeeb Mattra
+  author_github: lebmatter
   author_avatar:
 
 - name: rbiparser
@@ -585,6 +777,102 @@
   author_github: vividvilla
   author_avatar:
 
+- name: blobasaur
+  description: A blob store based on SQLite, compatible with the Redis protocol
+  category: services
+  language: Rust
+  license: AGPL-3.0
+  stars: 44
+  topics: []
+  updated_at: "2026-07-28T09:05:56Z"
+  github_uri: iamd3vil/blobasaur
+  repo_url: https://github.com/iamd3vil/blobasaur
+  homepage_url:
+  image:
+  logo:
+  author_name: Sarat Chandra
+  author_github: iamd3vil
+  author_avatar:
+
+- name: gotp
+  description: Simple utility to live preview Go templates with custom data
+  category: utils
+  language: HTML
+  license: MIT
+  stars: 43
+  topics: []
+  updated_at: "2025-09-09T12:23:50Z"
+  github_uri: vividvilla/gotp
+  repo_url: https://github.com/vividvilla/gotp
+  homepage_url:
+  image:
+  logo:
+  author_name: vividvilla
+  author_github: vividvilla
+  author_avatar:
+
+- name: hdfc-cc-parser-rs
+  description: Parse HDFC credit card statements (Infinia, September 2025 onwards) into CSV
+  category: utils
+  language: Rust
+  license: MIT
+  stars: 42
+  topics:
+    - card
+    - credit
+    - csv
+    - hdfc
+    - pdf
+    - statements
+  updated_at: "2026-04-22T05:01:00Z"
+  github_uri: joeirimpan/hdfc-cc-parser-rs
+  repo_url: https://github.com/joeirimpan/hdfc-cc-parser-rs
+  homepage_url:
+  image:
+  logo:
+  author_name: joeirimpan
+  author_github: joeirimpan
+  author_avatar:
+
+- name: ditto
+  description: A simple dictionary app built using Flutter. Powers the Olam and Alar mobile apps.
+  category: utils
+  language: Dart
+  license: GPL-3.0
+  stars: 41
+  topics: []
+  updated_at: "2021-03-15T09:50:07Z"
+  github_uri: ajinasokan/ditto
+  repo_url: https://github.com/ajinasokan/ditto
+  homepage_url:
+  image:
+  logo:
+  author_name: Ajin Asokan
+  author_github: ajinasokan
+  author_avatar:
+
+- name: bureaucat
+  description: A no-nonsense task manager. Single binary app.
+  category: services
+  language: Vue
+  license: AGPL-3.0
+  stars: 41
+  topics:
+    - jira
+    - task
+    - task-management
+    - task-manager
+    - todo
+  updated_at: "2026-08-17T17:54:16Z"
+  github_uri: bureaucatorg/bureaucat
+  repo_url: https://github.com/bureaucatorg/bureaucat
+  homepage_url: https://bureaucat.org
+  image: bureaucat.png
+  logo:
+  author_name:
+  author_github:
+  author_avatar:
+
 - name: frappe_tinymce
   description: Frappe app to replace default text editor with tinymce
   category: libs
@@ -614,11 +902,11 @@
   category: libs
   language: Dart
   license: MIT
-  stars: 35
+  stars: 39
   topics:
     - flutter
     - state-management
-  updated_at: "2024-11-13T08:52:02Z"
+  updated_at: "2026-07-10T13:42:02Z"
   github_uri: ajinasokan/store_keeper
   repo_url: https://github.com/ajinasokan/store_keeper
   homepage_url:
@@ -626,6 +914,62 @@
   logo:
   author_name: Ajin Asokan
   author_github: ajinasokan
+  author_avatar:
+
+- name: dartgen
+  description: An inline generator collection for Dart & Flutter projects
+  category: libs
+  language: Dart
+  license: MIT
+  stars: 38
+  topics:
+    - code-generation
+    - dart
+    - flutter
+  updated_at: "2026-05-09T05:49:35Z"
+  github_uri: ajinasokan/dartgen
+  repo_url: https://github.com/ajinasokan/dartgen
+  homepage_url:
+  image:
+  logo:
+  author_name: Ajin Asokan
+  author_github: ajinasokan
+  author_avatar:
+
+- name: fastcache
+  description: fastcache is an HTTP response caching package that plugs into fastglue and simplifies "dumb" caching of API endpoints.
+  category: libs
+  language: Go
+  license:
+  stars: 37
+  topics:
+    - fastglue
+    - fasthttp
+  updated_at: "2025-09-15T05:10:21Z"
+  github_uri: zerodha/fastcache
+  repo_url: https://github.com/zerodha/fastcache
+  homepage_url:
+  image:
+  logo:
+  author_name:
+  author_github:
+  author_avatar:
+
+- name: listmonk-mcp
+  description: MCP (Model Context Protocol) server for listmonk newsletter management
+  category: services
+  language: Python
+  license: MIT
+  stars: 37
+  topics: []
+  updated_at: "2026-01-13T04:02:00Z"
+  github_uri: rhnvrm/listmonk-mcp
+  repo_url: https://github.com/rhnvrm/listmonk-mcp
+  homepage_url:
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
   author_avatar:
 
 - name: store-exporter
@@ -650,23 +994,6 @@
   logo:
   author_name: Karan Sharma
   author_github: mr-karan
-  author_avatar:
-
-- name: gotp
-  description: Simple utility to live preview Go templates with custom data
-  category: utils
-  language: HTML
-  license: MIT
-  stars: 32
-  topics: []
-  updated_at: "2024-06-15T20:19:27Z"
-  github_uri: vividvilla/gotp
-  repo_url: https://github.com/vividvilla/gotp
-  homepage_url:
-  image:
-  logo:
-  author_name: vividvilla
-  author_github: vividvilla
   author_avatar:
 
 - name: shelf
@@ -741,6 +1068,29 @@
   author_github:
   author_avatar:
 
+- name: oore.build
+  description: Self-hosted, Flutter-first mobile CI and internal app distribution platform.
+  category: services
+  language: Rust
+  license: MIT
+  stars: 26
+  topics:
+    - ci
+    - ci-cd
+    - cicd
+    - dart
+    - flutter
+    - rust
+  updated_at: "2026-08-20T05:57:29Z"
+  github_uri: oore-ci/oore.build
+  repo_url: https://github.com/oore-ci/oore.build
+  homepage_url: https://oore.build
+  image:
+  logo:
+  author_name:
+  author_github:
+  author_avatar:
+
 - name: terraform-provider-kite
   description: Terraform provider for managing long term portfolio with Zerodha Kite
   category: libs
@@ -794,6 +1144,27 @@
   logo:
   author_name: Thunderbottom
   author_github: thunderbottom
+  author_avatar:
+
+- name: tagflow
+  description: Native rich content runtime for Flutter apps, with HTML rendering, trusted JSON documents and live content patches
+  category: libs
+  language: Dart
+  license: MIT
+  stars: 20
+  topics:
+    - flutter
+    - html
+    - html-to-flutter
+    - tagflow
+  updated_at: "2026-06-25T12:13:16Z"
+  github_uri: devaryakjha/tagflow
+  repo_url: https://github.com/devaryakjha/tagflow
+  homepage_url:
+  image:
+  logo: logos/tagflow.svg
+  author_name: devaryakjha
+  author_github: devaryakjha
   author_avatar:
 
 - name: rms-consolidated-scrips-status
@@ -938,6 +1309,100 @@
   author_github: mr-karan
   author_avatar:
 
+- name: liveNumberFormat.js
+  description: A tiny Javascript library that allows for real time formatting of numbers and currencies, ~1600 bytes minified + gzipped.
+  category: libs
+  language: JavaScript
+  license: MIT
+  stars: 11
+  topics:
+    - currency
+    - currency-formatter
+    - currencyformatter
+    - formatter
+    - input-formatting
+    - input-validation
+    - number-formatting
+    - numberformatter
+    - real-time-formatting
+  updated_at: "2025-02-12T20:33:26Z"
+  github_uri: abhinavxd/liveNumberFormat.js
+  repo_url: https://github.com/abhinavxd/liveNumberFormat.js
+  homepage_url:
+  image:
+  logo:
+  author_name: abhinavxd
+  author_github: abhinavxd
+  author_avatar:
+
+- name: checkpost
+  description: An open source osquery manager
+  category: services
+  language: Go
+  license: Apache-2.0
+  stars: 11
+  topics:
+    - compliance
+    - device-management
+    - observability
+    - osquery
+    - security
+  updated_at: "2026-08-05T07:44:18Z"
+  github_uri: cvhariharan/checkpost
+  repo_url: https://github.com/cvhariharan/checkpost
+  homepage_url: https://checkpost.dev
+  image:
+  logo:
+  author_name: Hariharan
+  author_github: cvhariharan
+  author_avatar:
+
+- name: spoofdb
+  description: One db to spoof them all. Mock server speaking the wire protocols of Postgres, MySQL, Redis, ClickHouse and DuckDB.
+  category: utils
+  language: Go
+  license:
+  stars: 10
+  topics:
+    - cli
+    - clickhouse
+    - database
+    - duckdb
+    - golang
+    - mock-server
+    - mysql
+    - postgres
+    - redis
+    - sql
+    - testing
+    - wire-protocol
+  updated_at: "2026-06-28T06:39:50Z"
+  github_uri: satya10x/spoofdb
+  repo_url: https://github.com/satya10x/spoofdb
+  homepage_url:
+  image:
+  logo:
+  author_name: Satya
+  author_github: satya10x
+  author_avatar:
+
+- name: stock-market-circulars
+  description: Automated processing and publishing of regulatory circulars from NSE, BSE and SEBI with AI-powered summaries
+  category: services
+  language: Python
+  license:
+  stars: 10
+  topics: []
+  updated_at: "2026-08-20T06:46:30Z"
+  github_uri: rhnvrm/stock-market-circulars
+  repo_url: https://github.com/rhnvrm/stock-market-circulars
+  homepage_url: https://exchangecirculars.com
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
+  author_avatar:
+
 - name: go-frappe-client
   description: Frappe client written in Go
   category: libs
@@ -955,25 +1420,43 @@
   author_github: joeirimpan
   author_avatar:
 
-- name: tagflow
-  description: A flutter package that takes html string as input and parses and converts that to Flutter widgets based on the provided configuration.
-  category: libs
-  language: Dart
+- name: mattermost-cli
+  description: Mattermost CLI for humans and agents
+  category: utils
+  language: Python
+  license: MIT
+  stars: 9
+  topics: []
+  updated_at: "2026-06-29T03:57:14Z"
+  github_uri: rhnvrm/mattermost-cli
+  repo_url: https://github.com/rhnvrm/mattermost-cli
+  homepage_url:
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
+  author_avatar:
+
+- name: nomadboard
+  description: A read-only status page for HashiCorp Nomad clusters with job grouping, restart detection, and multi-DC support.
+  category: services
+  language: Go
   license: MIT
   stars: 9
   topics:
-    - flutter
-    - html
-    - html-to-flutter
-    - tagflow
-  updated_at: "2025-04-22T08:53:16Z"
-  github_uri: devaryakjha/html_to_flutter
-  repo_url: https://github.com/devaryakjha/html_to_flutter
+    - cross-dc
+    - golang
+    - hashicorp
+    - nomad
+    - status-page
+  updated_at: "2026-08-17T16:51:45Z"
+  github_uri: joeirimpan/nomadboard
+  repo_url: https://github.com/joeirimpan/nomadboard
   homepage_url:
   image:
-  logo: logos/tagflow.svg
-  author_name: devaryakjha
-  author_github: devaryakjha
+  logo:
+  author_name: joeirimpan
+  author_github: joeirimpan
   author_avatar:
 
 - name: osticket-archive
@@ -1011,6 +1494,23 @@
   author_github: mr-karan
   author_avatar:
 
+- name: hq
+  description: A jq/yq-like processor for HUML
+  category: utils
+  language: Go
+  license: MIT
+  stars: 8
+  topics: []
+  updated_at: "2026-01-23T07:38:36Z"
+  github_uri: rhnvrm/hq
+  repo_url: https://github.com/rhnvrm/hq
+  homepage_url:
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
+  author_avatar:
+
 - name: kaf-ansible
   description: Ansible scripts for setting up Zookeeper, Kafka, kaf cli
   category: utils
@@ -1026,6 +1526,23 @@
   logo:
   author_name: joeirimpan
   author_github: joeirimpan
+  author_avatar:
+
+- name: s3site
+  description: Static site server that serves from S3 tar.gz archives, with an S3 file watcher
+  category: services
+  language: Go
+  license:
+  stars: 7
+  topics: []
+  updated_at: "2026-07-28T11:29:21Z"
+  github_uri: rhnvrm/s3site
+  repo_url: https://github.com/rhnvrm/s3site
+  homepage_url:
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
   author_avatar:
 
 - name: eks-gitops
@@ -1099,6 +1616,97 @@
   author_github: thunderbottom
   author_avatar:
 
+- name: torii
+  description: Identity-aware reverse proxy with built-in auth, session management, RBAC and an embedded admin UI. Single binary app.
+  category: services
+  language: Go
+  license: AGPL-3.0
+  stars: 6
+  topics: []
+  updated_at: "2026-08-04T18:25:05Z"
+  github_uri: toriigateorg/torii
+  repo_url: https://github.com/toriigateorg/torii
+  homepage_url: https://toriigate.org
+  image:
+  logo:
+  author_name:
+  author_github:
+  author_avatar:
+
+- name: lzo1z
+  description: Pure Go LZO1Z compression and decompression library
+  category: libs
+  language: Go
+  license: MIT
+  stars: 5
+  topics: []
+  updated_at: "2026-02-20T06:22:30Z"
+  github_uri: rhnvrm/lzo1z
+  repo_url: https://github.com/rhnvrm/lzo1z
+  homepage_url:
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
+  author_avatar:
+
+- name: catprinter
+  description: Go library for cat printer style mini thermal printers (58mm width, 384 dots)
+  category: libs
+  language: Go
+  license:
+  stars: 5
+  topics: []
+  updated_at: "2025-12-09T18:34:59Z"
+  github_uri: rhnvrm/catprinter
+  repo_url: https://github.com/rhnvrm/catprinter
+  homepage_url:
+  image:
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
+  author_avatar:
+
+- name: kapi.run
+  description: Collaborative group food ordering on Swiggy. Participants submit items to a shared session and the organiser syncs the combined cart.
+  category: services
+  language: TypeScript
+  license:
+  stars: 5
+  topics: []
+  updated_at: "2026-08-13T09:26:33Z"
+  github_uri: devaryakjha/kapi.run
+  repo_url: https://github.com/devaryakjha/kapi.run
+  homepage_url: https://kapi.run
+  image:
+  logo:
+  author_name: devaryakjha
+  author_github: devaryakjha
+  author_avatar:
+
+- name: pi-websearch-crawl4ai
+  description: A pi extension to let your LLM crawl and see the web
+  category: libs
+  language: HTML
+  license: MIT
+  stars: 5
+  topics:
+    - crawler
+    - llm
+    - pi
+    - pi-extension
+    - search
+    - web
+  updated_at: "2026-04-26T19:15:04Z"
+  github_uri: codingCoffee/pi-websearch-crawl4ai
+  repo_url: https://github.com/codingCoffee/pi-websearch-crawl4ai
+  homepage_url: https://pi-websearch-crawl4ai.codingcoffee.dev
+  image:
+  logo:
+  author_name: Ameya Shenoy
+  author_github: codingcoffee
+  author_avatar:
+
 - name: duckdb-fnv
   description: Duckdb extension to calculate fnv hash, fnv partition bucket for a given hash.
   category: libs
@@ -1116,19 +1724,162 @@
   author_github: joeirimpan
   author_avatar:
 
-- name: hedwig
-  description: High performance and minimalist SMTP server
-  category: services
-  language: Rust
-  license: AGPL-3.0
+- name: yt2embed
+  description: Browser extension that redirects YouTube videos to the embed page
+  category: utils
+  language: JavaScript
+  license: GPL-3.0
   stars: 4
   topics: []
-  updated_at: "2025-04-25T10:01:54Z"
-  github_uri: iamd3vil/hedwig
-  repo_url: https://github.com/iamd3vil/hedwig
+  updated_at: "2025-08-12T18:44:34Z"
+  github_uri: rhnvrm/yt2embed
+  repo_url: https://github.com/rhnvrm/yt2embed
   homepage_url:
   image:
-  logo: logos/hedwig.svg
+  logo:
+  author_name: Rohan Verma
+  author_github: rhnvrm
+  author_avatar:
+
+- name: moat
+  description: Markdown + Oat static site generator
+  category: utils
+  language: Go
+  license:
+  stars: 3
+  topics: []
+  updated_at: "2026-07-02T11:51:28Z"
+  github_uri: oddship/moat
+  repo_url: https://github.com/oddship/moat
+  homepage_url:
+  image:
+  logo:
+  author_name:
+  author_github:
+  author_avatar:
+
+- name: go-typst
+  description: Go bindings for Typst
+  category: libs
+  language: Go
+  license:
+  stars: 3
+  topics: []
+  updated_at: "2026-07-30T05:51:49Z"
+  github_uri: iamd3vil/go-typst
+  repo_url: https://github.com/iamd3vil/go-typst
+  homepage_url:
+  image:
+  logo:
   author_name: Sarat Chandra
   author_github: iamd3vil
+  author_avatar:
+
+- name: pi-privacy-filter
+  description: A pi extension that redacts PII from data before it reaches the LLM
+  category: libs
+  language: HTML
+  license: MIT
+  stars: 3
+  topics:
+    - filter
+    - llm
+    - pi
+    - pi-extension
+    - pii
+    - privacy
+    - redaction
+  updated_at: "2026-05-10T08:09:48Z"
+  github_uri: codingCoffee/pi-privacy-filter
+  repo_url: https://github.com/codingCoffee/pi-privacy-filter
+  homepage_url: https://pi-privacy-filter.codingcoffee.dev
+  image:
+  logo:
+  author_name: Ameya Shenoy
+  author_github: codingcoffee
+  author_avatar:
+
+- name: esgun
+  description: Go-native, npm-compatible package manager and esbuild bundler in a single static binary. No node, npm or bun.
+  category: utils
+  language: Go
+  license: MIT
+  stars: 2
+  topics: []
+  updated_at: "2026-08-10T13:26:27Z"
+  github_uri: oddship/esgun
+  repo_url: https://github.com/oddship/esgun
+  homepage_url:
+  image:
+  logo:
+  author_name:
+  author_github:
+  author_avatar:
+
+- name: osquery-nftables-ext
+  description: An osquery extension that adds a queryable nftables table to osqueryd on Linux
+  category: libs
+  language: Go
+  license: Apache-2.0
+  stars: 2
+  topics: []
+  updated_at: "2026-06-24T11:34:24Z"
+  github_uri: codingCoffee/osquery-nftables-ext
+  repo_url: https://github.com/codingCoffee/osquery-nftables-ext
+  homepage_url:
+  image:
+  logo:
+  author_name: Ameya Shenoy
+  author_github: codingcoffee
+  author_avatar:
+
+- name: openmetadata-ingestion-go
+  description: Single-binary metadata ingestion tool for OpenMetadata. Pushes schema metadata from Postgres, MySQL and ClickHouse.
+  category: utils
+  language: Go
+  license:
+  stars: 1
+  topics: []
+  updated_at: "2026-07-01T11:54:23Z"
+  github_uri: codingCoffee/openmetadata-ingestion-go
+  repo_url: https://github.com/codingCoffee/openmetadata-ingestion-go
+  homepage_url:
+  image:
+  logo:
+  author_name: Ameya Shenoy
+  author_github: codingcoffee
+  author_avatar:
+
+- name: gofastdecoder
+  description: A decoder for the FIX FAST v1.2 and v1.1 protocols
+  category: libs
+  language: Go
+  license: MIT
+  stars: 0
+  topics: []
+  updated_at: "2026-08-13T06:47:28Z"
+  github_uri: iamd3vil/gofastdecoder
+  repo_url: https://github.com/iamd3vil/gofastdecoder
+  homepage_url:
+  image:
+  logo:
+  author_name: Sarat Chandra
+  author_github: iamd3vil
+  author_avatar:
+
+- name: pg-relay
+  description: A Postgres extension that relays SQL table function calls to an external daemon over HTTP and returns its rows.
+  category: libs
+  language: Rust
+  license:
+  stars: 0
+  topics: []
+  updated_at: "2026-06-04T06:01:38Z"
+  github_uri: satya10x/pg-relay
+  repo_url: https://github.com/satya10x/pg-relay
+  homepage_url:
+  image:
+  logo:
+  author_name: Satya
+  author_github: satya10x
   author_avatar:
