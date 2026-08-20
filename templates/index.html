@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% import "macros/project.html" as project %}
+
+{% block title %}{{ config.title }} &mdash; {{ config.extra.tagline }}{% endblock title %}
+
+{% block body %}
+{% set featured = load_data(path="data/featured.yml") %}
+{% set projects = load_data(path="data/projects.yml") %}
+
+<header class="hero">
+  {% include "partials/nav.html" %}
+  <div class="hero-inner container">
+    <h1>{{ section.title }}</h1>
+    <p class="intro">{{ section.extra.intro }}</p>
+  </div>
+</header>
+
+<main class="container">
+  <section id="projects">
+    <div class="section-head">
+      <h2>Featured projects ({{ featured | length }})</h2>
+      <p>Full-featured, self-hosted applications ready to run out of the box.</p>
+    </div>
+    {{ project::grid(projects=featured, class="wide") }}
+  </section>
+
+  <section id="libraries">
+    <div class="section-head">
+      <h2>Libraries, services &amp; tools ({{ projects | length }})</h2>
+      <p>Infrastructure primitives, standalone services, and developer tooling.</p>
+    </div>
+    {{ project::grid(projects=projects) }}
+  </section>
+
+  <section class="band">
+    <div class="container">
+      <h2>Built in production, shared with everyone</h2>
+      <p>Every project listed here is software we run in production at {{ config.title }}. We build in the open
+         because good infrastructure should be accessible &mdash; not locked behind enterprise pricing.</p>
+
+      <div class="row">
+        <div class="col-4">
+          <h3>Self-hosted first</h3>
+          <p>Every app ships as a compact, dependency-free binary you run on your own infrastructure.</p>
+        </div>
+        <div class="col-4">
+          <h3>Dog-fooded daily</h3>
+          <p>We run each project in production. If it breaks for you, it breaks for us too.</p>
+        </div>
+        <div class="col-4">
+          <h3>Permissive licenses</h3>
+          <p>Apache 2.0, MIT, AGPL &mdash; pick what works for your use case.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock body %}

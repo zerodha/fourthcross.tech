@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ lang | default(value=config.default_language) }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+
+  <link rel="icon" href="{{ get_url(path='logo.svg') }}">
+  <link rel="stylesheet" href="https://unpkg.com/@knadh/oat/oat.min.css">
+  <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+  <script src="https://unpkg.com/@knadh/oat/oat.min.js" defer></script>
+</head>
+<body>
+
+  {% block body %}{% endblock body %}
+
+  {% include "partials/footer.html" %}
+
+</body>
+</html>

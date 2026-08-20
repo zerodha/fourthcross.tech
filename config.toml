@@ -1,0 +1,14 @@
+base_url = "https://4thcrosslabs.org"
+title = "4th Cross Labs"
+description = "FOSS projects built & dog-fooded at JP Nagar 4th Cross. Self-hosted, single-binary tools, apps and libraries we run in production."
+
+default_language = "en"
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+minify_html = true
+
+[extra]
+tagline = "Open source, built in production."
+github_url = "https://github.com/4thcrosslabs"
+blog_url = "#"

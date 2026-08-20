@@ -1,0 +1,41 @@
+{%- macro stars(n) -%}
+  {%- if n >= 100000 -%}{{ (n / 1000) | round }}k
+  {%- elif n >= 1000 -%}{{ (n / 1000) | round(precision=1) }}k
+  {%- else -%}{{ n }}
+  {%- endif -%}
+{%- endmacro stars %}
+
+{% macro card(p) %}
+{% if p.homepage_url %}{% set url = p.homepage_url %}{% else %}{% set url = p.repo_url %}{% endif %}
+<article class="card">
+  <a class="thumb" href="{{ url }}">{% if p.image %}<img src="{{ get_url(path=p.image) }}" alt="{{ p.name }} screenshot">{% endif %}</a>
+
+  <div class="hstack head">
+    <a class="title" href="{{ url }}">
+      {% if p.logo %}
+        <img class="logo" src="{{ get_url(path=p.logo) }}" alt="{{ p.name }}">
+      {% else %}
+        <h3>{{ p.name }}</h3>
+      {% endif %}
+    </a>
+
+    <a class="stars" href="{{ p.repo_url }}" title="{{ p.stars }} stars on GitHub">
+      <img src="{{ get_url(path='star.svg') }}" alt="" width="14" height="14">{{ self::stars(n=p.stars) }}
+    </a>
+  </div>
+
+  <div class="mt-4">{{ p.description }}</div>
+
+  <div class="hstack meta mt-4">
+    {% if p.author_github %}
+    <a class="badge author" href="https://github.com/{{ p.author_github }}">@{{ p.author_github }}</a>
+    {% endif %}
+  </div>
+</article>
+{% endmacro card %}
+
+{% macro grid(projects, class="") %}
+<div class="project-grid {{ class }}">
+  {% for p in projects %}{{ self::card(p=p) }}{% endfor %}
+</div>
+{% endmacro grid %}

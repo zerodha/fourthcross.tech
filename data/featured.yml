@@ -1,0 +1,116 @@
+# Featured projects — the `apps` category, rendered with a large splash
+# screenshot on the homepage. data/projects.yml holds everything else and uses
+# this same schema:
+#
+#   name           Display name (may differ from the repo name).
+#   description    One or two sentences.
+#   category       apps | services | libs | utils
+#   language       Primary language.
+#   license        SPDX identifier. Empty when the repo has no recognised license.
+#   stars          GitHub star count.
+#   topics         GitHub topics.
+#   updated_at     Last push, ISO 8601.
+#   github_uri     owner/repo.
+#   repo_url       Source repository.
+#   homepage_url   Project site. Falls back to repo_url when empty.
+#   image          Splash screenshot, relative to static/. Optional.
+#   logo           Wordmark, relative to static/. Rendered instead of the name.
+#   author_name    Maintainer's display name.
+#   author_github  GitHub handle, lowercased. Must match content/authors/<handle>.md.
+#                  Empty for org-owned repos, which render without an author.
+#   author_avatar  Avatar, relative to static/. Optional.
+
+- name: listmonk
+  description: High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
+  category: apps
+  language: Go
+  license: AGPL-3.0
+  stars: 16565
+  topics:
+    - campaign
+    - campaign-management
+    - email-marketing
+    - email-subscription
+    - listmonk
+    - mailing-list
+    - newsletter
+    - newsletter-management
+    - newsletter-software
+    - self-hosted
+    - sms-gateway
+    - smtp
+    - transactional-emails
+  updated_at: "2025-04-28T19:18:06Z"
+  github_uri: knadh/listmonk
+  repo_url: https://github.com/knadh/listmonk
+  homepage_url: https://listmonk.app
+  image: listmonk.png
+  logo: logos/listmonk.svg
+  author_name: Kailash Nadh
+  author_github: knadh
+  author_avatar:
+
+- name: linkpage
+  description: LinkPage is a FOSS self-hosted alternative to link listing websites such as LinkTree and Campsite.bio
+  category: apps
+  language: Go
+  license: BSD-2-Clause
+  stars: 68
+  topics: []
+  updated_at: "2024-09-21T17:23:03Z"
+  github_uri: rhnvrm/linkpage
+  repo_url: https://github.com/rhnvrm/linkpage
+  homepage_url:
+  image:
+  logo: logos/linkpage.svg
+  author_name: Rohan Verma
+  author_github: rhnvrm
+  author_avatar:
+
+- name: libredesk
+  description: Open source, self-hosted customer support desk. Single binary app.
+  category: apps
+  language: Vue
+  license: AGPL-3.0
+  stars: 1121
+  topics:
+    - customer-care
+    - customer-support
+    - customer-support-automation
+    - golang
+    - helpdesk
+    - support
+    - ticket-management
+    - ticketing
+    - ticketing-system
+    - vue
+    - vuejs
+  updated_at: "2025-04-29T12:02:55Z"
+  github_uri: abhinavxd/libredesk
+  repo_url: https://github.com/abhinavxd/libredesk
+  homepage_url: https://libredesk.io
+  image: libredesk.png
+  logo: logos/libredesk.svg
+  author_name: abhinavxd
+  author_github: abhinavxd
+  author_avatar:
+
+- name: logchef
+  description: Lightweight, single-binary log analytics interface for ClickHouse, focused on high-performance querying and visualization
+  category: apps
+  language: Vue
+  license: AGPL-3.0
+  stars: 257
+  topics:
+    - clickhouse
+    - log-analytics
+    - logging
+  updated_at: "2025-04-29T08:33:17Z"
+  github_uri: mr-karan/logchef
+  repo_url: https://github.com/mr-karan/logchef
+  homepage_url: https://logchef.app
+  image: logchef.png
+  logo: logos/logchef.svg
+  author_name: Karan Sharma
+  author_github: mr-karan
+  author_avatar:

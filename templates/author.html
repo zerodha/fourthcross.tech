@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% import "macros/project.html" as project %}
+
+{% block title %}@{{ page.slug }} &mdash; {{ config.title }}{% endblock title %}
+{% block description %}Open source projects by @{{ page.slug }} at {{ config.title }}.{% endblock description %}
+
+{% block body %}
+{% set all = load_data(path="data/featured.yml") | concat(with=load_data(path="data/projects.yml")) %}
+{% set mine = all | filter(attribute="author_github", value=page.slug) %}
+{% set author = mine | first %}
+
+<header class="hero hero-sub">
+  {% include "partials/nav.html" %}
+  <div class="hero-inner container">
+    <div class="hstack author-head">
+      {% if author.author_avatar %}
+      <img class="avatar" src="{{ get_url(path=author.author_avatar) }}" alt="">
+      {% endif %}
+      <div>
+        <h1>{% if author.author_name %}{{ author.author_name }}{% else %}{{ page.slug }}{% endif %}</h1>
+        <p class="intro"><a href="https://github.com/{{ page.slug }}">@{{ page.slug }}</a></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section id="projects">
+    <div class="section-head">
+      <h2>Projects <span class="badge">{{ mine | length }}</span></h2>
+      {{ page.content | safe }}
+    </div>
+    {{ project::grid(projects=mine) }}
+  </section>
+</main>
+{% endblock body %}

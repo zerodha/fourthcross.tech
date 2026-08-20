@@ -1,0 +1,67 @@
+https://oore.build source: https://github.com/oore-ci/oore.build
+https://kapi.run source: https://github.com/devaryakjha/kapi.run
+https://github.com/devaryakjha/tagflow
+https://github.com/joeirimpan/nomadboard
+https://github.com/abhinavxd/libredesk https://libredesk.io
+https://github.com/abhinavxd/liveNumberFormat.js
+simplesessions - https://github.com/zerodha/simplesessions
+gotp - https://github.com/vividvilla/gotp
+ezhil - https://github.com/vividvilla/ezhil
+https://flowctl.net
+GitHub - https://github.com/cvhariharan/flowctl
+https://checkpost.dev
+GitHub - https://github.com/cvhariharan/checkpost
+https://github.com/mr-karan/logchef
+https://github.com/mr-karan/doggo
+https://github.com/mr-karan/hodor
+https://github.com/shridarpatil/whatomate
+1. kite-mcp-server (https://github.com/zerodha/kite-mcp-server) — ★302
+2. simples3 (https://github.com/rhnvrm/simples3) — ★207
+3. linkpage (https://github.com/rhnvrm/linkpage) — ★136
+4. listmonk-mcp (https://github.com/rhnvrm/listmonk-mcp) — ★37
+5. fastcache (https://github.com/zerodha/fastcache) — ★37
+6. stock-market-circulars (https://github.com/rhnvrm/stock-market-circulars) — ★10
+7. mattermost-cli (https://github.com/rhnvrm/mattermost-cli) — ★9
+8. hq (https://github.com/rhnvrm/hq) — ★8
+9. s3site (https://github.com/rhnvrm/s3site) — ★7
+10. lzo1z (https://github.com/rhnvrm/lzo1z) — ★5
+11. catprinter (https://github.com/rhnvrm/catprinter) — ★4
+12. yt2embed (https://github.com/rhnvrm/yt2embed) — ★4
+13. moat (https://github.com/oddship/moat) — ★3
+14. esgun (https://github.com/oddship/esgun) — ★2
+https://github.com/kalbhor/Tasqueue
+Hedwig - https://github.com/iamd3vil/hedwig
+Blobasaur - https://github.com/iamd3vil/blobasaur
+gofastdecoder - https://github.com/iamd3vil/gofastdecoder
+go-typst - https://github.com/iamd3vil/go-typst
+simplesessions - https://github.com/zerodha/simplesessions
+gotp - https://github.com/vividvilla/gotp
+ezhil - https://github.com/vividvilla/ezhil
+https://github.com/lebmatter/exampro
+pg-relay https://github.com/satya10x/pg-relay 
+spoofdb https://github.com/satya10x/spoofdb
+bureaucat
+source: https://github.com/bureaucatorg/bureaucat
+website: https://bureaucat.org
+torii
+source: https://github.com/toriigateorg/torii)
+website: https://toriigate.org
+openmetadata-ingestion-go
+source: https://github.com/codingcoffee/openmetadata-ingestion-go
+osquery-nftables-ext
+source: https://github.com/codingcoffee/osquery-nftables-ext
+pi-privacy-filter
+source: https://github.com/codingcoffee/pi-privacy-filter
+website: https://pi-privacy-filter.codingcoffee.dev
+pi-websearch-crawl4ai
+source: https://github.com/codingcoffee/pi-websearch-crawl4ai
+website: https://pi-websearch-crawl4ai.codingcoffee.dev
+https://github.com/ajinasokan/ditto
+https://github.com/ajinasokan/store_keeper
+https://github.com/ajinasokan/flutter_curl
+https://github.com/ajinasokan/dartgen
+https://github.com/ajinasokan/autopilot
+https://github.com/ajinasokan/apkc
+https://github.com/joeirimpan/hdfc-cc-parser-rs
+https://github.com/shridarpatil/frappe_whatsapp
+

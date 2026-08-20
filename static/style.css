@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Geist";
   src: url("fonts/Geist-Variable.woff2") format("woff2");
@@ -18,7 +17,10 @@
 
 :root {
   --primary: #111;
+  --card-foreground: #444;
   --warning: #f59e0b;
+  --info: #2563eb;
+  --border: #e3e3e3;
   --font-sans: "Geist", system-ui, sans-serif;
 }
 
@@ -29,8 +31,9 @@
   flex-direction: column;
   min-height: 70vh;
   overflow: hidden;
-  color: #ccc;
-  --primary: #ccc;
+  margin-block-end: var(--space-18);
+  color: #fff;
+  --primary: #fff;
 
   .hero-map {
     position: absolute;
@@ -63,14 +66,35 @@
     margin-block: auto;
 
     h1 {
-      font-size: 4rem;
-      line-height: 4.4rem;
-      color: #eee;
+      font-size: 5rem;
+      line-height: 5.5rem;
     }
 
     .intro {
       font-size: 1.3rem;
     }
+  }
+}
+
+/* Compact hero for interior pages. */
+.hero-sub {
+  min-height: auto;
+
+  .hero-inner h1 {
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+  }
+}
+
+.author-head {
+  gap: var(--space-4);
+  align-items: center;
+
+  .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
   }
 }
 
@@ -89,29 +113,98 @@
   }
 }
 
+.project-grid {
+  --card-min: 20rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--card-min)), 1fr));
+  gap: var(--space-18);
+}
+
+.project-grid.wide {
+  --card-min: 30rem;
+}
+
 .card {
-  img {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-small);
+
+  .title {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .thumb {
+    display: block;
     width: 100%;
-    height: 200px;
+    aspect-ratio: 16 / 9;
     margin-bottom: var(--space-4);
+    background: var(--muted);
     border-radius: var(--radius-medium);
-    object-fit: cover;
-    object-position: top;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  .head {
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-2);
   }
 
   .logo {
+    display: block;
     width: auto;
     height: 22px;
-    margin-bottom: var(--space-2);
+  }
+
+  .stars {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    color: var(--muted-foreground);
+    font-variant-numeric: tabular-nums;
+    text-decoration: none;
+
+    img {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  .meta {
+    margin-top: auto;
+    padding-top: var(--space-4);
   }
 }
 
+.project-grid:not(.wide) .thumb:empty {
+  display: none;
+}
+
 .meta {
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: var(--space-4);
 
   a {
     color: var(--muted-foreground);
+  }
+
+  .badge.author {
+    background: #e7f0ff;
+    color: #0039a5;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--primary);
+    }
   }
 }
 
