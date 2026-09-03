@@ -1,0 +1,53 @@
+# Projects owned by github.com/thunderbottom. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: grafana-export
+  description: A small utility to download all dashboards from Grafana and backup to S3
+  category: utils
+  dogfood: true
+  language: Go
+  license: 0BSD
+  stars: 32
+  topics: []
+  updated_at: "2020-11-09T23:06:51Z"
+  github_uri: Thunderbottom/grafana-export
+  repo_url: https://github.com/Thunderbottom/grafana-export
+  homepage_url:
+  image:
+  logo:
+  author_github: thunderbottom
+
+- name: aws-exporter
+  description: AWS Cost Explorer and EC2 Instance metrics exporter for Prometheus
+  category: utils
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 20
+  topics: []
+  updated_at: "2020-09-30T08:11:01Z"
+  github_uri: Thunderbottom/aws-exporter
+  repo_url: https://github.com/Thunderbottom/aws-exporter
+  homepage_url:
+  image:
+  logo:
+  author_github: thunderbottom
+
+- name: damon
+  description: Nomad Events Stream Operator to automate mundane tasks
+  category: services
+  dogfood: true
+  language: Go
+  license: AGPL-3.0
+  stars: 6
+  topics:
+    - golang
+    - hashicorp
+    - nomad
+  updated_at: "2025-04-21T19:23:26Z"
+  github_uri: Thunderbottom/damon
+  repo_url: https://github.com/Thunderbottom/damon
+  homepage_url:
+  image:
+  logo:
+  author_github: thunderbottom

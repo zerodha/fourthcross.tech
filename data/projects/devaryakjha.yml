@@ -1,0 +1,38 @@
+# Projects owned by github.com/devaryakjha. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: tagflow
+  description: Native rich content runtime for Flutter apps, with HTML rendering, trusted JSON documents and live content patches
+  category: libs
+  dogfood: true
+  language: Dart
+  license: MIT
+  stars: 20
+  topics:
+    - flutter
+    - html
+    - html-to-flutter
+    - tagflow
+  updated_at: "2026-06-25T12:13:16Z"
+  github_uri: devaryakjha/tagflow
+  repo_url: https://github.com/devaryakjha/tagflow
+  homepage_url:
+  image:
+  logo: logos/tagflow.svg
+  author_github: devaryakjha
+
+- name: kapi.run
+  description: Collaborative group food ordering on Swiggy. Participants submit items to a shared session and the organiser syncs the combined cart.
+  category: services
+  dogfood: false
+  language: TypeScript
+  license:
+  stars: 5
+  topics: []
+  updated_at: "2026-08-13T09:26:33Z"
+  github_uri: devaryakjha/kapi.run
+  repo_url: https://github.com/devaryakjha/kapi.run
+  homepage_url: https://kapi.run
+  image:
+  logo:
+  author_github: devaryakjha

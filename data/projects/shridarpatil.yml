@@ -1,0 +1,76 @@
+# Projects owned by github.com/shridarpatil. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: frappe_whatsapp
+  description: WhatsApp Cloud API integration for Frappe and ERPNext.
+  category: libs
+  dogfood: true
+  language: Python
+  license:
+  stars: 464
+  topics:
+    - erpnext
+    - erpnext-whatsapp
+    - facebook
+    - frappe
+    - frappe-framework
+    - frappe-whatsapp
+    - frappe-whatsapp-integration
+    - notifications
+    - whatsapp
+    - whatsapp-api
+    - whatsapp-automation
+    - whatsapp-chat
+    - whatsapp-cloud-api
+    - whatsapp-integration
+    - whatsappnotify
+  updated_at: "2026-08-04T12:27:02Z"
+  github_uri: shridarpatil/frappe_whatsapp
+  repo_url: https://github.com/shridarpatil/frappe_whatsapp
+  homepage_url:
+  image:
+  logo:
+  author_github: shridarpatil
+
+- name: frappe_tinymce
+  description: Frappe app to replace default text editor with tinymce
+  category: libs
+  dogfood: false
+  language: Python
+  license:
+  stars: 40
+  topics:
+    - editor
+    - frappe
+    - frappe-bench
+    - frappe-framework
+    - frappe-text-editor
+    - rich-text-editor
+    - tinymce
+  updated_at: "2024-04-08T12:10:06Z"
+  github_uri: shridarpatil/frappe_tinymce
+  repo_url: https://github.com/shridarpatil/frappe_tinymce
+  homepage_url:
+  image:
+  logo:
+  author_github: shridarpatil
+
+- name: frappe_discourse
+  description: Simple frappe app to setup Single sign-on for discourse
+  category: libs
+  dogfood: false
+  language: Python
+  license:
+  stars: 14
+  topics:
+    - discourse
+    - discourse-sso
+    - frappe
+    - frappe-discource-sso
+  updated_at: "2020-09-22T03:46:19Z"
+  github_uri: shridarpatil/frappe_discourse
+  repo_url: https://github.com/shridarpatil/frappe_discourse
+  homepage_url:
+  image:
+  logo:
+  author_github: shridarpatil

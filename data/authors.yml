@@ -1,0 +1,146 @@
+# Maintainers. One entry per GitHub handle appearing as `author_github` in
+# featured.yml or data/projects/<owner>.yml. build.py renders one
+# content/authors/<github>.md page from each entry and fails if a project
+# references a handle that is missing here.
+#
+#   github     GitHub handle, lowercased. The join key, and the page URL:
+#              /authors/<github>/. Required and unique.
+#   name       Display name, shown as the page heading. Falls back to the
+#              handle when empty.
+#   homepage   Personal site. Rendered beside the handle. Optional.
+#   email      Rendered beside the handle as a mailto link. Optional.
+#   avatar     Path relative to static/. Optional.
+#   bio        One or two sentences, rendered under the name. Optional.
+
+- github: abhinavxd
+  name: abhinavxd
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: ajinasokan
+  name: Ajin Asokan
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: codingcoffee
+  name: Ameya Shenoy
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: cvhariharan
+  name: Hariharan
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: devaryakjha
+  name: devaryakjha
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: iamd3vil
+  name: Sarat Chandra
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: joeirimpan
+  name: joeirimpan
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: kalbhor
+  name: kalbhor
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: knadh
+  name: Kailash Nadh
+  homepage: https://nadh.in
+  email:
+  avatar:
+  bio:
+
+- github: lebmatter
+  name: Labeeb Mattra
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: mevinoth
+  name: mevinoth
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: mr-karan
+  name: Karan Sharma
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: ranjanrak
+  name: ranjanrak
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: rhnvrm
+  name: Rohan Verma
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: satya10x
+  name: Satya
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: shridarpatil
+  name: shridarpatil
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: thunderbottom
+  name: Thunderbottom
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: vishnus
+  name: vishnus
+  homepage:
+  email:
+  avatar:
+  bio:
+
+- github: vividvilla
+  name: vividvilla
+  homepage:
+  email:
+  avatar:
+  bio:

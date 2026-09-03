@@ -1,10 +1,12 @@
-# Featured projects — the `apps` category, rendered with a large splash
-# screenshot on the homepage. data/projects.yml holds everything else and uses
-# this same schema:
+# Featured projects — a hand-curated list rendered with a large splash
+# screenshot on the homepage, in the order below. data/projects/<owner>.yml
+# holds everything else and uses this same schema. An entry lives in exactly
+# one place: promoting a project means moving it here from its owner's file.
 #
 #   name           Display name (may differ from the repo name).
 #   description    One or two sentences.
 #   category       apps | services | libs | utils
+#   dogfood        true when the project runs in production at Zerodha.
 #   language       Primary language.
 #   license        SPDX identifier. Empty when the repo has no recognised license.
 #   stars          GitHub star count.
@@ -15,14 +17,14 @@
 #   homepage_url   Project site. Falls back to repo_url when empty.
 #   image          Splash screenshot, relative to static/. Optional.
 #   logo           Wordmark, relative to static/. Rendered instead of the name.
-#   author_name    Maintainer's display name.
-#   author_github  GitHub handle, lowercased. Must match content/authors/<handle>.md.
+#   author_github  Maintainer's GitHub handle, lowercased. Must have an entry in
+#                  data/authors.yml, which holds the display name and links.
 #                  Empty for org-owned repos, which render without an author.
-#   author_avatar  Avatar, relative to static/. Optional.
 
 - name: listmonk
   description: High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
   category: apps
+  dogfood: true
   language: Go
   license: AGPL-3.0
   stars: 16565
@@ -46,30 +48,12 @@
   homepage_url: https://listmonk.app
   image: listmonk.png
   logo: logos/listmonk.svg
-  author_name: Kailash Nadh
   author_github: knadh
-  author_avatar:
-
-- name: linkpage
-  description: LinkPage is a FOSS self-hosted alternative to link listing websites such as LinkTree and Campsite.bio
-  category: apps
-  language: Go
-  license: BSD-2-Clause
-  stars: 68
-  topics: []
-  updated_at: "2024-09-21T17:23:03Z"
-  github_uri: rhnvrm/linkpage
-  repo_url: https://github.com/rhnvrm/linkpage
-  homepage_url:
-  image:
-  logo: logos/linkpage.svg
-  author_name: Rohan Verma
-  author_github: rhnvrm
-  author_avatar:
 
 - name: libredesk
   description: Open source, self-hosted customer support desk. Single binary app.
   category: apps
+  dogfood: true
   language: Vue
   license: AGPL-3.0
   stars: 1121
@@ -91,13 +75,12 @@
   homepage_url: https://libredesk.io
   image: libredesk.png
   logo: logos/libredesk.svg
-  author_name: abhinavxd
   author_github: abhinavxd
-  author_avatar:
 
 - name: logchef
   description: Lightweight, single-binary log analytics interface for ClickHouse, focused on high-performance querying and visualization
   category: apps
+  dogfood: true
   language: Vue
   license: AGPL-3.0
   stars: 257
@@ -111,6 +94,273 @@
   homepage_url: https://logchef.app
   image: logchef.png
   logo: logos/logchef.svg
-  author_name: Karan Sharma
   author_github: mr-karan
-  author_avatar:
+
+- name: dungbeetle
+  description: A distributed job server built specifically for queuing and executing heavy SQL read jobs asynchronously. Separate out reporting layer from apps. MySQL, Postgres, ClickHouse.
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 1264
+  topics:
+    - broker-backend
+    - database
+    - job-queue
+    - job-scheduler
+    - mysql
+    - postgres
+    - postgresql
+    - reporting
+    - sql
+    - sql-query
+    - workers
+  updated_at: "2026-05-14T08:58:31Z"
+  github_uri: zerodha/dungbeetle
+  repo_url: https://github.com/zerodha/dungbeetle
+  homepage_url:
+  image:
+  logo: logos/dungbeetle.svg
+  author_github: knadh
+
+- name: whatomate
+  description: Whatomate is an open source, self-hosted WhatsApp integration with chat, automation and voice calling.
+  category: services
+  dogfood: true
+  language: Go
+  license: AGPL-3.0
+  stars: 1442
+  topics:
+    - whatsapp
+    - whatsapp-api
+    - whatsapp-automation
+    - whatsapp-bot
+    - whatsapp-calling
+    - whatsapp-chat
+    - whatsapp-voice-call
+    - whatsapp-voip
+  updated_at: "2026-08-17T05:16:37Z"
+  github_uri: shridarpatil/whatomate
+  repo_url: https://github.com/shridarpatil/whatomate
+  homepage_url: https://whatomate.io
+  image:
+  logo:
+  author_github: shridarpatil
+
+- name: otpgateway
+  description: Standalone server for user address and OTP verification flows with pluggable providers (e-mail, SMS, bank penny drops etc.)
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 532
+  topics:
+    - email-verification
+    - mobile-number-verification
+    - otp-applications
+    - otp-generator
+    - otp-verification
+    - sms-verification
+    - verification-code
+  updated_at: "2026-02-06T05:30:18Z"
+  github_uri: knadh/otpgateway
+  repo_url: https://github.com/knadh/otpgateway
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: flowctl
+  description: An open source self-service workflow execution platform
+  category: services
+  dogfood: true
+  language: Go
+  license: Apache-2.0
+  stars: 330
+  topics:
+    - automation
+    - devops
+    - orchestration
+    - platform-engineering
+    - scheduler
+    - self-service
+    - workflow
+    - workflow-automation
+  updated_at: "2026-08-18T10:28:46Z"
+  github_uri: cvhariharan/flowctl
+  repo_url: https://github.com/cvhariharan/flowctl
+  homepage_url: https://flowctl.net
+  image:
+  logo:
+  author_github: cvhariharan
+
+- name: blobasaur
+  description: A blob store based on SQLite, compatible with the Redis protocol
+  category: services
+  dogfood: true
+  language: Rust
+  license: AGPL-3.0
+  stars: 44
+  topics: []
+  updated_at: "2026-07-28T09:05:56Z"
+  github_uri: iamd3vil/blobasaur
+  repo_url: https://github.com/iamd3vil/blobasaur
+  homepage_url:
+  image:
+  logo:
+  author_github: iamd3vil
+
+- name: hedwig
+  description: High performance and minimalist SMTP server
+  category: services
+  dogfood: true
+  language: Rust
+  license: AGPL-3.0
+  stars: 60
+  topics:
+    - mail-server
+    - rust
+    - rust-smtp
+    - smtp
+    - smtp-server
+  updated_at: "2026-07-27T16:06:33Z"
+  github_uri: iamd3vil/hedwig
+  repo_url: https://github.com/iamd3vil/hedwig
+  homepage_url: https://hedwig-mail.dev
+  image:
+  logo: logos/hedwig.svg
+  author_github: iamd3vil
+
+- name: kaf-relay
+  description: Replicate and sync Kafka topics between clusters in realtime. Supports topic re-mapping, healthchecks, and hot failovers for high availability.
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 72
+  topics:
+    - franz-go
+    - high-availability
+    - kafka
+    - kafka-consumer
+    - kafka-producer
+    - kafka-replicator
+  updated_at: "2025-03-12T05:51:02Z"
+  github_uri: zerodha/kaf-relay
+  repo_url: https://github.com/zerodha/kaf-relay
+  homepage_url:
+  image:
+  logo:
+  author_github:
+
+- name: exampro
+  description: Proctored exams for the Frappe framework
+  category: services
+  dogfood: true
+  language: JavaScript
+  license: MIT
+  stars: 58
+  topics: []
+  updated_at: "2026-08-19T07:14:18Z"
+  github_uri: lebmatter/exampro
+  repo_url: https://github.com/lebmatter/exampro
+  homepage_url:
+  image:
+  logo:
+  author_github: lebmatter
+
+- name: bureaucat
+  description: A no-nonsense task manager. Single binary app.
+  category: services
+  dogfood: true
+  language: Vue
+  license: AGPL-3.0
+  stars: 41
+  topics:
+    - jira
+    - task
+    - task-management
+    - task-manager
+    - todo
+  updated_at: "2026-08-17T17:54:16Z"
+  github_uri: bureaucatorg/bureaucat
+  repo_url: https://github.com/bureaucatorg/bureaucat
+  homepage_url: https://bureaucat.org
+  image: bureaucat.png
+  logo:
+  author_github:
+
+- name: oore.build
+  description: Self-hosted, Flutter-first mobile CI and internal app distribution platform.
+  category: services
+  dogfood: true
+  language: Rust
+  license: MIT
+  stars: 26
+  topics:
+    - ci
+    - ci-cd
+    - cicd
+    - dart
+    - flutter
+    - rust
+  updated_at: "2026-08-20T05:57:29Z"
+  github_uri: oore-ci/oore.build
+  repo_url: https://github.com/oore-ci/oore.build
+  homepage_url: https://oore.build
+  image:
+  logo:
+  author_github:
+
+- name: toru
+  description: Toru is a Go module proxy with caching and rewrite capabilities
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 24
+  topics: []
+  updated_at: "2024-09-24T07:39:42Z"
+  github_uri: mr-karan/toru
+  repo_url: https://github.com/mr-karan/toru
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: checkpost
+  description: An open source osquery manager
+  category: services
+  dogfood: true
+  language: Go
+  license: Apache-2.0
+  stars: 11
+  topics:
+    - compliance
+    - device-management
+    - observability
+    - osquery
+    - security
+  updated_at: "2026-08-05T07:44:18Z"
+  github_uri: cvhariharan/checkpost
+  repo_url: https://github.com/cvhariharan/checkpost
+  homepage_url: https://checkpost.dev
+  image:
+  logo:
+  author_github: cvhariharan
+
+- name: torii
+  description: Identity-aware reverse proxy with built-in auth, session management, RBAC and an embedded admin UI. Single binary app.
+  category: services
+  dogfood: true
+  language: Go
+  license: AGPL-3.0
+  stars: 6
+  topics: []
+  updated_at: "2026-08-04T18:25:05Z"
+  github_uri: toriigateorg/torii
+  repo_url: https://github.com/toriigateorg/torii
+  homepage_url: https://toriigate.org
+  image:
+  logo:
+  author_github:

@@ -1,0 +1,22 @@
+# Projects owned by github.com/mevinoth. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: slim-ui
+  description: Simple components library used for building lightweight vuejs projects
+  category: libs
+  dogfood: false
+  language: Vue
+  license:
+  stars: 62
+  topics:
+    - vue
+    - vue2
+    - vuejs
+    - vuejs-components
+  updated_at: "2024-05-22T08:39:15Z"
+  github_uri: mevinoth/slim-ui
+  repo_url: https://github.com/mevinoth/slim-ui
+  homepage_url:
+  image:
+  logo:
+  author_github: mevinoth

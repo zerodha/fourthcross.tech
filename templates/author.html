@@ -1,34 +1,52 @@
 {% extends "base.html" %}
 {% import "macros/project.html" as project %}
 
-{% block title %}@{{ page.slug }} &mdash; {{ config.title }}{% endblock title %}
-{% block description %}Open source projects by @{{ page.slug }} at {{ config.title }}.{% endblock description %}
+{% block title %}{{ page.title }} (@{{ page.extra.github }}) &mdash; {{ config.title }}{% endblock title %}
+{% block description %}Open source projects by @{{ page.extra.github }} at {{ config.title }}.{% endblock description %}
 
 {% block body %}
-{% set all = load_data(path="data/featured.yml") | concat(with=load_data(path="data/projects.yml")) %}
-{% set mine = all | filter(attribute="author_github", value=page.slug) %}
-{% set author = mine | first %}
+{# The page itself is generated from data/authors.yml by build.py; everything
+   under page.extra comes from there. The project list is aggregated here
+   exactly as in index.html — see the note there. Featured comes first, then
+   everything else by stars. Filtered on author_github rather than on the
+   filename, since an org's file can hold repos authored by a maintainer. #}
+{% set_global projects = [] %}
+{% for f in config.extra.project_files %}
+  {% set_global projects = projects | concat(with=load_data(path="data/projects/" ~ f ~ ".yml")) %}
+{% endfor %}
+{% set_global projects = projects | sort(attribute="stars") | reverse %}
 
-<header class="hero hero-sub">
+{% set all = load_data(path="data/featured.yml") | concat(with=projects) %}
+{% set mine = all | filter(attribute="author_github", value=page.extra.github) %}
+
+<header class="topbar">
+  {% set brand = true %}
   {% include "partials/nav.html" %}
-  <div class="hero-inner container">
-    <div class="hstack author-head">
-      {% if author.author_avatar %}
-      <img class="avatar" src="{{ get_url(path=author.author_avatar) }}" alt="">
-      {% endif %}
-      <div>
-        <h1>{% if author.author_name %}{{ author.author_name }}{% else %}{{ page.slug }}{% endif %}</h1>
-        <p class="intro"><a href="https://github.com/{{ page.slug }}">@{{ page.slug }}</a></p>
-      </div>
-    </div>
-  </div>
 </header>
 
 <main class="container">
+  <div class="hstack author-head">
+    {% if page.extra.avatar %}
+    <img class="avatar" src="{{ get_url(path=page.extra.avatar) }}" alt="">
+    {% endif %}
+    <div>
+      <h1>{{ page.title }}</h1>
+      <nav class="hstack author-meta">
+        <a href="https://github.com/{{ page.extra.github }}"><img class="icon" src="{{ get_url(path='git.svg') }}" alt="" width="14" height="14">@{{ page.extra.github }}</a>
+        {% if page.extra.homepage %}
+        <a href="{{ page.extra.homepage }}"><img class="icon" src="{{ get_url(path='globe.svg') }}" alt="" width="14" height="14">{{ page.extra.homepage | trim_start_matches(pat="https://") | trim_start_matches(pat="http://") | trim_end_matches(pat="/") }}</a>
+        {% endif %}
+        {% if page.extra.email %}
+        <a href="mailto:{{ page.extra.email }}">{{ page.extra.email }}</a>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+  {% if page.content %}<div class="intro">{{ page.content | safe }}</div>{% endif %}
+
   <section id="projects">
     <div class="section-head">
-      <h2>Projects <span class="badge">{{ mine | length }}</span></h2>
-      {{ page.content | safe }}
+      <h2>Projects ({{ mine | length }})</h2>
     </div>
     {{ project::grid(projects=mine) }}
   </section>

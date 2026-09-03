@@ -1,0 +1,37 @@
+# Projects owned by github.com/ranjanrak. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: optionchainstream
+  description: Live streaming option chain for equity derivatives using Kite connect Websocket based on redis.
+  category: libs
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 149
+  topics:
+    - implied-volatility
+    - option-chain-stream
+    - redis
+  updated_at: "2023-05-26T20:46:12Z"
+  github_uri: ranjanrak/OptionChainStream
+  repo_url: https://github.com/ranjanrak/OptionChainStream
+  homepage_url:
+  image:
+  logo:
+  author_github: ranjanrak
+
+- name: faqgenerator
+  description: Simple FAQ generator for Zerodha Kite connect Forum
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 6
+  topics: []
+  updated_at: "2020-10-30T03:49:33Z"
+  github_uri: ranjanrak/FaqGenerator
+  repo_url: https://github.com/ranjanrak/FaqGenerator
+  homepage_url:
+  image:
+  logo:
+  author_github: ranjanrak

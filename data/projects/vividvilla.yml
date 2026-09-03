@@ -1,0 +1,82 @@
+# Projects owned by github.com/vividvilla. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: csvtotable
+  description: Simple command-line utility to convert CSV files to searchable and sortable HTML table.
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 1136
+  topics: []
+  updated_at: "2021-01-05T11:46:14Z"
+  github_uri: vividvilla/csvtotable
+  repo_url: https://github.com/vividvilla/csvtotable
+  homepage_url:
+  image:
+  logo:
+  author_github: vividvilla
+
+- name: ezhil
+  description: Clean and minimal personal blog theme for Hugo
+  category: utils
+  dogfood: false
+  language: HTML
+  license: MIT
+  stars: 444
+  topics: []
+  updated_at: "2023-10-31T00:42:47Z"
+  github_uri: vividvilla/ezhil
+  repo_url: https://github.com/vividvilla/ezhil
+  homepage_url:
+  image:
+  logo:
+  author_github: vividvilla
+
+- name: lil
+  description: Simple URL shortener built with Go
+  category: libs
+  dogfood: true
+  language: Go
+  license:
+  stars: 45
+  topics: []
+  updated_at: "2020-04-24T05:52:18Z"
+  github_uri: vividvilla/lil
+  repo_url: https://github.com/vividvilla/lil
+  homepage_url:
+  image:
+  logo:
+  author_github: vividvilla
+
+- name: gotp
+  description: Simple utility to live preview Go templates with custom data
+  category: utils
+  dogfood: true
+  language: HTML
+  license: MIT
+  stars: 43
+  topics: []
+  updated_at: "2025-09-09T12:23:50Z"
+  github_uri: vividvilla/gotp
+  repo_url: https://github.com/vividvilla/gotp
+  homepage_url:
+  image:
+  logo:
+  author_github: vividvilla
+
+- name: consul-cfg
+  description: Commandline utility to convert config formats like TOML, JSON, YAML etc to KV Pairs which can be imported via consul cli.
+  category: utils
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 14
+  topics: []
+  updated_at: "2018-11-09T07:47:10Z"
+  github_uri: vividvilla/consul-cfg
+  repo_url: https://github.com/vividvilla/consul-cfg
+  homepage_url:
+  image:
+  logo:
+  author_github: vividvilla

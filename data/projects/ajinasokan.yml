@@ -1,0 +1,159 @@
+# Projects owned by github.com/ajinasokan. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: flutter_displaymode
+  description: A Flutter plugin to set display mode in Android
+  category: libs
+  dogfood: true
+  language: Dart
+  license: MIT
+  stars: 192
+  topics:
+    - android
+    - flutter
+    - flutter-plugin
+  updated_at: "2023-11-17T00:28:03Z"
+  github_uri: ajinasokan/flutter_displaymode
+  repo_url: https://github.com/ajinasokan/flutter_displaymode
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: autopilot
+  description: A test driver for Flutter to do QA testing without sharing app source code.
+  category: utils
+  dogfood: true
+  language: Dart
+  license: MIT
+  stars: 128
+  topics: []
+  updated_at: "2025-07-31T10:30:35Z"
+  github_uri: ajinasokan/autopilot
+  repo_url: https://github.com/ajinasokan/autopilot
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: flutter_fgbg
+  description: Flutter plugin to detect when app(not Flutter container) goes to background or foreground
+  category: libs
+  dogfood: true
+  language: Dart
+  license: MIT
+  stars: 87
+  topics: []
+  updated_at: "2025-02-13T10:09:57Z"
+  github_uri: ajinasokan/flutter_fgbg
+  repo_url: https://github.com/ajinasokan/flutter_fgbg
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: apkc
+  description: apkc is a bare-bones Android app build system that lets you build simple native Android apps without the entire Android IDE
+  category: utils
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 83
+  topics: []
+  updated_at: "2025-05-22T09:32:07Z"
+  github_uri: ajinasokan/apkc
+  repo_url: https://github.com/ajinasokan/apkc
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: flutter_curl
+  description: Flutter plugin to use libcurl for HTTP calls
+  category: libs
+  dogfood: true
+  language: Dart
+  license: MIT
+  stars: 67
+  topics:
+    - curl
+    - flutter
+    - http
+    - libcurl
+    - quic
+  updated_at: "2026-07-08T07:13:17Z"
+  github_uri: ajinasokan/flutter_curl
+  repo_url: https://github.com/ajinasokan/flutter_curl
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: recharge
+  description: Recharge is a simple library to hot reload your Dart code on file changes
+  category: libs
+  dogfood: false
+  language: Dart
+  license: MIT
+  stars: 49
+  topics: []
+  updated_at: "2023-06-04T18:59:21Z"
+  github_uri: ajinasokan/recharge
+  repo_url: https://github.com/ajinasokan/recharge
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: ditto
+  description: A simple dictionary app built using Flutter. Powers the Olam and Alar mobile apps.
+  category: utils
+  dogfood: false
+  language: Dart
+  license: GPL-3.0
+  stars: 41
+  topics: []
+  updated_at: "2021-03-15T09:50:07Z"
+  github_uri: ajinasokan/ditto
+  repo_url: https://github.com/ajinasokan/ditto
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: store_keeper
+  description: StoreKeeper is an easy and flexible state management system for Flutter apps
+  category: libs
+  dogfood: true
+  language: Dart
+  license: MIT
+  stars: 39
+  topics:
+    - flutter
+    - state-management
+  updated_at: "2026-07-10T13:42:02Z"
+  github_uri: ajinasokan/store_keeper
+  repo_url: https://github.com/ajinasokan/store_keeper
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan
+
+- name: dartgen
+  description: An inline generator collection for Dart & Flutter projects
+  category: libs
+  dogfood: true
+  language: Dart
+  license: MIT
+  stars: 38
+  topics:
+    - code-generation
+    - dart
+    - flutter
+  updated_at: "2026-05-09T05:49:35Z"
+  github_uri: ajinasokan/dartgen
+  repo_url: https://github.com/ajinasokan/dartgen
+  homepage_url:
+  image:
+  logo:
+  author_github: ajinasokan

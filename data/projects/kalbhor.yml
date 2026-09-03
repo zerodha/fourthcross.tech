@@ -1,0 +1,25 @@
+# Projects owned by github.com/kalbhor. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: Tasqueue
+  description: A background jobs library for Go that allows pluggable brokers/store for distribution.
+  category: libs
+  dogfood: true
+  language: Go
+  license: BSD-2-Clause
+  stars: 465
+  topics:
+    - background-jobs
+    - distributed-systems
+    - go
+    - golang
+    - jobqueue
+    - queue
+    - tasqueue
+  updated_at: "2026-01-31T18:42:27Z"
+  github_uri: kalbhor/Tasqueue
+  repo_url: https://github.com/kalbhor/Tasqueue
+  homepage_url:
+  image:
+  logo: logos/tasqueue.svg
+  author_github: kalbhor

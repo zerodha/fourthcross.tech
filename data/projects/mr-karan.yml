@@ -1,0 +1,206 @@
+# Projects owned by github.com/mr-karan. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: doggo
+  description: Command-line DNS client for humans. Written in Go.
+  category: utils
+  dogfood: false
+  language: Go
+  license: GPL-3.0
+  stars: 4434
+  topics:
+    - dns
+    - dns-client
+    - doh
+  updated_at: "2026-08-19T14:08:31Z"
+  github_uri: mr-karan/doggo
+  repo_url: https://github.com/mr-karan/doggo
+  homepage_url: https://doggo.mrkaran.dev
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: calert
+  description: 🔔 Send alert notifications to Google Chat via Prometheus Alertmanager
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 171
+  topics:
+    - alerting
+    - alertmanager
+    - alertmanager-webhook
+    - google-chat
+    - monitoring
+    - prometheus
+  updated_at: "2024-10-08T09:22:20Z"
+  github_uri: mr-karan/cAlert
+  repo_url: https://github.com/mr-karan/cAlert
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: kubekutr
+  description: Cookie cutter templating tool for scaffolding K8s manifests
+  category: utils
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 160
+  topics:
+    - gitops
+    - kubernetes
+    - kustomize
+  updated_at: "2021-07-19T13:42:33Z"
+  github_uri: mr-karan/kubekutr
+  repo_url: https://github.com/mr-karan/kubekutr
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: nomctx
+  description: Faster way to switch between clusters and namespaces in nomad
+  category: utils
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 54
+  topics:
+    - nomad
+  updated_at: "2024-10-10T07:33:34Z"
+  github_uri: mr-karan/nomctx
+  repo_url: https://github.com/mr-karan/nomctx
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: nomad-events-sink
+  description: An events collection agent which processes Nomad Events and dumps to external sink providers like HTTP
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 53
+  topics:
+    - nomad
+  updated_at: "2023-06-21T05:45:50Z"
+  github_uri: mr-karan/nomad-events-sink
+  repo_url: https://github.com/mr-karan/nomad-events-sink
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: store-exporter
+  description: Utility to extract metrics from arbitary data stores in Prometheus format
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 32
+  topics:
+    - devops
+    - exporter
+    - monitoring
+    - mysql
+    - postgres
+    - prometheus
+    - sidecar
+  updated_at: "2020-09-22T09:15:56Z"
+  github_uri: mr-karan/store-exporter
+  repo_url: https://github.com/mr-karan/store-exporter
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: terraform-provider-kite
+  description: Terraform provider for managing long term portfolio with Zerodha Kite
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 24
+  topics:
+    - kite
+    - terraform
+    - terraform-provider
+    - zerodha
+  updated_at: "2020-09-22T09:15:52Z"
+  github_uri: mr-karan/terraform-provider-kite
+  repo_url: https://github.com/mr-karan/terraform-provider-kite
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: simplehealth
+  description: Tiny lib for exposing health-check endpoints as Prometheus/JSON format
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 11
+  topics: []
+  updated_at: "2020-09-22T09:15:47Z"
+  github_uri: mr-karan/simplehealth
+  repo_url: https://github.com/mr-karan/simplehealth
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: localhashi
+  description: Vagrant based setup for local Nomad/Consul clusters. Helpful for experimenting with Nomad job specs in an environment similar to production.
+  category: utils
+  dogfood: true
+  language: Jinja
+  license: MIT
+  stars: 11
+  topics:
+    - consul
+    - nomad
+  updated_at: "2022-05-11T06:42:47Z"
+  github_uri: mr-karan/localhashi
+  repo_url: https://github.com/mr-karan/localhashi
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: kong-service-exporter
+  description: Utility to create a export a service registry Markdown file from Kong's config
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 8
+  topics:
+    - kong
+  updated_at: "2021-03-30T06:45:29Z"
+  github_uri: mr-karan/kong-service-exporter
+  repo_url: https://github.com/mr-karan/kong-service-exporter
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan
+
+- name: eks-gitops
+  description: Set of utilities to do deployments in an EKS cluster
+  category: utils
+  dogfood: false
+  language: Dockerfile
+  license: MIT
+  stars: 6
+  topics: []
+  updated_at: "2022-01-27T14:53:13Z"
+  github_uri: mr-karan/eks-gitops
+  repo_url: https://github.com/mr-karan/eks-gitops
+  homepage_url:
+  image:
+  logo:
+  author_github: mr-karan

@@ -1,0 +1,18 @@
+# Projects owned by github.com/vishnus. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: osticket-autoassign
+  description: Osticket plugin to assign tickets automatically to random agents based on teams, department, and activity
+  category: libs
+  dogfood: false
+  language: PHP
+  license: MIT
+  stars: 11
+  topics: []
+  updated_at: "2017-12-01T10:50:48Z"
+  github_uri: vishnus/osticket-autoassign
+  repo_url: https://github.com/vishnus/osticket-autoassign
+  homepage_url:
+  image:
+  logo:
+  author_github: vishnus

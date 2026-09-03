@@ -1,0 +1,112 @@
+# Projects owned by github.com/joeirimpan. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: listmonk-messenger
+  description: Lightweight HTTP server to handle webhooks from listmonk and forward it to different messengers.
+  category: services
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 62
+  topics:
+    - listmonk
+    - messenger
+    - pinpoint
+  updated_at: "2024-07-22T15:09:34Z"
+  github_uri: joeirimpan/listmonk-messenger
+  repo_url: https://github.com/joeirimpan/listmonk-messenger
+  homepage_url:
+  image:
+  logo:
+  author_github: joeirimpan
+
+- name: hdfc-cc-parser-rs
+  description: Parse HDFC credit card statements (Infinia, September 2025 onwards) into CSV
+  category: utils
+  dogfood: false
+  language: Rust
+  license: MIT
+  stars: 42
+  topics:
+    - card
+    - credit
+    - csv
+    - hdfc
+    - pdf
+    - statements
+  updated_at: "2026-04-22T05:01:00Z"
+  github_uri: joeirimpan/hdfc-cc-parser-rs
+  repo_url: https://github.com/joeirimpan/hdfc-cc-parser-rs
+  homepage_url:
+  image:
+  logo:
+  author_github: joeirimpan
+
+- name: go-frappe-client
+  description: Frappe client written in Go
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 9
+  topics: []
+  updated_at: "2020-09-24T05:40:47Z"
+  github_uri: joeirimpan/go-frappe-client
+  repo_url: https://github.com/joeirimpan/go-frappe-client
+  homepage_url:
+  image:
+  logo:
+  author_github: joeirimpan
+
+- name: nomadboard
+  description: A read-only status page for HashiCorp Nomad clusters with job grouping, restart detection, and multi-DC support.
+  category: services
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 9
+  topics:
+    - cross-dc
+    - golang
+    - hashicorp
+    - nomad
+    - status-page
+  updated_at: "2026-08-17T16:51:45Z"
+  github_uri: joeirimpan/nomadboard
+  repo_url: https://github.com/joeirimpan/nomadboard
+  homepage_url:
+  image:
+  logo:
+  author_github: joeirimpan
+
+- name: kaf-ansible
+  description: Ansible scripts for setting up Zookeeper, Kafka, kaf cli
+  category: utils
+  dogfood: false
+  language: Jinja
+  license: MIT
+  stars: 7
+  topics: []
+  updated_at: "2023-10-05T13:56:20Z"
+  github_uri: joeirimpan/kaf-ansible
+  repo_url: https://github.com/joeirimpan/kaf-ansible
+  homepage_url:
+  image:
+  logo:
+  author_github: joeirimpan
+
+- name: duckdb-fnv
+  description: Duckdb extension to calculate fnv hash, fnv partition bucket for a given hash.
+  category: libs
+  dogfood: true
+  language: Python
+  license: MIT
+  stars: 4
+  topics: []
+  updated_at: "2024-08-26T08:05:44Z"
+  github_uri: joeirimpan/duckdb-fnv
+  repo_url: https://github.com/joeirimpan/duckdb-fnv
+  homepage_url:
+  image:
+  logo:
+  author_github: joeirimpan

@@ -1,0 +1,34 @@
+# Projects owned by github.com/oddship. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: moat
+  description: Markdown + Oat static site generator
+  category: utils
+  dogfood: false
+  language: Go
+  license:
+  stars: 3
+  topics: []
+  updated_at: "2026-07-02T11:51:28Z"
+  github_uri: oddship/moat
+  repo_url: https://github.com/oddship/moat
+  homepage_url:
+  image:
+  logo:
+  author_github:
+
+- name: esgun
+  description: Go-native, npm-compatible package manager and esbuild bundler in a single static binary. No node, npm or bun.
+  category: utils
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 2
+  topics: []
+  updated_at: "2026-08-10T13:26:27Z"
+  github_uri: oddship/esgun
+  repo_url: https://github.com/oddship/esgun
+  homepage_url:
+  image:
+  logo:
+  author_github:

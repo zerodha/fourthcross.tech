@@ -1,0 +1,54 @@
+# Projects owned by github.com/iamd3vil. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: shelf
+  description: A Good Symlinks Manager
+  category: utils
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 32
+  topics:
+    - dotfile-manager
+    - dotfiles
+    - symlinks
+    - symlinks-manager
+  updated_at: "2021-06-25T18:08:51Z"
+  github_uri: iamd3vil/shelf
+  repo_url: https://github.com/iamd3vil/shelf
+  homepage_url:
+  image:
+  logo: logos/shelf.svg
+  author_github: iamd3vil
+
+- name: go-typst
+  description: Go bindings for Typst
+  category: libs
+  dogfood: true
+  language: Go
+  license:
+  stars: 3
+  topics: []
+  updated_at: "2026-07-30T05:51:49Z"
+  github_uri: iamd3vil/go-typst
+  repo_url: https://github.com/iamd3vil/go-typst
+  homepage_url:
+  image:
+  logo:
+  author_github: iamd3vil
+
+- name: gofastdecoder
+  description: A decoder for the FIX FAST v1.2 and v1.1 protocols
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 0
+  topics: []
+  updated_at: "2026-08-13T06:47:28Z"
+  github_uri: iamd3vil/gofastdecoder
+  repo_url: https://github.com/iamd3vil/gofastdecoder
+  homepage_url:
+  image:
+  logo:
+  author_github: iamd3vil

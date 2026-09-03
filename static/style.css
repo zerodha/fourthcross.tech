@@ -46,20 +46,6 @@
     user-select: none;
   }
 
-  .hero-nav {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: flex-end;
-    gap: var(--space-8);
-    padding: var(--space-6) 0;
-
-    a {
-      color: #e4e4e7;
-      text-decoration: none;
-    }
-  }
-
   .hero-inner {
     max-width: 800px;
     position: relative;
@@ -76,19 +62,44 @@
   }
 }
 
-/* Compact hero for interior pages. */
-.hero-sub {
-  min-height: auto;
+/* Interior pages get no hero at all — just the site name set as a logo on a
+   slim dark bar, on the same container grid as the page body below it. */
+.topbar {
+  background: #2a2a2a;
+  color: #fff;
+  --primary: #fff;
+  margin-block-end: var(--space-12);
+}
 
-  .hero-inner h1 {
-    font-size: 2.5rem;
-    line-height: 2.9rem;
+.hero-nav {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: var(--space-6) 0;
+
+  .brand {
+    margin-inline-end: auto;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+
+  .links {
+    gap: var(--space-8);
+  }
+
+  a {
+    color: #e4e4e7;
+    text-decoration: none;
   }
 }
 
 .author-head {
   gap: var(--space-4);
   align-items: center;
+  margin-block-end: var(--space-8);
 
   .avatar {
     width: 72px;
@@ -102,6 +113,10 @@
   .hero-map {
     opacity: 0.25;
   }
+}
+
+section {
+  margin-block-end: var(--space-18);
 }
 
 .section-head {
@@ -165,6 +180,17 @@
     height: 22px;
   }
 
+  .badges {
+    align-items: center;
+    gap: var(--space-2);
+    flex-shrink: 0;
+  }
+
+  .dogfood {
+    width: 15px;
+    height: 14px;
+  }
+
   .stars {
     display: inline-flex;
     align-items: center;
@@ -212,4 +238,29 @@
   margin: var(--space-16) 0;
   padding: var(--space-16) 0;
   background: var(--muted);
+}
+
+/* Handle, homepage, email under an author's name. */
+.author-meta {
+  gap: var(--space-4);
+  margin-top: var(--space-2);
+  font-size: 0.95rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    color: var(--muted-foreground);
+    text-decoration: none;
+
+    /* Icons are flat-grey in the file — <img> can't inherit currentColor. */
+    .icon {
+      flex-shrink: 0;
+    }
+
+    &:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+  }
 }

@@ -19,16 +19,24 @@
       {% endif %}
     </a>
 
-    <a class="stars" href="{{ p.repo_url }}" title="{{ p.stars }} stars on GitHub">
-      <img src="{{ get_url(path='star.svg') }}" alt="" width="14" height="14">{{ self::stars(n=p.stars) }}
-    </a>
+    <div class="hstack badges">
+      {% if p.dogfood %}
+      <img class="dogfood" src="{{ get_url(path='dog.svg') }}" title="Dog-fooded at Zerodha" alt="Dog-fooded at Zerodha" width="15" height="14">
+      {% endif %}
+
+      <a class="stars" href="{{ p.repo_url }}" title="{{ p.stars }} stars on GitHub">
+        <img src="{{ get_url(path='star.svg') }}" alt="" width="14" height="14">{{ self::stars(n=p.stars) }}
+      </a>
+    </div>
   </div>
 
   <div class="mt-4">{{ p.description }}</div>
 
   <div class="hstack meta mt-4">
     {% if p.author_github %}
-    <a class="badge author" href="https://github.com/{{ p.author_github }}">@{{ p.author_github }}</a>
+    {# Links to the maintainer's page, not to GitHub. Resolving the stub here is
+       what turns a missing content/authors/<handle>.md into a build error. #}
+    <a class="badge author" href="{{ get_url(path='@/authors/' ~ p.author_github ~ '.md') }}">@{{ p.author_github }}</a>
     {% endif %}
   </div>
 </article>

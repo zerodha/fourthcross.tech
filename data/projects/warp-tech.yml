@@ -1,0 +1,18 @@
+# Projects owned by github.com/warp-tech. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: terraform-provider-warpgate
+  description: Terraform Provider for WarpGate
+  category: services
+  dogfood: false
+  language: Go
+  license:
+  stars: 6
+  topics: []
+  updated_at: "2025-03-27T07:09:20Z"
+  github_uri: warp-tech/terraform-provider-warpgate
+  repo_url: https://github.com/warp-tech/terraform-provider-warpgate
+  homepage_url:
+  image:
+  logo:
+  author_github:

@@ -5,7 +5,16 @@
 
 {% block body %}
 {% set featured = load_data(path="data/featured.yml") %}
-{% set projects = load_data(path="data/projects.yml") %}
+
+{# One data file per GitHub owner, enumerated in config.extra.project_files,
+   aggregated and re-sorted by stars. set_global is required — a plain set
+   inside a for loop is scoped to the iteration, and it does not survive an
+   include, so this loop is repeated verbatim in author.html. #}
+{% set_global projects = [] %}
+{% for f in config.extra.project_files %}
+  {% set_global projects = projects | concat(with=load_data(path="data/projects/" ~ f ~ ".yml")) %}
+{% endfor %}
+{% set_global projects = projects | sort(attribute="stars") | reverse %}
 
 <header class="hero">
   {% include "partials/nav.html" %}
@@ -26,15 +35,15 @@
 
   <section id="libraries">
     <div class="section-head">
-      <h2>Libraries, services &amp; tools ({{ projects | length }})</h2>
-      <p>Infrastructure primitives, standalone services, and developer tooling.</p>
+      <h2>Projects ({{ projects | length }})</h2>
+      <p>Libraries, services, tools.</p>
     </div>
     {{ project::grid(projects=projects) }}
   </section>
 
   <section class="band">
     <div class="container">
-      <h2>Built in production, shared with everyone</h2>
+      <h2>Dog-fooded</h2>
       <p>Every project listed here is software we run in production at {{ config.title }}. We build in the open
          because good infrastructure should be accessible &mdash; not locked behind enterprise pricing.</p>
 

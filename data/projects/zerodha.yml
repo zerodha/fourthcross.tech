@@ -1,0 +1,116 @@
+# Projects owned by github.com/zerodha. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: kite-mcp-server
+  description: MCP (Model Context Protocol) server for the Zerodha Kite trading platform.
+  category: services
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 302
+  topics: []
+  updated_at: "2026-08-19T23:40:52Z"
+  github_uri: zerodha/kite-mcp-server
+  repo_url: https://github.com/zerodha/kite-mcp-server
+  homepage_url: https://mcp.kite.trade
+  image:
+  logo:
+  author_github:
+
+- name: fastglue
+  description: Fastglue is an opinionated, bare bones wrapper that glues together fasthttp and fasthttprouter to act as a micro HTTP framework.
+  category: libs
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 82
+  topics:
+    - fastglue
+    - fasthttp
+    - fasthttprouter
+    - golang
+    - http-framework
+    - http-server
+    - microframework
+    - performance
+    - routing
+  updated_at: "2025-01-31T11:47:56Z"
+  github_uri: zerodha/fastglue
+  repo_url: https://github.com/zerodha/fastglue
+  homepage_url:
+  image:
+  logo:
+  author_github:
+
+- name: simplesessions
+  description: simplesessions is a Go session management library that is completely agnostic of HTTP libraries and frameworks, backend stores, and even cookie jars.
+  category: libs
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 78
+  topics:
+    - session
+    - session-cookie
+    - session-handler
+    - session-management
+    - session-manager
+    - session-store
+    - sessions
+  updated_at: "2025-07-01T07:35:48Z"
+  github_uri: zerodha/simplesessions
+  repo_url: https://github.com/zerodha/simplesessions
+  homepage_url:
+  image:
+  logo:
+  author_github: vividvilla
+
+- name: fastcache
+  description: fastcache is an HTTP response caching package that plugs into fastglue and simplifies "dumb" caching of API endpoints.
+  category: libs
+  dogfood: true
+  language: Go
+  license:
+  stars: 37
+  topics:
+    - fastglue
+    - fasthttp
+  updated_at: "2025-09-15T05:10:21Z"
+  github_uri: zerodha/fastcache
+  repo_url: https://github.com/zerodha/fastcache
+  homepage_url:
+  image:
+  logo:
+  author_github:
+
+- name: vendor-payments
+  description: A frappe app that has workflows and reports to make payments to vendors by a company and track them
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 26
+  topics: []
+  updated_at: "2023-07-25T18:35:58Z"
+  github_uri: zerodha/vendor-payments
+  repo_url: https://github.com/zerodha/vendor-payments
+  homepage_url:
+  image:
+  logo:
+  author_github:
+
+- name: osticket-archive
+  description: A utility to archive all closed tickets beyond a certain age to disk (including attachments) and delete them from the database. The tickets are archived as JSON files.
+  category: utils
+  dogfood: false
+  language: PHP
+  license:
+  stars: 10
+  topics: []
+  updated_at: "2015-06-27T11:48:05Z"
+  github_uri: zerodha/osticket-archive
+  repo_url: https://github.com/zerodha/osticket-archive
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh

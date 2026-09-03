@@ -1,0 +1,166 @@
+# Projects owned by github.com/rhnvrm. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: simples3
+  description: Simple no frills AWS S3 Golang Library using REST with V4 Signing (without AWS Go SDK)
+  category: libs
+  dogfood: true
+  language: Go
+  license:
+  stars: 208
+  topics:
+    - aws
+    - aws-s3
+    - aws-signature-v4
+    - golang
+  updated_at: "2026-05-21T17:59:16Z"
+  github_uri: rhnvrm/simples3
+  repo_url: https://github.com/rhnvrm/simples3
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: linkpage
+  description: LinkPage is a FOSS self-hosted alternative to link listing websites such as LinkTree and Campsite.bio
+  category: apps
+  dogfood: false
+  language: Go
+  license: BSD-2-Clause
+  stars: 68
+  topics: []
+  updated_at: "2024-09-21T17:23:03Z"
+  github_uri: rhnvrm/linkpage
+  repo_url: https://github.com/rhnvrm/linkpage
+  homepage_url:
+  image:
+  logo: logos/linkpage.svg
+  author_github: rhnvrm
+
+- name: listmonk-mcp
+  description: MCP (Model Context Protocol) server for listmonk newsletter management
+  category: services
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 37
+  topics: []
+  updated_at: "2026-01-13T04:02:00Z"
+  github_uri: rhnvrm/listmonk-mcp
+  repo_url: https://github.com/rhnvrm/listmonk-mcp
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: stock-market-circulars
+  description: Automated processing and publishing of regulatory circulars from NSE, BSE and SEBI with AI-powered summaries
+  category: services
+  dogfood: false
+  language: Python
+  license:
+  stars: 10
+  topics: []
+  updated_at: "2026-08-20T06:46:30Z"
+  github_uri: rhnvrm/stock-market-circulars
+  repo_url: https://github.com/rhnvrm/stock-market-circulars
+  homepage_url: https://exchangecirculars.com
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: mattermost-cli
+  description: Mattermost CLI for humans and agents
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 9
+  topics: []
+  updated_at: "2026-06-29T03:57:14Z"
+  github_uri: rhnvrm/mattermost-cli
+  repo_url: https://github.com/rhnvrm/mattermost-cli
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: hq
+  description: A jq/yq-like processor for HUML
+  category: utils
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 8
+  topics: []
+  updated_at: "2026-01-23T07:38:36Z"
+  github_uri: rhnvrm/hq
+  repo_url: https://github.com/rhnvrm/hq
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: s3site
+  description: Static site server that serves from S3 tar.gz archives, with an S3 file watcher
+  category: services
+  dogfood: false
+  language: Go
+  license:
+  stars: 7
+  topics: []
+  updated_at: "2026-07-28T11:29:21Z"
+  github_uri: rhnvrm/s3site
+  repo_url: https://github.com/rhnvrm/s3site
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: lzo1z
+  description: Pure Go LZO1Z compression and decompression library
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 5
+  topics: []
+  updated_at: "2026-02-20T06:22:30Z"
+  github_uri: rhnvrm/lzo1z
+  repo_url: https://github.com/rhnvrm/lzo1z
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: catprinter
+  description: Go library for cat printer style mini thermal printers (58mm width, 384 dots)
+  category: libs
+  dogfood: false
+  language: Go
+  license:
+  stars: 5
+  topics: []
+  updated_at: "2025-12-09T18:34:59Z"
+  github_uri: rhnvrm/catprinter
+  repo_url: https://github.com/rhnvrm/catprinter
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm
+
+- name: yt2embed
+  description: Browser extension that redirects YouTube videos to the embed page
+  category: utils
+  dogfood: false
+  language: JavaScript
+  license: GPL-3.0
+  stars: 4
+  topics: []
+  updated_at: "2025-08-12T18:44:34Z"
+  github_uri: rhnvrm/yt2embed
+  repo_url: https://github.com/rhnvrm/yt2embed
+  homepage_url:
+  image:
+  logo:
+  author_github: rhnvrm

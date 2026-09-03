@@ -1,0 +1,789 @@
+# Projects owned by github.com/knadh. Same schema as data/featured.yml —
+# see the field documentation there. Aggregated via config.extra.project_files.
+
+- name: oat
+  description: Ultra-lightweight, zero dependency, semantic HTML, CSS, JS UI library. ~10KB min+gz.
+  category: libs
+  dogfood: true
+  language: CSS
+  license: MIT
+  stars: 5458
+  topics:
+    - component-library
+    - css
+    - css-framework
+    - dashboard-design
+    - semantic-html
+    - semantic-web
+    - ui-components
+    - ui-design
+    - web-ui
+    - web-ui-framework
+    - webcomponents
+  updated_at: "2026-08-14T17:50:39Z"
+  github_uri: knadh/oat
+  repo_url: https://github.com/knadh/oat
+  homepage_url: https://oat.ink
+  image:
+  logo:
+  author_github: knadh
+
+- name: koanf
+  description: Simple, extremely lightweight, extensible, configuration management library for Go. Supports JSON, TOML, YAML, env, command line, file, S3 etc. Alternative to viper.
+  category: libs
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 4168
+  topics:
+    - config
+    - config-loader
+    - configuration
+    - configuration-file
+    - configuration-management
+    - etcd-client
+    - go
+    - golang
+    - golang-package
+    - s3-bucket
+    - toml
+    - viper
+    - yaml
+  updated_at: "2026-08-09T18:08:10Z"
+  github_uri: knadh/koanf
+  repo_url: https://github.com/knadh/koanf
+  homepage_url:
+  image:
+  logo: koan-logo.png
+  author_github: knadh
+
+- name: dns.toys
+  description: A DNS server that offers useful utilities and services over the DNS protocol. Weather, world time, unit conversion etc.
+  category: services
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 2821
+  topics:
+    - dns
+    - dns-server
+    - fun
+    - unit-conversion
+    - weather
+  updated_at: "2026-02-26T16:12:54Z"
+  github_uri: knadh/dns.toys
+  repo_url: https://github.com/knadh/dns.toys
+  homepage_url: https://www.dns.toys
+  image:
+  logo:
+  author_github: knadh
+
+- name: tg-archive
+  description: A tool for exporting Telegram group chats into static websites like mailing list archives.
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 1163
+  topics:
+    - exporter
+    - static-site
+    - static-site-generator
+    - telegram
+    - telegram-api
+    - telegram-export
+  updated_at: "2026-03-01T05:25:58Z"
+  github_uri: knadh/tg-archive
+  repo_url: https://github.com/knadh/tg-archive
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: niltalk
+  description: Instant, disposable, single-binary web based live chat server. Go + VueJS.
+  category: services
+  dogfood: false
+  language: Go
+  license: AGPL-3.0
+  stars: 985
+  topics:
+    - chat
+    - chat-room
+    - chat-server
+    - communication
+    - disposable
+    - private-chat
+    - private-messaging
+  updated_at: "2025-11-20T02:48:33Z"
+  github_uri: knadh/niltalk
+  repo_url: https://github.com/knadh/niltalk
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: dragmove.js
+  description: A super tiny Javascript library to make DOM elements draggable and movable. ~500 bytes (minified+gzipped) and no dependencies.
+  category: libs
+  dogfood: true
+  language: JavaScript
+  license: MIT
+  stars: 900
+  topics:
+    - dom-manipulation
+    - drag-and-drop
+    - draggable
+    - draggable-elements
+    - move
+  updated_at: "2024-04-13T06:11:07Z"
+  github_uri: knadh/dragmove.js
+  repo_url: https://github.com/knadh/dragmove.js
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: dictpress
+  description: A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language.
+  category: services
+  dogfood: false
+  language: Rust
+  license: AGPL-3.0
+  stars: 466
+  topics:
+    - academic
+    - academic-website
+    - dictionary
+    - dictionary-application
+    - language
+    - language-processing
+    - publishing
+    - thesaurus
+    - wordlist
+  updated_at: "2026-07-02T05:25:52Z"
+  github_uri: knadh/dictpress
+  repo_url: https://github.com/knadh/dictpress
+  homepage_url: https://dict.press
+  image:
+  logo:
+  author_github: knadh
+
+- name: hugo-ink
+  description: Crisp, minimal personal website and blog theme for Hugo
+  category: utils
+  dogfood: false
+  language: HTML
+  license: MIT
+  stars: 426
+  topics:
+    - blog
+    - blog-theme
+    - hugo
+    - hugo-blog
+    - hugo-site
+    - hugo-theme
+  updated_at: "2025-05-16T06:05:51Z"
+  github_uri: knadh/hugo-ink
+  repo_url: https://github.com/knadh/hugo-ink
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: autocomp.js
+  description: A super tiny Javascript autocomplete / autosuggestions library. Zero dependencies, ~800 bytes min+gzip.
+  category: libs
+  dogfood: false
+  language: HTML
+  license: MIT
+  stars: 351
+  topics:
+    - autocomplete
+    - autosuggestions
+    - search
+    - suggestions
+    - typeahead
+  updated_at: "2025-11-30T15:25:53Z"
+  github_uri: knadh/autocomp.js
+  repo_url: https://github.com/knadh/autocomp.js
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: xmlutils.py
+  description: Python scripts for processing XML documents and converting to SQL, CSV, and JSON [UNMAINTAINED]
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 256
+  topics: []
+  updated_at: "2025-05-02T15:56:38Z"
+  github_uri: knadh/xmlutils.py
+  repo_url: https://github.com/knadh/xmlutils.py
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: dont.build
+  description: A simple, opinionated decision system to help decide whether to build a software feature or not.
+  category: utils
+  dogfood: false
+  language: HTML
+  license:
+  stars: 233
+  topics: []
+  updated_at: "2023-10-24T13:55:18Z"
+  github_uri: knadh/dont.build
+  repo_url: https://github.com/knadh/dont.build
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: stuffbin
+  description: Compress and embed static files and assets into Go binaries and access them with a virtual file system in production
+  category: utils
+  dogfood: true
+  language: Go
+  license:
+  stars: 203
+  topics: []
+  updated_at: "2026-06-28T06:35:42Z"
+  github_uri: knadh/stuffbin
+  repo_url: https://github.com/knadh/stuffbin
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: smtppool
+  description: High throughput Go SMTP pool library with graceful handling of idle timeouts, errors, and retries.
+  category: libs
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 180
+  topics:
+    - email-client
+    - email-sender
+    - pool
+    - smtp
+    - smtp-client
+  updated_at: "2026-04-30T15:13:31Z"
+  github_uri: knadh/smtppool
+  repo_url: https://github.com/knadh/smtppool
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: go-get-youtube
+  description: A tiny Go library + client for downloading Youtube videos. The library is capable of fetching Youtube video metadata, in addition to downloading videos.
+  category: libs
+  dogfood: false
+  language: Go
+  license:
+  stars: 175
+  topics: []
+  updated_at: "2019-11-05T14:44:39Z"
+  github_uri: knadh/go-get-youtube
+  repo_url: https://github.com/knadh/go-get-youtube
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: floatype.js
+  description: A tiny, zero-dependency, floating autocomplete / autosuggestion widget for textareas.
+  category: libs
+  dogfood: false
+  language: JavaScript
+  license: MIT
+  stars: 155
+  topics:
+    - autocomplete
+    - autosuggestion
+    - floating-widget
+    - suggestions
+    - textarea
+    - textarea-autocomplete
+    - type-ahead
+  updated_at: "2024-08-26T08:12:47Z"
+  github_uri: knadh/floatype.js
+  repo_url: https://github.com/knadh/floatype.js
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: tinyrouter.js
+  description: A tiny, zero-dependency lib for frontend routing and navigation on top of `window.history`
+  category: libs
+  dogfood: false
+  language: JavaScript
+  license: MIT
+  stars: 141
+  topics:
+    - alpinejs
+    - browser-navigation
+    - clientside-routing
+    - history-api
+    - router
+    - routing
+  updated_at: "2026-02-15T11:33:44Z"
+  github_uri: knadh/tinyrouter.js
+  repo_url: https://github.com/knadh/tinyrouter.js
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: indexed-cache
+  description: A tiny Javsacript library for sideloading static assets on pages and caching them in the browser's IndexedDB for longer-term storage.
+  category: libs
+  dogfood: true
+  language: JavaScript
+  license: MIT
+  stars: 131
+  topics:
+    - bandwidth-saver
+    - browser-cache
+    - caching
+    - cdn
+    - css-loader
+    - script-loader
+  updated_at: "2022-07-13T15:29:40Z"
+  github_uri: knadh/indexed-cache
+  repo_url: https://github.com/knadh/indexed-cache
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: git-bars
+  description: A utility for visualising git commit activity as bars on the terminal
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 110
+  topics: []
+  updated_at: "2024-07-31T12:14:41Z"
+  github_uri: knadh/git-bars
+  repo_url: https://github.com/knadh/git-bars
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: go-pop3
+  description: A simple Go POP3 client library for connecting and reading mails from POP3 servers.
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 95
+  topics:
+    - email-client
+    - mail
+    - pop
+    - pop3
+    - pop3-client
+    - pop3-protocol
+  updated_at: "2026-03-29T07:17:19Z"
+  github_uri: knadh/go-pop3
+  repo_url: https://github.com/knadh/go-pop3
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: highlighted-input.js
+  description: Super tiny, zero dep Javascript lib that highlights specific keywords and tags in an <input> field.
+  category: libs
+  dogfood: false
+  language: JavaScript
+  license: MIT
+  stars: 93
+  topics: []
+  updated_at: "2025-04-26T15:45:08Z"
+  github_uri: knadh/highlighted-input.js
+  repo_url: https://github.com/knadh/highlighted-input.js
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: pfxsigner
+  description: A CLI utility and web server for digitally signing PDFs with docsign loaded from PFX (PKCS#12) files
+  category: utils
+  dogfood: true
+  language: Go
+  license: AGPL-3.0
+  stars: 92
+  topics:
+    - digital-signature
+    - pdf
+    - pdf-sign
+    - pdf-signature
+  updated_at: "2021-12-24T12:59:50Z"
+  github_uri: knadh/pfxsigner
+  repo_url: https://github.com/knadh/pfxsigner
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: goyesql
+  description: Parse SQL files with multiple named queries and automatically prepare and scan them into structs.
+  category: libs
+  dogfood: true
+  language: Go
+  license: BSD-2-Clause
+  stars: 73
+  topics:
+    - mysql
+    - postgresql
+    - prepared-statements
+    - sql
+    - sql-files
+  updated_at: "2022-12-06T10:58:58Z"
+  github_uri: knadh/goyesql
+  repo_url: https://github.com/knadh/goyesql
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: dirmaker
+  description: dirmaker is a simple, opinionated static site generator for quickly publishing directory websites.
+  category: utils
+  dogfood: false
+  language: Python
+  license: MIT
+  stars: 71
+  topics:
+    - static-site
+    - static-site-generator
+    - static-website
+    - static-website-generator
+    - web-directory
+    - web-directory-search
+  updated_at: "2023-02-13T06:16:42Z"
+  github_uri: knadh/dirmaker
+  repo_url: https://github.com/knadh/dirmaker
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: knphone
+  description: KNphone is a phonetic algorithm for indexing Kannada words by their pronunciation, like Metaphone for English.
+  category: libs
+  dogfood: false
+  language: Go
+  license: GPL-3.0
+  stars: 64
+  topics: []
+  updated_at: "2019-06-24T17:24:10Z"
+  github_uri: knadh/knphone
+  repo_url: https://github.com/knadh/knphone
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: tinytabs
+  description: A tiny (~750 bytes, min+gzip) Javascript library for rendering tabbed UIs. Zero dependencies.
+  category: libs
+  dogfood: false
+  language: HTML
+  license:
+  stars: 63
+  topics: []
+  updated_at: "2025-05-01T14:46:42Z"
+  github_uri: knadh/tinytabs
+  repo_url: https://github.com/knadh/tinytabs
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: wordpluck
+  description: A browser based typing game in Javascript. Revived from a 2012 project.
+  category: utils
+  dogfood: false
+  language: JavaScript
+  license: MIT
+  stars: 52
+  topics:
+    - browser-game
+    - canvas
+    - canvas-game
+    - game
+    - typing-game
+    - typing-practice
+    - typing-speed
+  updated_at: "2023-05-23T09:50:33Z"
+  github_uri: knadh/wordpluck
+  repo_url: https://github.com/knadh/wordpluck
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: csv2json
+  description: csv2json is a fast utility that converts CSV files into JSON line files. An experiment in Zig lang.
+  category: utils
+  dogfood: false
+  language: Zig
+  license: MIT
+  stars: 50
+  topics:
+    - cli
+    - csv
+    - csv-exporter
+    - csv-json
+    - csv-json-converter
+    - csv-parser
+    - csv-reader
+  updated_at: "2024-03-22T08:13:19Z"
+  github_uri: knadh/csv2json
+  repo_url: https://github.com/knadh/csv2json
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: profiler
+  description: A simple wrapper over Go runtime/pprof for running multiple concurrent profiles and dumping results to files.
+  category: libs
+  dogfood: true
+  language: Go
+  license: MIT
+  stars: 39
+  topics:
+    - pprof
+    - profiler
+    - profiling
+    - profiling-library
+  updated_at: "2024-07-23T05:43:38Z"
+  github_uri: knadh/profiler
+  repo_url: https://github.com/knadh/profiler
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: tuwunel-admin
+  description: A simple web admin UI for tuwunel-chat Matrix server.
+  category: services
+  dogfood: false
+  language: Rust
+  license: Apache-2.0
+  stars: 38
+  topics:
+    - element
+    - matrix
+    - matrix-admin-api
+    - matrix-chat
+    - matrix-homeserver
+    - matrix-org
+    - tuwunel
+  updated_at: "2026-06-28T13:44:48Z"
+  github_uri: knadh/tuwunel-admin
+  repo_url: https://github.com/knadh/tuwunel-admin
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: paginator
+  description: Tiny Go package for pagination queries and generating page numbers
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 34
+  topics:
+    - limit
+    - offset
+    - pagination
+    - pagination-generator
+    - pagination-library
+    - paginator
+  updated_at: "2026-08-14T17:14:17Z"
+  github_uri: knadh/paginator
+  repo_url: https://github.com/knadh/paginator
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: yesqlr
+  description: Parse SQL files with multiple named queries into a map for easy organisation and management of SQL queries. Port of goyesql.
+  category: libs
+  dogfood: false
+  language: Rust
+  license: MIT
+  stars: 31
+  topics: []
+  updated_at: "2025-07-13T09:26:52Z"
+  github_uri: knadh/yesqlr
+  repo_url: https://github.com/knadh/yesqlr
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: gtbump
+  description: "git tag bump: A simple utility to bump and manage git semantic version tags and generate Markdown changelogs."
+  category: utils
+  dogfood: true
+  language: Python
+  license: MIT
+  stars: 28
+  topics:
+    - changelog
+    - changelog-generator
+    - git
+    - semantic-version
+    - version-control
+    - versioning
+  updated_at: "2025-04-30T18:42:48Z"
+  github_uri: knadh/gtbump
+  repo_url: https://github.com/knadh/gtbump
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: go-i18n
+  description: Tiny i18n library for loading and using simple JSON language translation files in Go programs.
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 23
+  topics: []
+  updated_at: "2025-10-26T08:14:23Z"
+  github_uri: knadh/go-i18n
+  repo_url: https://github.com/knadh/go-i18n
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: querytostruct
+  description: An extremely tiny utility for unmarshalling and scanning querystrings into structs
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 20
+  topics: []
+  updated_at: "2022-06-09T18:04:52Z"
+  github_uri: knadh/querytostruct
+  repo_url: https://github.com/knadh/querytostruct
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: zig-releaser
+  description: A simple hack to use GoReleaser to build, release, and publish Zig projects.
+  category: utils
+  dogfood: false
+  language: Shell
+  license: MIT
+  stars: 17
+  topics:
+    - build-release
+    - build-tool
+    - goreleaser
+    - package
+    - release
+    - release-automation
+    - zig
+    - zig-package
+  updated_at: "2025-03-08T04:30:25Z"
+  github_uri: knadh/zig-releaser
+  repo_url: https://github.com/knadh/zig-releaser
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: scylladb-metrics
+  description: A script for generating docs for Promethus metrics exported by ScyllaDB
+  category: utils
+  dogfood: false
+  language: HTML
+  license: MIT
+  stars: 15
+  topics:
+    - documentation
+    - scylladb
+  updated_at: "2024-01-08T06:20:22Z"
+  github_uri: knadh/scylladb-metrics
+  repo_url: https://github.com/knadh/scylladb-metrics
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: rconceptnet
+  description: A simple, performant ConceptNet CLI and server implementation in Rust. Uses SQLite for data.
+  category: services
+  dogfood: false
+  language: Rust
+  license: MIT
+  stars: 14
+  topics:
+    - conceptnet
+    - conceptnet-api
+    - knowledge-graph
+    - ontology
+  updated_at: "2026-04-10T14:35:27Z"
+  github_uri: knadh/rconceptnet
+  repo_url: https://github.com/knadh/rconceptnet
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: chunkedreader
+  description: chunkedreader is a light weight wrapper for Go's `bufio` that enables reading of byte streams in fixed size chunks
+  category: libs
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 12
+  topics: []
+  updated_at: "2015-03-19T09:11:47Z"
+  github_uri: knadh/chunkedreader
+  repo_url: https://github.com/knadh/chunkedreader
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
+
+- name: tinyi18n-rs
+  description: A tiny Rust i18n library that loads JSON language maps (modeled after vue-i18n)
+  category: libs
+  dogfood: false
+  language: Rust
+  license: MIT
+  stars: 11
+  topics: []
+  updated_at: "2026-01-11T18:45:06Z"
+  github_uri: knadh/tinyi18n-rs
+  repo_url: https://github.com/knadh/tinyi18n-rs
+  homepage_url:
+  image:
+  logo:
+  author_github: knadh
