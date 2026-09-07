@@ -1,5 +1,3 @@
-{# `brand` is set by templates that have no <h1> of their own (i.e. everything
-   except the homepage, where the hero already names the site). #}
 <nav class="hero-nav container">
   {% if brand %}<a class="brand" href="{{ get_url(path='@/_index.md') }}">{{ config.title }}</a>{% endif %}
   <div class="hstack links">

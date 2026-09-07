@@ -14,7 +14,6 @@
   font-display: swap;
 }
 
-
 :root {
   --primary: #111;
   --card-foreground: #444;
@@ -29,7 +28,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 80vh;
   overflow: hidden;
   margin-block-end: var(--space-18);
   color: #fff;
@@ -48,22 +47,22 @@
 
   .hero-inner {
     max-width: 800px;
+    min-width: 0;
     position: relative;
     margin-block: auto;
+    padding-block: var(--space-10);
 
     h1 {
-      font-size: 5rem;
-      line-height: 5.5rem;
+      font-size: clamp(2.5rem, 1.2rem + 6.5vw, 5rem);
+      line-height: 1.1;
     }
 
     .intro {
-      font-size: 1.3rem;
+      font-size: clamp(1.05rem, 0.95rem + 0.6vw, 1.3rem);
     }
   }
 }
 
-/* Interior pages get no hero at all — just the site name set as a logo on a
-   slim dark bar, on the same container grid as the page body below it. */
 .topbar {
   background: #2a2a2a;
   color: #fff;
@@ -77,7 +76,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: var(--space-6) 0;
+  padding-block: var(--space-6);
+  gap: var(--space-4);
 
   .brand {
     margin-inline-end: auto;
@@ -106,12 +106,6 @@
     height: 72px;
     border-radius: 50%;
     object-fit: cover;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-map {
-    opacity: 0.25;
   }
 }
 
@@ -154,7 +148,7 @@ section {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
-    margin-bottom: var(--space-4);
+    margin-bottom: var(--space-10);
     background: var(--muted);
     border-radius: var(--radius-medium);
     overflow: hidden;
@@ -171,7 +165,7 @@ section {
     justify-content: space-between;
     align-items: center;
     gap: var(--space-4);
-    margin-bottom: var(--space-2);
+    margin-bottom: var(--space-4);
   }
 
   .logo {
@@ -200,8 +194,7 @@ section {
     text-decoration: none;
 
     img {
-      width: 14px;
-      height: 14px;
+      width: 22px;
     }
   }
 
@@ -238,7 +231,6 @@ section {
   margin-bottom: var(--space-4);
 }
 
-/* Handle, homepage, email under an author's name. */
 .author-meta {
   gap: var(--space-4);
   margin-top: var(--space-2);
@@ -251,7 +243,6 @@ section {
     color: var(--muted-foreground);
     text-decoration: none;
 
-    /* Icons are flat-grey in the file — <img> can't inherit currentColor. */
     .icon {
       flex-shrink: 0;
     }
@@ -259,6 +250,56 @@ section {
     &:hover {
       color: var(--primary);
       text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    background-size: auto 60%;
+    background-position: left bottom;
+    margin-block-end: var(--space-10);
+  }
+
+  .hero-map {
+    opacity: 0.25;
+  }
+
+  .hero-nav {
+    padding-block: var(--space-4);
+
+    .links {
+      gap: var(--space-5);
+    }
+  }
+
+  .topbar {
+    margin-block-end: var(--space-8);
+  }
+
+  section {
+    margin-block-end: var(--space-12);
+  }
+
+  .section-head {
+    margin-bottom: var(--space-6);
+  }
+
+  .project-grid {
+    gap: var(--space-10);
+  }
+
+  .card .thumb {
+    margin-bottom: var(--space-6);
+  }
+
+  .author-head {
+    margin-block-end: var(--space-6);
+
+    .avatar {
+      width: 56px;
+      height: 56px;
     }
   }
 }

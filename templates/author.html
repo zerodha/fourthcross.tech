@@ -5,11 +5,6 @@
 {% block description %}Open source projects by @{{ page.extra.github }} at {{ config.title }}.{% endblock description %}
 
 {% block body %}
-{# The page itself is generated from data/authors.yml by build.py; everything
-   under page.extra comes from there. The project list is aggregated here
-   exactly as in index.html — see the note there. Featured comes first, then
-   everything else by stars. Filtered on author_github rather than on the
-   filename, since an org's file can hold repos authored by a maintainer. #}
 {% set_global projects = [] %}
 {% for f in config.extra.project_files %}
   {% set_global projects = projects | concat(with=load_data(path="data/projects/" ~ f ~ ".yml")) %}

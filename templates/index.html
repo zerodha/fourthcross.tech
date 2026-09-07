@@ -6,10 +6,6 @@
 {% block body %}
 {% set featured = load_data(path="data/featured.yml") %}
 
-{# One data file per GitHub owner, enumerated in config.extra.project_files,
-   aggregated and re-sorted by stars. set_global is required — a plain set
-   inside a for loop is scoped to the iteration, and it does not survive an
-   include, so this loop is repeated verbatim in author.html. #}
 {% set_global projects = [] %}
 {% for f in config.extra.project_files %}
   {% set_global projects = projects | concat(with=load_data(path="data/projects/" ~ f ~ ".yml")) %}
@@ -28,7 +24,7 @@
   <section id="projects">
     <div class="section-head">
       <h2>Featured projects ({{ featured | length }})</h2>
-      <p>Full-featured, self-hosted applications ready to run out of the box.</p>
+      <p>Full-featured, self-hosted applications ready to run out of the box. <img src="{{ get_url(path='dog.svg') }}" alt="Dog icon" height="14" style="vertical-align: middle" /> icon indicates projects dog-fooded and in use in production at <a href="https://zerodha.tech"s>Zerodha</a></p>
     </div>
     {{ project::grid(projects=featured, class="wide") }}
   </section>
