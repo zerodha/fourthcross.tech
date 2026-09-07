@@ -74,7 +74,7 @@
   repo_url: https://github.com/abhinavxd/libredesk
   homepage_url: https://libredesk.io
   image: libredesk.png
-  logo: logos/libredesk.svg
+  logo: logos/libredesk.png
   author_github: abhinavxd
 
 - name: logchef
@@ -143,8 +143,8 @@
   github_uri: shridarpatil/whatomate
   repo_url: https://github.com/shridarpatil/whatomate
   homepage_url: https://whatomate.io
-  image:
-  logo:
+  image: whatomate.png
+  logo: logos/whatomate.svg
   author_github: shridarpatil
 
 - name: otpgateway
@@ -190,7 +190,7 @@
   github_uri: cvhariharan/flowctl
   repo_url: https://github.com/cvhariharan/flowctl
   homepage_url: https://flowctl.net
-  image:
+  image: flowctl.png
   logo:
   author_github: cvhariharan
 
@@ -265,8 +265,8 @@
   github_uri: lebmatter/exampro
   repo_url: https://github.com/lebmatter/exampro
   homepage_url:
-  image:
-  logo:
+  image: examstudio.png
+  logo: logos/exampro.png
   author_github: lebmatter
 
 - name: bureaucat
@@ -287,7 +287,7 @@
   repo_url: https://github.com/bureaucatorg/bureaucat
   homepage_url: https://bureaucat.org
   image: bureaucat.png
-  logo:
+  logo: logos/bureaucat.png
   author_github:
 
 - name: oore.build
@@ -308,7 +308,7 @@
   github_uri: oore-ci/oore.build
   repo_url: https://github.com/oore-ci/oore.build
   homepage_url: https://oore.build
-  image:
+  image: oore-build.png
   logo:
   author_github:
 
@@ -345,7 +345,7 @@
   github_uri: cvhariharan/checkpost
   repo_url: https://github.com/cvhariharan/checkpost
   homepage_url: https://checkpost.dev
-  image:
+  image: checkpost.png
   logo:
   author_github: cvhariharan
 
@@ -361,6 +361,31 @@
   github_uri: toriigateorg/torii
   repo_url: https://github.com/toriigateorg/torii
   homepage_url: https://toriigate.org
-  image:
+  image: torii.png
   logo:
   author_github:
+
+- name: dictpress
+  description: A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language.
+  category: services
+  dogfood: false
+  language: Rust
+  license: AGPL-3.0
+  stars: 466
+  topics:
+    - academic
+    - academic-website
+    - dictionary
+    - dictionary-application
+    - language
+    - language-processing
+    - publishing
+    - thesaurus
+    - wordlist
+  updated_at: "2026-07-02T05:25:52Z"
+  github_uri: knadh/dictpress
+  repo_url: https://github.com/knadh/dictpress
+  homepage_url: https://dict.press
+  image: dictpress.png
+  logo: logos/dictpress.svg
+  author_github: knadh

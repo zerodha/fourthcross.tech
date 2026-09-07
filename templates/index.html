@@ -40,28 +40,5 @@
     </div>
     {{ project::grid(projects=projects) }}
   </section>
-
-  <section class="band">
-    <div class="container">
-      <h2>Dog-fooded</h2>
-      <p>Every project listed here is software we run in production at {{ config.title }}. We build in the open
-         because good infrastructure should be accessible &mdash; not locked behind enterprise pricing.</p>
-
-      <div class="row">
-        <div class="col-4">
-          <h3>Self-hosted first</h3>
-          <p>Every app ships as a compact, dependency-free binary you run on your own infrastructure.</p>
-        </div>
-        <div class="col-4">
-          <h3>Dog-fooded daily</h3>
-          <p>We run each project in production. If it breaks for you, it breaks for us too.</p>
-        </div>
-        <div class="col-4">
-          <h3>Permissive licenses</h3>
-          <p>Apache 2.0, MIT, AGPL &mdash; pick what works for your use case.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 </main>
 {% endblock body %}

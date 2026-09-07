@@ -1,13 +1,7 @@
-<footer class="container">
+<footer class="container footer">
   <div class="row">
     <div class="col-6">
-      <strong><a href="{{ get_url(path='@/_index.md') }}">{{ config.title }}</a></strong>
-      <p>{{ config.extra.tagline }}</p>
+      &copy; {{ now() | date(format='%Y') }} - {{ config.title }}
     </div>
-    <nav class="col-6 meta hstack">
-      <a href="{{ config.extra.github_url }}">GitHub</a>
-      <a href="{{ config.extra.blog_url }}">Blog</a>
-    </nav>
   </div>
-  <p><small>&copy; {{ now() | date(format='%Y') }} {{ config.title }}</small></p>
 </footer>

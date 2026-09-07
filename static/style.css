@@ -234,10 +234,8 @@ section {
   }
 }
 
-.band {
-  margin: var(--space-16) 0;
-  padding: var(--space-16) 0;
-  background: var(--muted);
+.footer {
+  margin-bottom: var(--space-4);
 }
 
 /* Handle, homepage, email under an author's name. */

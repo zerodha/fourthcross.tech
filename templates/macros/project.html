@@ -30,9 +30,9 @@
     </div>
   </div>
 
-  <div class="mt-4">{{ p.description }}</div>
+  <div class="description">{{ p.description }}</div>
 
-  <div class="hstack meta mt-4">
+  <div class="hstack meta">
     {% if p.author_github %}
     {# Links to the maintainer's page, not to GitHub. Resolving the stub here is
        what turns a missing content/authors/<handle>.md into a build error. #}

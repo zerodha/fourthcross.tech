@@ -54,7 +54,7 @@
   repo_url: https://github.com/knadh/koanf
   homepage_url:
   image:
-  logo: koan-logo.png
+  logo: logos/koanf.png
   author_github: knadh
 
 - name: dns.toys
@@ -144,31 +144,6 @@
   logo:
   author_github: knadh
 
-- name: dictpress
-  description: A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language.
-  category: services
-  dogfood: false
-  language: Rust
-  license: AGPL-3.0
-  stars: 466
-  topics:
-    - academic
-    - academic-website
-    - dictionary
-    - dictionary-application
-    - language
-    - language-processing
-    - publishing
-    - thesaurus
-    - wordlist
-  updated_at: "2026-07-02T05:25:52Z"
-  github_uri: knadh/dictpress
-  repo_url: https://github.com/knadh/dictpress
-  homepage_url: https://dict.press
-  image:
-  logo:
-  author_github: knadh
-
 - name: hugo-ink
   description: Crisp, minimal personal website and blog theme for Hugo
   category: utils
@@ -223,22 +198,6 @@
   updated_at: "2025-05-02T15:56:38Z"
   github_uri: knadh/xmlutils.py
   repo_url: https://github.com/knadh/xmlutils.py
-  homepage_url:
-  image:
-  logo:
-  author_github: knadh
-
-- name: dont.build
-  description: A simple, opinionated decision system to help decide whether to build a software feature or not.
-  category: utils
-  dogfood: false
-  language: HTML
-  license:
-  stars: 233
-  topics: []
-  updated_at: "2023-10-24T13:55:18Z"
-  github_uri: knadh/dont.build
-  repo_url: https://github.com/knadh/dont.build
   homepage_url:
   image:
   logo:
