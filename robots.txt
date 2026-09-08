@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://4thcrosslabs.org/sitemap.xml
+Sitemap: https://fourthcross.tech/sitemap.xml
