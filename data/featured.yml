@@ -214,7 +214,7 @@
   repo_url: https://github.com/iamd3vil/blobasaur
   homepage_url:
   image:
-  logo:
+  logo: logos/blobasaur.svg
   author_github: iamd3vil
 
 - name: hedwig
