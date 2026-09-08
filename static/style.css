@@ -168,12 +168,6 @@ section {
     margin-bottom: var(--space-4);
   }
 
-  .logo {
-    display: block;
-    width: auto;
-    height: 22px;
-  }
-
   .badges {
     align-items: center;
     gap: var(--space-2);
@@ -189,7 +183,6 @@ section {
     display: inline-flex;
     align-items: center;
     gap: var(--space-1);
-    color: var(--muted-foreground);
     font-variant-numeric: tabular-nums;
     text-decoration: none;
 
@@ -199,8 +192,22 @@ section {
   }
 
   .meta {
+    align-items: center;
     margin-top: auto;
     padding-top: var(--space-4);
+  }
+
+  .meta .logo {
+    display: block;
+    margin-left: auto;
+    flex-shrink: 0;
+    line-height: 0;
+
+    img {
+      display: block;
+      width: auto;
+      height: 22px;
+    }
   }
 }
 

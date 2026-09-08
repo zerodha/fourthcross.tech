@@ -12,11 +12,7 @@
 
   <div class="hstack head">
     <a class="title" href="{{ url }}">
-      {% if p.logo %}
-        <img class="logo" src="{{ get_url(path=p.logo) }}" alt="{{ p.name }}">
-      {% else %}
-        <h3>{{ p.name }}</h3>
-      {% endif %}
+      <h3>{{ p.name }}</h3>
     </a>
 
     <div class="hstack badges">
@@ -35,6 +31,10 @@
   <div class="hstack meta">
     {% if p.author_github %}
     <a class="badge author" href="{{ get_url(path='@/authors/' ~ p.author_github ~ '.md') }}">@{{ p.author_github }}</a>
+    {% endif %}
+
+    {% if p.logo %}
+    <a class="logo" href="{{ url }}"><img src="{{ get_url(path=p.logo) }}" alt="{{ p.name }}"></a>
     {% endif %}
   </div>
 </article>
