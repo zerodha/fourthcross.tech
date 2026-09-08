@@ -4,13 +4,34 @@ on:
   push:
     branches:
       - master
+  schedule:
+    # Github sync weekly.
+    - cron: '0 3 * * 1'
+  # Manual run from the UI when necessary.
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'What to run'
+        type: choice
+        default: sync
+        options:
+          - sync
+          - build
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-site
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: master
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -20,8 +41,27 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Sync from GitHub
+        if: github.event_name == 'schedule' || inputs.mode == 'sync'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python build.py sync-github
+          if git diff --quiet -- data/; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git commit -m 'Sync project metadata from GitHub.'
+          # master may have moved while the sync was running.
+          git pull --rebase origin master
+          git push
+
       - name: Generate content
-        run: python build.py
+        run: python build.py build
 
       - name: Setup Zola
         uses: taiki-e/install-action@v2

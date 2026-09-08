@@ -9,3 +9,12 @@ make build
 
 zola serve
 ```
+
+## Syncing project metadata
+
+`build.py sync-github` refreshes project's stars, description etc. via Github API.
+
+
+```sh
+make sync
+```
