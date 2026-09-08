@@ -389,3 +389,19 @@
   image: dictpress.png
   logo: logos/dictpress.svg
   author_github: knadh
+
+- name: suchi
+  description: Document management as one Go binary. SQLite-first, content-addressed blobs.
+  category: apps
+  dogfood: true
+  language: Go
+  license: AGPL-3.0
+  stars: 15
+  topics: []
+  updated_at: "2026-09-01T05:56:24Z"
+  github_uri: johnnybravo-xyz/suchi
+  repo_url: https://github.com/johnnybravo-xyz/suchi
+  homepage_url: https://suchi.page
+  image: suchi.png
+  logo: logos/suchi.svg
+  author_github: johnnybravo-xyz
