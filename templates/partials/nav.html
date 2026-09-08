@@ -1,8 +1,9 @@
 <nav class="hero-nav container">
   {% if brand %}<a class="brand" href="{{ get_url(path='@/_index.md') }}">{{ config.title }}</a>{% endif %}
-  <div class="hstack links">
-    <a href="{{ get_url(path='@/_index.md') }}#projects">Projects</a>
-    <a href="{{ config.extra.blog_url }}">Blog</a>
-    <a href="{{ config.extra.github_url }}">GitHub</a>
-  </div>
+  <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle light/dark theme" title="Toggle light/dark theme">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="4.5"/>
+      <path d="M12 1.5v2.5M12 20v2.5M3.6 3.6l1.8 1.8M18.6 18.6l1.8 1.8M1.5 12h2.5M20 12h2.5M3.6 20.4l1.8-1.8M18.6 5.4l1.8-1.8"/>
+    </svg>
+  </button>
 </nav>
