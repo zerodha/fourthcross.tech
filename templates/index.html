@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import "macros/project.html" as project %}
 
-{% block title %}{{ config.title }} &mdash; {{ config.extra.tagline }}{% endblock title %}
+{% block title %}{{ config.title }} / {{ config.extra.tagline }}{% endblock title %}
 
 {% block body %}
 {% set featured = load_data(path="data/featured.yml") %}
@@ -15,7 +15,7 @@
 <header class="hero">
   {% include "partials/nav.html" %}
   <div class="hero-inner container">
-    <h1>{{ section.title }}</h1>
+    <h1>4th Cross Labs</h1>
     <p class="intro">{{ section.extra.intro }}</p>
 
     <br />

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import "macros/project.html" as project %}
 
-{% block title %}{{ page.title }} (@{{ page.extra.github }}) &mdash; {{ config.title }}{% endblock title %}
+{% block title %}{{ page.title }} (@{{ page.extra.github }}) / {{ config.title }}{% endblock title %}
 {% block description %}Open source projects by @{{ page.extra.github }} at {{ config.title }}.{% endblock description %}
 
 {% block body %}
