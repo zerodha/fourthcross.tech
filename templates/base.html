@@ -38,15 +38,18 @@
     (() => {
       const root = document.documentElement;
       const store = (() => { try { return localStorage } catch { return null } })();
-      const saved = store && store.getItem("theme");
-      if (saved) root.dataset.theme = saved;
+      // Light theme is default.
+      const apply = (theme) => {
+        root.dataset.theme = theme;
+        root.style.colorScheme = theme;
+      };
+
+      apply(store && store.getItem("theme") === "dark" ? "dark" : "light");
 
       addEventListener("click", (e) => {
         if (!e.target.closest("[data-theme-toggle]")) return;
-        const current = root.dataset.theme ||
-          (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-        const next = current === "dark" ? "light" : "dark";
-        root.dataset.theme = next;
+        const next = root.dataset.theme === "dark" ? "light" : "dark";
+        apply(next);
         if (store) store.setItem("theme", next);
       });
     })();
