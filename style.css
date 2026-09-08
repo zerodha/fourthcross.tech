@@ -182,6 +182,31 @@ section {
       object-fit: cover;
       object-position: top;
     }
+
+    &.placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-6);
+      text-decoration: none;
+
+      img {
+        width: auto;
+        height: auto;
+        max-width: 55%;
+        max-height: 32%;
+        object-fit: contain;
+      }
+
+      &:empty::after {
+        content: attr(data-name);
+        font-size: var(--text-2);
+        font-weight: var(--font-semibold);
+        color: var(--foreground);
+        opacity: 0.2;
+        text-align: center;
+      }
+    }
   }
 
   .head {
@@ -242,7 +267,7 @@ section {
   }
 }
 
-.project-grid:not(.wide) .thumb:empty {
+.project-grid:not(.wide) .thumb.placeholder {
   display: none;
 }
 
