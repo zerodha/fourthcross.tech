@@ -3,15 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
 
+  {%- block meta %}
+    {% set_global meta_title = config.title %}
+    {% set_global meta_description = config.description %}
+  {% endblock meta %}
+
+  <title>{{ meta_title }}</title>
+  <meta name="description" content="{{ meta_description }}">
+
+  <link rel="canonical" href="{{ current_url | default(value=config.base_url) }}">
   <link rel="icon" href="{{ get_url(path='favicon.svg') }}">
   <link rel="stylesheet" href="{{ get_url(path='oat.min.css') }}">
   <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
   <script src="{{ get_url(path='oat.min.js') }}" defer></script>
 
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:url" content="{{ current_url | default(value=config.base_url) }}">
+  <meta property="og:title" content="{{ meta_title }}">
+  <meta property="og:description" content="{{ meta_description }}">
   <meta property="og:image" content="{{ get_url(path='thumb.png') }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="751">
+  <meta property="og:image:height" content="751">
+  <meta property="og:image:alt" content="{{ config.title }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ meta_title }}">
+  <meta name="twitter:description" content="{{ meta_description }}">
+  <meta name="twitter:image" content="{{ get_url(path='thumb.png') }}">
 
   <script>
     (() => {

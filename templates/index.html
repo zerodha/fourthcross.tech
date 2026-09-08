@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 {% import "macros/project.html" as project %}
 
-{% block title %}{{ config.title }} / {{ config.extra.tagline }}{% endblock title %}
+{% block meta %}
+  {% set_global meta_title = config.title ~ " / " ~ config.extra.tagline %}
+  {% set_global meta_description = config.description %}
+{% endblock meta %}
 
 {% block body %}
 {% set featured = load_data(path="data/featured.yml") %}

@@ -1,8 +1,10 @@
 {% extends "base.html" %}
 {% import "macros/project.html" as project %}
 
-{% block title %}{{ page.title }} (@{{ page.extra.github }}) / {{ config.title }}{% endblock title %}
-{% block description %}Open source projects by @{{ page.extra.github }} at {{ config.title }}.{% endblock description %}
+{% block meta %}
+  {% set_global meta_title = page.title ~ " (@" ~ page.extra.github ~ ") / " ~ config.title %}
+  {% set_global meta_description = "Open source projects by @" ~ page.extra.github ~ " at " ~ config.title ~ "." %}
+{% endblock meta %}
 
 {% block body %}
 {% set_global projects = [] %}
