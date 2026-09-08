@@ -8,7 +8,11 @@
 {% macro card(p) %}
 {% if p.homepage_url %}{% set url = p.homepage_url %}{% else %}{% set url = p.repo_url %}{% endif %}
 <article class="card">
-  <a class="thumb" href="{{ url }}">{% if p.image %}<img src="{{ get_url(path=p.image) }}" alt="{{ p.name }} screenshot">{% endif %}</a>
+  {% if p.image %}
+  <a class="thumb" href="{{ url }}"><img src="{{ get_url(path=p.image) }}" alt="{{ p.name }} screenshot"></a>
+  {% else %}
+  <a class="thumb placeholder" href="{{ url }}" data-name="{{ p.name }}">{% if p.logo %}<img src="{{ get_url(path=p.logo) }}" alt="{{ p.name }}">{% endif %}</a>
+  {% endif %}
 
   <div class="hstack head">
     <a class="title" href="{{ url }}">
