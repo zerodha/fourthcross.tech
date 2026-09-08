@@ -2,17 +2,17 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: moat
-  description: Markdown + Oat static site generator
+  description: markdown + oat static site generator
   category: utils
   dogfood: false
   language: Go
   license:
   stars: 3
   topics: []
-  updated_at: "2026-07-02T11:51:28Z"
+  updated_at: "2026-08-20T10:36:56Z"
   github_uri: oddship/moat
   repo_url: https://github.com/oddship/moat
-  homepage_url:
+  homepage_url: https://oddship.github.io/moat/
   image:
   logo:
   author_github:
@@ -23,9 +23,9 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 2
+  stars: 3
   topics: []
-  updated_at: "2026-08-10T13:26:27Z"
+  updated_at: "2026-09-02T10:55:53Z"
   github_uri: oddship/esgun
   repo_url: https://github.com/oddship/esgun
   homepage_url:

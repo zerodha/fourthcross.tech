@@ -2,12 +2,12 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: pi-websearch-crawl4ai
-  description: A pi extension to let your LLM crawl and see the web
+  description: a pi extension to let your LLM crawl & see the web
   category: libs
   dogfood: false
   language: HTML
   license: MIT
-  stars: 5
+  stars: 6
   topics:
     - crawler
     - llm
@@ -18,18 +18,18 @@
   updated_at: "2026-04-26T19:15:04Z"
   github_uri: codingCoffee/pi-websearch-crawl4ai
   repo_url: https://github.com/codingCoffee/pi-websearch-crawl4ai
-  homepage_url: https://pi-websearch-crawl4ai.codingcoffee.dev
+  homepage_url: https://pi-websearch-crawl4ai.codingcoffee.dev/
   image:
   logo:
   author_github: codingcoffee
 
 - name: pi-privacy-filter
-  description: A pi extension that redacts PII from data before it reaches the LLM
+  description: a pi extension to make sure PII data is redacted before reaching the LLM
   category: libs
   dogfood: false
   language: HTML
   license: MIT
-  stars: 3
+  stars: 4
   topics:
     - filter
     - llm
@@ -52,7 +52,7 @@
   dogfood: false
   language: Go
   license: Apache-2.0
-  stars: 2
+  stars: 3
   topics: []
   updated_at: "2026-06-24T11:34:24Z"
   github_uri: codingCoffee/osquery-nftables-ext
@@ -67,10 +67,10 @@
   category: utils
   dogfood: false
   language: Go
-  license:
-  stars: 1
+  license: MIT
+  stars: 2
   topics: []
-  updated_at: "2026-07-01T11:54:23Z"
+  updated_at: "2026-08-25T07:07:18Z"
   github_uri: codingCoffee/openmetadata-ingestion-go
   repo_url: https://github.com/codingCoffee/openmetadata-ingestion-go
   homepage_url:

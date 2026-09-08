@@ -2,14 +2,14 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: terraform-provider-warpgate
-  description: Terraform Provider for WarpGate
+  description: Terraform Provider for Warpgate
   category: services
   dogfood: false
   language: Go
   license:
-  stars: 6
+  stars: 27
   topics: []
-  updated_at: "2025-03-27T07:09:20Z"
+  updated_at: "2026-09-02T23:31:16Z"
   github_uri: warp-tech/terraform-provider-warpgate
   repo_url: https://github.com/warp-tech/terraform-provider-warpgate
   homepage_url:

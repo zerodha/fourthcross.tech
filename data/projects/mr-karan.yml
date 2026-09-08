@@ -2,20 +2,20 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: doggo
-  description: Command-line DNS client for humans. Written in Go.
+  description: ":dog: Command-line DNS Client for Humans. Written in Golang"
   category: utils
   dogfood: false
   language: Go
   license: GPL-3.0
-  stars: 4434
+  stars: 4467
   topics:
     - dns
     - dns-client
     - doh
-  updated_at: "2026-08-19T14:08:31Z"
+  updated_at: "2026-09-01T09:47:04Z"
   github_uri: mr-karan/doggo
   repo_url: https://github.com/mr-karan/doggo
-  homepage_url: https://doggo.mrkaran.dev
+  homepage_url: https://doggo.mrkaran.dev/
   image:
   logo:
   author_github: mr-karan
@@ -26,7 +26,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 171
+  stars: 208
   topics:
     - alerting
     - alertmanager
@@ -34,9 +34,9 @@
     - google-chat
     - monitoring
     - prometheus
-  updated_at: "2024-10-08T09:22:20Z"
-  github_uri: mr-karan/cAlert
-  repo_url: https://github.com/mr-karan/cAlert
+  updated_at: "2026-07-29T07:57:23Z"
+  github_uri: mr-karan/calert
+  repo_url: https://github.com/mr-karan/calert
   homepage_url:
   image:
   logo:
@@ -48,7 +48,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 160
+  stars: 161
   topics:
     - gitops
     - kubernetes
@@ -67,10 +67,10 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 54
+  stars: 58
   topics:
     - nomad
-  updated_at: "2024-10-10T07:33:34Z"
+  updated_at: "2026-08-17T11:51:33Z"
   github_uri: mr-karan/nomctx
   repo_url: https://github.com/mr-karan/nomctx
   homepage_url:
@@ -84,7 +84,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 53
+  stars: 55
   topics:
     - nomad
   updated_at: "2023-06-21T05:45:50Z"
@@ -101,7 +101,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 32
+  stars: 34
   topics:
     - devops
     - exporter
@@ -124,7 +124,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 24
+  stars: 25
   topics:
     - kite
     - terraform
@@ -144,7 +144,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 11
+  stars: 13
   topics: []
   updated_at: "2020-09-22T09:15:47Z"
   github_uri: mr-karan/simplehealth
@@ -160,7 +160,7 @@
   dogfood: true
   language: Jinja
   license: MIT
-  stars: 11
+  stars: 13
   topics:
     - consul
     - nomad
@@ -178,7 +178,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 8
+  stars: 12
   topics:
     - kong
   updated_at: "2021-03-30T06:45:29Z"
@@ -195,7 +195,7 @@
   dogfood: false
   language: Dockerfile
   license: MIT
-  stars: 6
+  stars: 10
   topics: []
   updated_at: "2022-01-27T14:53:13Z"
   github_uri: mr-karan/eks-gitops

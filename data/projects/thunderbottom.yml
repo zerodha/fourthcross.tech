@@ -7,7 +7,7 @@
   dogfood: true
   language: Go
   license: 0BSD
-  stars: 32
+  stars: 43
   topics: []
   updated_at: "2020-11-09T23:06:51Z"
   github_uri: Thunderbottom/grafana-export
@@ -23,7 +23,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 20
+  stars: 25
   topics: []
   updated_at: "2020-09-30T08:11:01Z"
   github_uri: Thunderbottom/aws-exporter
@@ -34,17 +34,17 @@
   author_github: thunderbottom
 
 - name: damon
-  description: Nomad Events Stream Operator to automate mundane tasks
+  description: Automate routine Nomad tasks by responding to cluster events
   category: services
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 6
+  stars: 18
   topics:
     - golang
     - hashicorp
     - nomad
-  updated_at: "2025-04-21T19:23:26Z"
+  updated_at: "2025-05-02T09:01:38Z"
   github_uri: Thunderbottom/damon
   repo_url: https://github.com/Thunderbottom/damon
   homepage_url:

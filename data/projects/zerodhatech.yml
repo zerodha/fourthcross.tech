@@ -7,11 +7,11 @@
   dogfood: true
   language: Python
   license:
-  stars: 130
+  stars: 170
   topics: []
-  updated_at: "2025-04-28T05:43:13Z"
-  github_uri: zerodhatech/Frappe-attachments-s3
-  repo_url: https://github.com/zerodhatech/Frappe-attachments-s3
+  updated_at: "2026-03-11T10:44:29Z"
+  github_uri: zerodha/frappe-attachments-s3
+  repo_url: https://github.com/zerodha/frappe-attachments-s3
   homepage_url:
   image:
   logo:
@@ -23,11 +23,11 @@
   dogfood: false
   language: Python
   license:
-  stars: 55
+  stars: 65
   topics: []
   updated_at: "2023-11-30T08:20:55Z"
-  github_uri: zerodhatech/rbiparser
-  repo_url: https://github.com/zerodhatech/rbiparser
+  github_uri: zerodha/rbiparser
+  repo_url: https://github.com/zerodha/rbiparser
   homepage_url:
   image:
   logo:
@@ -39,11 +39,11 @@
   dogfood: true
   language: Python
   license: MIT
-  stars: 30
+  stars: 41
   topics: []
-  updated_at: "2023-06-30T22:19:59Z"
-  github_uri: zerodhatech/pdf_text_overlay
-  repo_url: https://github.com/zerodhatech/pdf_text_overlay
+  updated_at: "2025-05-09T05:51:31Z"
+  github_uri: zerodha/pdf_text_overlay
+  repo_url: https://github.com/zerodha/pdf_text_overlay
   homepage_url:
   image:
   logo:
@@ -55,11 +55,11 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 19
+  stars: 21
   topics: []
   updated_at: "2020-07-22T10:44:16Z"
-  github_uri: zerodhatech/rms-consolidated-scrips-status
-  repo_url: https://github.com/zerodhatech/rms-consolidated-scrips-status
+  github_uri: zerodha/rms-consolidated-scrips-status
+  repo_url: https://github.com/zerodha/rms-consolidated-scrips-status
   homepage_url:
   image:
   logo:
@@ -71,11 +71,11 @@
   dogfood: false
   language: Python
   license:
-  stars: 12
+  stars: 16
   topics: []
   updated_at: "2020-09-22T05:13:33Z"
-  github_uri: zerodhatech/subscription_coupons
-  repo_url: https://github.com/zerodhatech/subscription_coupons
+  github_uri: zerodha/subscription_coupons
+  repo_url: https://github.com/zerodha/subscription_coupons
   homepage_url:
   image:
   logo:

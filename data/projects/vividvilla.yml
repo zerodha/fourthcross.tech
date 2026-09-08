@@ -2,17 +2,20 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: csvtotable
-  description: Simple command-line utility to convert CSV files to searchable and sortable HTML table.
+  description: Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, filters, and sorting
   category: utils
   dogfood: false
-  language: Python
+  language: Go
   license: MIT
-  stars: 1136
-  topics: []
-  updated_at: "2021-01-05T11:46:14Z"
+  stars: 1178
+  topics:
+    - cli
+    - data-visualization
+    - golang
+  updated_at: "2026-08-24T07:56:24Z"
   github_uri: vividvilla/csvtotable
   repo_url: https://github.com/vividvilla/csvtotable
-  homepage_url:
+  homepage_url: https://vividvilla.github.io/csvtotable/
   image:
   logo:
   author_github: vividvilla
@@ -23,12 +26,16 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 444
-  topics: []
-  updated_at: "2023-10-31T00:42:47Z"
+  stars: 443
+  topics:
+    - hugo
+    - hugo-blog
+    - hugo-theme
+    - theme
+  updated_at: "2026-08-23T16:45:13Z"
   github_uri: vividvilla/ezhil
   repo_url: https://github.com/vividvilla/ezhil
-  homepage_url:
+  homepage_url: https://vividvilla.github.io/ezhil/
   image:
   logo:
   author_github: vividvilla
@@ -39,7 +46,7 @@
   dogfood: true
   language: Go
   license:
-  stars: 45
+  stars: 54
   topics: []
   updated_at: "2020-04-24T05:52:18Z"
   github_uri: vividvilla/lil
@@ -50,14 +57,14 @@
   author_github: vividvilla
 
 - name: gotp
-  description: Simple utility to live preview Go templates with custom data
+  description: Live preview and render Go templates with custom data, in the browser or on the command line.
   category: utils
   dogfood: true
-  language: HTML
+  language: Go
   license: MIT
   stars: 43
   topics: []
-  updated_at: "2025-09-09T12:23:50Z"
+  updated_at: "2026-08-24T08:09:56Z"
   github_uri: vividvilla/gotp
   repo_url: https://github.com/vividvilla/gotp
   homepage_url:
@@ -71,7 +78,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 14
+  stars: 17
   topics: []
   updated_at: "2018-11-09T07:47:10Z"
   github_uri: vividvilla/consul-cfg

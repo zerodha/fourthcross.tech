@@ -2,7 +2,7 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: spoofdb
-  description: One db to spoof them all. Mock server speaking the wire protocols of Postgres, MySQL, Redis, ClickHouse and DuckDB.
+  description: One db to spoof them all.
   category: utils
   dogfood: true
   language: Go
@@ -35,7 +35,7 @@
   dogfood: false
   language: Rust
   license:
-  stars: 0
+  stars: 1
   topics: []
   updated_at: "2026-06-04T06:01:38Z"
   github_uri: satya10x/pg-relay

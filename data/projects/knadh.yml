@@ -7,7 +7,7 @@
   dogfood: true
   language: CSS
   license: MIT
-  stars: 5458
+  stars: 5482
   topics:
     - component-library
     - css
@@ -34,7 +34,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 4168
+  stars: 4192
   topics:
     - config
     - config-loader
@@ -49,7 +49,7 @@
     - toml
     - viper
     - yaml
-  updated_at: "2026-08-09T18:08:10Z"
+  updated_at: "2026-09-02T07:23:56Z"
   github_uri: knadh/koanf
   repo_url: https://github.com/knadh/koanf
   homepage_url:
@@ -63,7 +63,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 2821
+  stars: 2826
   topics:
     - dns
     - dns-server
@@ -84,7 +84,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 1163
+  stars: 1172
   topics:
     - exporter
     - static-site
@@ -129,7 +129,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 900
+  stars: 902
   topics:
     - dom-manipulation
     - drag-and-drop
@@ -139,7 +139,7 @@
   updated_at: "2024-04-13T06:11:07Z"
   github_uri: knadh/dragmove.js
   repo_url: https://github.com/knadh/dragmove.js
-  homepage_url:
+  homepage_url: https://knadh.github.io/dragmove.js/docs/
   image:
   logo:
   author_github: knadh
@@ -161,7 +161,7 @@
   updated_at: "2025-05-16T06:05:51Z"
   github_uri: knadh/hugo-ink
   repo_url: https://github.com/knadh/hugo-ink
-  homepage_url:
+  homepage_url: https://hugo-ink.netlify.app
   image:
   logo:
   author_github: knadh
@@ -182,7 +182,7 @@
   updated_at: "2025-11-30T15:25:53Z"
   github_uri: knadh/autocomp.js
   repo_url: https://github.com/knadh/autocomp.js
-  homepage_url:
+  homepage_url: https://knadh.github.io/autocomp.js
   image:
   logo:
   author_github: knadh
@@ -198,7 +198,7 @@
   updated_at: "2025-05-02T15:56:38Z"
   github_uri: knadh/xmlutils.py
   repo_url: https://github.com/knadh/xmlutils.py
-  homepage_url:
+  homepage_url: http://nadh.in/code/xmlutils.py
   image:
   logo:
   author_github: knadh
@@ -209,7 +209,7 @@
   dogfood: true
   language: Go
   license:
-  stars: 203
+  stars: 204
   topics: []
   updated_at: "2026-06-28T06:35:42Z"
   github_uri: knadh/stuffbin
@@ -225,14 +225,14 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 180
+  stars: 182
   topics:
     - email-client
     - email-sender
     - pool
     - smtp
     - smtp-client
-  updated_at: "2026-04-30T15:13:31Z"
+  updated_at: "2026-08-31T08:54:51Z"
   github_uri: knadh/smtppool
   repo_url: https://github.com/knadh/smtppool
   homepage_url:
@@ -274,7 +274,7 @@
   updated_at: "2024-08-26T08:12:47Z"
   github_uri: knadh/floatype.js
   repo_url: https://github.com/knadh/floatype.js
-  homepage_url:
+  homepage_url: https://knadh.github.io/floatype.js
   image:
   logo:
   author_github: knadh
@@ -296,7 +296,7 @@
   updated_at: "2026-02-15T11:33:44Z"
   github_uri: knadh/tinyrouter.js
   repo_url: https://github.com/knadh/tinyrouter.js
-  homepage_url:
+  homepage_url: https://knadh.github.io/tinyrouter.js/demo
   image:
   logo:
   author_github: knadh
@@ -307,7 +307,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 131
+  stars: 132
   topics:
     - bandwidth-saver
     - browser-cache
@@ -372,7 +372,7 @@
   updated_at: "2025-04-26T15:45:08Z"
   github_uri: knadh/highlighted-input.js
   repo_url: https://github.com/knadh/highlighted-input.js
-  homepage_url:
+  homepage_url: https://knadh.github.io/highlighted-input.js
   image:
   logo:
   author_github: knadh
@@ -403,7 +403,7 @@
   dogfood: true
   language: Go
   license: BSD-2-Clause
-  stars: 73
+  stars: 76
   topics:
     - mysql
     - postgresql
@@ -467,7 +467,7 @@
   updated_at: "2025-05-01T14:46:42Z"
   github_uri: knadh/tinytabs
   repo_url: https://github.com/knadh/tinytabs
-  homepage_url:
+  homepage_url: https://knadh.github.io/tinytabs
   image:
   logo:
   author_github: knadh
@@ -490,7 +490,7 @@
   updated_at: "2023-05-23T09:50:33Z"
   github_uri: knadh/wordpluck
   repo_url: https://github.com/knadh/wordpluck
-  homepage_url:
+  homepage_url: https://wordpluck.netlify.com
   image:
   logo:
   author_github: knadh
@@ -544,7 +544,7 @@
   dogfood: false
   language: Rust
   license: Apache-2.0
-  stars: 38
+  stars: 39
   topics:
     - element
     - matrix
@@ -627,7 +627,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 23
+  stars: 24
   topics: []
   updated_at: "2025-10-26T08:14:23Z"
   github_uri: knadh/go-i18n
@@ -690,7 +690,7 @@
   updated_at: "2024-01-08T06:20:22Z"
   github_uri: knadh/scylladb-metrics
   repo_url: https://github.com/knadh/scylladb-metrics
-  homepage_url:
+  homepage_url: https://knadh.github.io/scylladb-metrics/
   image:
   logo:
   author_github: knadh

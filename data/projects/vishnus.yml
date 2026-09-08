@@ -7,11 +7,11 @@
   dogfood: false
   language: PHP
   license: MIT
-  stars: 11
+  stars: 13
   topics: []
   updated_at: "2017-12-01T10:50:48Z"
-  github_uri: vishnus/osticket-autoassign
-  repo_url: https://github.com/vishnus/osticket-autoassign
+  github_uri: zerodha/osticket-autoassign
+  repo_url: https://github.com/zerodha/osticket-autoassign
   homepage_url:
   image:
   logo:

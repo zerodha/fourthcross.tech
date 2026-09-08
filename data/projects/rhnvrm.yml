@@ -27,9 +27,9 @@
   dogfood: false
   language: Go
   license: BSD-2-Clause
-  stars: 68
+  stars: 137
   topics: []
-  updated_at: "2024-09-21T17:23:03Z"
+  updated_at: "2026-08-10T14:26:06Z"
   github_uri: rhnvrm/linkpage
   repo_url: https://github.com/rhnvrm/linkpage
   homepage_url:
@@ -38,33 +38,33 @@
   author_github: rhnvrm
 
 - name: listmonk-mcp
-  description: MCP (Model Context Protocol) server for listmonk newsletter management
+  description: MCP (Model Context Protocol) server for Listmonk newsletter management
   category: services
   dogfood: false
   language: Python
   license: MIT
-  stars: 37
+  stars: 38
   topics: []
   updated_at: "2026-01-13T04:02:00Z"
   github_uri: rhnvrm/listmonk-mcp
   repo_url: https://github.com/rhnvrm/listmonk-mcp
-  homepage_url:
+  homepage_url: https://rhnvrm.github.io/listmonk-mcp/
   image:
   logo:
   author_github: rhnvrm
 
 - name: stock-market-circulars
-  description: Automated processing and publishing of regulatory circulars from NSE, BSE and SEBI with AI-powered summaries
+  description: Automated processing and publishing of regulatory circulars from NSE, BSE, and SEBI with AI-powered summaries
   category: services
   dogfood: false
   language: Python
   license:
   stars: 10
   topics: []
-  updated_at: "2026-08-20T06:46:30Z"
+  updated_at: "2026-09-08T10:47:26Z"
   github_uri: rhnvrm/stock-market-circulars
   repo_url: https://github.com/rhnvrm/stock-market-circulars
-  homepage_url: https://exchangecirculars.com
+  homepage_url: https://exchangecirculars.com/
   image:
   logo:
   author_github: rhnvrm
@@ -75,18 +75,18 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 9
+  stars: 10
   topics: []
   updated_at: "2026-06-29T03:57:14Z"
   github_uri: rhnvrm/mattermost-cli
   repo_url: https://github.com/rhnvrm/mattermost-cli
-  homepage_url:
+  homepage_url: https://rhnvrm.github.io/mattermost-cli/
   image:
   logo:
   author_github: rhnvrm
 
 - name: hq
-  description: A jq/yq-like processor for HUML
+  description: hq - a jq/yq-like processor for HUML
   category: utils
   dogfood: false
   language: Go
@@ -102,7 +102,7 @@
   author_github: rhnvrm
 
 - name: s3site
-  description: Static site server that serves from S3 tar.gz archives, with an S3 file watcher
+  description: Static site server from S3 tar.gz archives + S3 file watcher
   category: services
   dogfood: false
   language: Go
@@ -112,7 +112,7 @@
   updated_at: "2026-07-28T11:29:21Z"
   github_uri: rhnvrm/s3site
   repo_url: https://github.com/rhnvrm/s3site
-  homepage_url:
+  homepage_url: https://rhnvrm.github.io/s3site/
   image:
   logo:
   author_github: rhnvrm
@@ -139,7 +139,7 @@
   dogfood: false
   language: Go
   license:
-  stars: 5
+  stars: 7
   topics: []
   updated_at: "2025-12-09T18:34:59Z"
   github_uri: rhnvrm/catprinter
@@ -150,17 +150,17 @@
   author_github: rhnvrm
 
 - name: yt2embed
-  description: Browser extension that redirects YouTube videos to the embed page
+  description: Redirect Youtube Videos to the Embed Page
   category: utils
   dogfood: false
   language: JavaScript
   license: GPL-3.0
-  stars: 4
+  stars: 5
   topics: []
   updated_at: "2025-08-12T18:44:34Z"
   github_uri: rhnvrm/yt2embed
   repo_url: https://github.com/rhnvrm/yt2embed
-  homepage_url:
+  homepage_url: https://addons.mozilla.org/en-US/firefox/addon/yt2embed/
   image:
   logo:
   author_github: rhnvrm

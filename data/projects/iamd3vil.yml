@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 32
+  stars: 40
   topics:
     - dotfile-manager
     - dotfiles
@@ -38,12 +38,12 @@
   author_github: iamd3vil
 
 - name: gofastdecoder
-  description: A decoder for the FIX FAST v1.2 and v1.1 protocols
+  description: A decoder for FIX FAST v1.2 + v1.1 protocol
   category: libs
   dogfood: false
   language: Go
   license: MIT
-  stars: 0
+  stars: 1
   topics: []
   updated_at: "2026-08-13T06:47:28Z"
   github_uri: iamd3vil/gofastdecoder

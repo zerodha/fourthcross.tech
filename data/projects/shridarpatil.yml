@@ -2,12 +2,12 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: frappe_whatsapp
-  description: WhatsApp Cloud API integration for Frappe and ERPNext.
+  description: WhatsApp cloud  integration for frappe
   category: libs
   dogfood: true
   language: Python
   license:
-  stars: 464
+  stars: 471
   topics:
     - erpnext
     - erpnext-whatsapp
@@ -27,7 +27,7 @@
   updated_at: "2026-08-04T12:27:02Z"
   github_uri: shridarpatil/frappe_whatsapp
   repo_url: https://github.com/shridarpatil/frappe_whatsapp
-  homepage_url:
+  homepage_url: https://whatomate.io
   image:
   logo:
   author_github: shridarpatil
@@ -38,7 +38,7 @@
   dogfood: false
   language: Python
   license:
-  stars: 40
+  stars: 48
   topics:
     - editor
     - frappe
@@ -61,7 +61,7 @@
   dogfood: false
   language: Python
   license:
-  stars: 14
+  stars: 19
   topics:
     - discourse
     - discourse-sso

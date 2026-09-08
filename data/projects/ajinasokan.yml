@@ -7,12 +7,12 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 192
+  stars: 230
   topics:
     - android
     - flutter
     - flutter-plugin
-  updated_at: "2023-11-17T00:28:03Z"
+  updated_at: "2025-09-30T05:36:29Z"
   github_uri: ajinasokan/flutter_displaymode
   repo_url: https://github.com/ajinasokan/flutter_displaymode
   homepage_url:
@@ -42,9 +42,9 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 87
+  stars: 92
   topics: []
-  updated_at: "2025-02-13T10:09:57Z"
+  updated_at: "2026-03-30T08:58:43Z"
   github_uri: ajinasokan/flutter_fgbg
   repo_url: https://github.com/ajinasokan/flutter_fgbg
   homepage_url:
@@ -53,7 +53,7 @@
   author_github: ajinasokan
 
 - name: apkc
-  description: apkc is a bare-bones Android app build system that lets you build simple native Android apps without the entire Android IDE
+  description: apkc is a bare-bones Android app build system that lets you build simple native Android apps without entire Android IDE
   category: utils
   dogfood: true
   language: Go
@@ -74,14 +74,14 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 67
+  stars: 68
   topics:
     - curl
     - flutter
     - http
     - libcurl
     - quic
-  updated_at: "2026-07-08T07:13:17Z"
+  updated_at: "2026-09-08T05:45:54Z"
   github_uri: ajinasokan/flutter_curl
   repo_url: https://github.com/ajinasokan/flutter_curl
   homepage_url:
@@ -95,23 +95,23 @@
   dogfood: false
   language: Dart
   license: MIT
-  stars: 49
+  stars: 50
   topics: []
   updated_at: "2023-06-04T18:59:21Z"
   github_uri: ajinasokan/recharge
   repo_url: https://github.com/ajinasokan/recharge
-  homepage_url:
+  homepage_url: https://pub.dev/packages/recharge
   image:
   logo:
   author_github: ajinasokan
 
 - name: ditto
-  description: A simple dictionary app built using Flutter. Powers the Olam and Alar mobile apps.
+  description: A simple dictionary app built using Flutter. Powers Olam and Alar mobile apps.
   category: utils
   dogfood: false
   language: Dart
   license: GPL-3.0
-  stars: 41
+  stars: 42
   topics: []
   updated_at: "2021-03-15T09:50:07Z"
   github_uri: ajinasokan/ditto
@@ -134,7 +134,7 @@
   updated_at: "2026-07-10T13:42:02Z"
   github_uri: ajinasokan/store_keeper
   repo_url: https://github.com/ajinasokan/store_keeper
-  homepage_url:
+  homepage_url: https://pub.dev/packages/store_keeper
   image:
   logo:
   author_github: ajinasokan
@@ -153,7 +153,7 @@
   updated_at: "2026-05-09T05:49:35Z"
   github_uri: ajinasokan/dartgen
   repo_url: https://github.com/ajinasokan/dartgen
-  homepage_url:
+  homepage_url: https://pub.dev/packages/dartgenerate
   image:
   logo:
   author_github: ajinasokan

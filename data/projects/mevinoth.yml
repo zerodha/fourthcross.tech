@@ -7,16 +7,16 @@
   dogfood: false
   language: Vue
   license:
-  stars: 62
+  stars: 67
   topics:
     - vue
     - vue2
     - vuejs
     - vuejs-components
   updated_at: "2024-05-22T08:39:15Z"
-  github_uri: mevinoth/slim-ui
-  repo_url: https://github.com/mevinoth/slim-ui
-  homepage_url:
+  github_uri: itzvinoth/slim-ui
+  repo_url: https://github.com/itzvinoth/slim-ui
+  homepage_url: https://slim-ui.netlify.com
   image:
   logo:
   author_github: mevinoth

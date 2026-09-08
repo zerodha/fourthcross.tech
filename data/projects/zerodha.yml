@@ -2,12 +2,12 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: kite-mcp-server
-  description: MCP (Model Context Protocol) server for the Zerodha Kite trading platform.
+  description: Zerodha Kite MCP server
   category: services
   dogfood: false
   language: Go
   license: MIT
-  stars: 302
+  stars: 310
   topics: []
   updated_at: "2026-08-19T23:40:52Z"
   github_uri: zerodha/kite-mcp-server
@@ -23,7 +23,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 82
+  stars: 91
   topics:
     - fastglue
     - fasthttp
@@ -60,13 +60,13 @@
   updated_at: "2025-07-01T07:35:48Z"
   github_uri: zerodha/simplesessions
   repo_url: https://github.com/zerodha/simplesessions
-  homepage_url:
+  homepage_url: https://pkg.go.dev/github.com/zerodha/simplesessions
   image:
   logo:
   author_github: vividvilla
 
 - name: fastcache
-  description: fastcache is an HTTP response caching package that plugs into fastglue and simplifies "dumb" caching of API endpoints.
+  description: fastcache is an HTTP response caching package that plugs into fastglue that simplifies "dumb" caching of API endpoints.
   category: libs
   dogfood: true
   language: Go
@@ -89,7 +89,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 26
+  stars: 36
   topics: []
   updated_at: "2023-07-25T18:35:58Z"
   github_uri: zerodha/vendor-payments

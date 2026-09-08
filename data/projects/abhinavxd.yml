@@ -2,7 +2,7 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: liveNumberFormat.js
-  description: A tiny Javascript library that allows for real time formatting of numbers and currencies, ~1600 bytes minified + gzipped.
+  description: A tiny Javascript library that allows for real time formatting of numbers & currencies, ~1600 bytes minified + gzipped.
   category: libs
   dogfood: false
   language: JavaScript
@@ -21,7 +21,7 @@
   updated_at: "2025-02-12T20:33:26Z"
   github_uri: abhinavxd/liveNumberFormat.js
   repo_url: https://github.com/abhinavxd/liveNumberFormat.js
-  homepage_url:
+  homepage_url: https://abhinavxd.github.io/liveNumberFormat.js/
   image:
   logo:
   author_github: abhinavxd

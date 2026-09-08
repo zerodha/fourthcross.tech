@@ -2,12 +2,12 @@
 # see the field documentation there. Aggregated via config.extra.project_files.
 
 - name: tagflow
-  description: Native rich content runtime for Flutter apps, with HTML rendering, trusted JSON documents and live content patches
+  description: Native rich content runtime for flutter apps, with html rendering, trusted json documents, and live content patches
   category: libs
   dogfood: true
   language: Dart
   license: MIT
-  stars: 20
+  stars: 21
   topics:
     - flutter
     - html
@@ -16,7 +16,7 @@
   updated_at: "2026-06-25T12:13:16Z"
   github_uri: devaryakjha/tagflow
   repo_url: https://github.com/devaryakjha/tagflow
-  homepage_url:
+  homepage_url: https://pub.dev/packages/tagflow
   image:
   logo: logos/tagflow.svg
   author_github: devaryakjha
@@ -32,7 +32,7 @@
   updated_at: "2026-08-13T09:26:33Z"
   github_uri: devaryakjha/kapi.run
   repo_url: https://github.com/devaryakjha/kapi.run
-  homepage_url: https://kapi.run
+  homepage_url: https://kapi.run/
   image:
   logo:
   author_github: devaryakjha

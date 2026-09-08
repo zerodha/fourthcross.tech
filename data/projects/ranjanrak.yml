@@ -7,14 +7,14 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 149
+  stars: 161
   topics:
     - implied-volatility
     - option-chain-stream
     - redis
   updated_at: "2023-05-26T20:46:12Z"
-  github_uri: ranjanrak/OptionChainStream
-  repo_url: https://github.com/ranjanrak/OptionChainStream
+  github_uri: ranjanrak/optionchainstream
+  repo_url: https://github.com/ranjanrak/optionchainstream
   homepage_url:
   image:
   logo:
@@ -26,11 +26,11 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 6
+  stars: 8
   topics: []
   updated_at: "2020-10-30T03:49:33Z"
-  github_uri: ranjanrak/FaqGenerator
-  repo_url: https://github.com/ranjanrak/FaqGenerator
+  github_uri: ranjanrak/faqgenerator
+  repo_url: https://github.com/ranjanrak/faqgenerator
   homepage_url:
   image:
   logo:

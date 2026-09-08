@@ -7,12 +7,12 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 62
+  stars: 73
   topics:
     - listmonk
     - messenger
     - pinpoint
-  updated_at: "2024-07-22T15:09:34Z"
+  updated_at: "2026-06-23T06:53:36Z"
   github_uri: joeirimpan/listmonk-messenger
   repo_url: https://github.com/joeirimpan/listmonk-messenger
   homepage_url:
@@ -21,7 +21,7 @@
   author_github: joeirimpan
 
 - name: hdfc-cc-parser-rs
-  description: Parse HDFC credit card statements (Infinia, September 2025 onwards) into CSV
+  description: Parse hdfc cc statements into csv (infinia 2025 september+)
   category: utils
   dogfood: false
   language: Rust
@@ -48,7 +48,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 9
+  stars: 13
   topics: []
   updated_at: "2020-09-24T05:40:47Z"
   github_uri: joeirimpan/go-frappe-client
@@ -64,14 +64,14 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 9
+  stars: 10
   topics:
     - cross-dc
     - golang
     - hashicorp
     - nomad
     - status-page
-  updated_at: "2026-08-17T16:51:45Z"
+  updated_at: "2026-08-24T11:33:08Z"
   github_uri: joeirimpan/nomadboard
   repo_url: https://github.com/joeirimpan/nomadboard
   homepage_url:
@@ -85,7 +85,7 @@
   dogfood: false
   language: Jinja
   license: MIT
-  stars: 7
+  stars: 10
   topics: []
   updated_at: "2023-10-05T13:56:20Z"
   github_uri: joeirimpan/kaf-ansible
@@ -101,7 +101,7 @@
   dogfood: true
   language: Python
   license: MIT
-  stars: 4
+  stars: 5
   topics: []
   updated_at: "2024-08-26T08:05:44Z"
   github_uri: joeirimpan/duckdb-fnv
