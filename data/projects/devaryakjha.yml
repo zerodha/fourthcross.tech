@@ -1,6 +1,28 @@
 # Projects owned by github.com/devaryakjha. Same schema as data/featured.yml —
 # see the field documentation there. Aggregated via config.extra.project_files.
 
+- name: oore.build
+  description: Self-hosted, Flutter-first mobile CI and internal app distribution platform.
+  category: services
+  dogfood: true
+  language: Rust
+  license: MIT
+  stars: 27
+  topics:
+    - ci
+    - ci-cd
+    - cicd
+    - dart
+    - flutter
+    - rust
+  updated_at: "2026-09-05T18:51:27Z"
+  github_uri: oore-ci/oore.build
+  repo_url: https://github.com/oore-ci/oore.build
+  homepage_url: https://oore.build
+  image: oore-build.png
+  logo: logos/oore.svg
+  author_github: devaryakjha
+
 - name: tagflow
   description: Native rich content runtime for flutter apps, with html rendering, trusted json documents, and live content patches
   category: libs
@@ -34,5 +56,5 @@
   repo_url: https://github.com/devaryakjha/kapi.run
   homepage_url: https://kapi.run/
   image:
-  logo:
+  logo: logos/kapi.png
   author_github: devaryakjha
