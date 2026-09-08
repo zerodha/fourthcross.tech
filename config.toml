@@ -9,7 +9,7 @@ generate_feeds = false
 minify_html = true
 
 [extra]
-tagline = "Open source hacker collectives."
+tagline = "Open source hacker collective"
 github_url = "https://github.com/zerodha/fourthcross.tech"
 blog_url = "#"
 
