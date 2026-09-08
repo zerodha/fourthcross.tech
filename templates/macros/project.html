@@ -17,7 +17,9 @@
 
     <div class="hstack badges">
       {% if p.dogfood %}
-      <img class="dogfood" src="{{ get_url(path='dog.svg') }}" title="Dog-fooded at Zerodha" alt="Dog-fooded at Zerodha" width="15" height="14">
+      <a class="zerodha-mark" href="https://zerodha.tech" title="Used in production at Zerodha">
+        <img src="{{ get_url(path='zerodha-icon.svg') }}" alt="Used in production at Zerodha" width="16" height="16">
+      </a>
       {% endif %}
 
       <a class="stars" href="{{ p.repo_url }}" title="{{ p.stars }} stars on GitHub">

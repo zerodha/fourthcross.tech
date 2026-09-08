@@ -142,6 +142,9 @@ section {
   .title {
     color: inherit;
     text-decoration: none;
+    h3 {
+      margin: 0;
+    }
   }
 
   .thumb {
@@ -174,9 +177,17 @@ section {
     flex-shrink: 0;
   }
 
-  .dogfood {
-    width: 15px;
-    height: 14px;
+  .zerodha-mark {
+    display: block;
+    line-height: 0;
+    margin-right: var(--space-2);
+
+    img {
+      display: block;
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+    }
   }
 
   .stars {
