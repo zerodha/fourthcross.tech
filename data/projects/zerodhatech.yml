@@ -7,7 +7,7 @@
   dogfood: true
   language: Python
   license:
-  stars: 170
+  stars: 171
   topics: []
   updated_at: "2026-03-11T10:44:29Z"
   github_uri: zerodha/frappe-attachments-s3
@@ -23,7 +23,7 @@
   dogfood: false
   language: Python
   license:
-  stars: 65
+  stars: 66
   topics: []
   updated_at: "2023-11-30T08:20:55Z"
   github_uri: zerodha/rbiparser

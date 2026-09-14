@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 73
+  stars: 74
   topics:
     - listmonk
     - messenger
@@ -26,7 +26,7 @@
   dogfood: false
   language: Rust
   license: MIT
-  stars: 42
+  stars: 44
   topics:
     - card
     - credit

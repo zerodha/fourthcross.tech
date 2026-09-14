@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 1178
+  stars: 1183
   topics:
     - cli
     - data-visualization
@@ -26,7 +26,7 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 443
+  stars: 444
   topics:
     - hugo
     - hugo-blog
@@ -46,7 +46,7 @@
   dogfood: true
   language: Go
   license:
-  stars: 54
+  stars: 56
   topics: []
   updated_at: "2020-04-24T05:52:18Z"
   github_uri: vividvilla/lil

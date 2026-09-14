@@ -29,7 +29,7 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 4
+  stars: 6
   topics:
     - filter
     - llm
