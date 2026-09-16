@@ -412,3 +412,26 @@
   image: suchi.png
   logo: logos/suchi.svg
   author_github: johnnybravo-xyz
+
+- name: pkg.bot
+  description: Super fast Linux package search engine for major Linux distros
+  category: apps
+  dogfood: false
+  language: Rust
+  license: AGPL-3.0
+  stars: 45
+  topics:
+    - linux-package-manager
+    - linux-packages
+    - package-management
+    - package-manager
+    - package-registry
+    - package-search
+    - packages
+  updated_at: "2026-09-16T17:00:36Z"
+  github_uri: knadh/pkg.bot
+  repo_url: https://github.com/knadh/pkg.bot
+  homepage_url: https://pkg.bot
+  image: pkgbot.png
+  logo: logos/pkgbot.svg
+  author_github: knadh
