@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 314
+  stars: 317
   topics: []
   updated_at: "2026-09-10T07:27:39Z"
   github_uri: zerodha/kite-mcp-server
@@ -23,7 +23,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 91
+  stars: 94
   topics:
     - fastglue
     - fasthttp
@@ -48,7 +48,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 78
+  stars: 79
   topics:
     - session
     - session-cookie
@@ -71,7 +71,7 @@
   dogfood: true
   language: Go
   license:
-  stars: 37
+  stars: 38
   topics:
     - fastglue
     - fasthttp
@@ -89,7 +89,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 37
+  stars: 38
   topics: []
   updated_at: "2023-07-25T18:35:58Z"
   github_uri: zerodha/vendor-payments

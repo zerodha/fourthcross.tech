@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: GPL-3.0
-  stars: 4474
+  stars: 4480
   topics:
     - dns
     - dns-client
@@ -67,7 +67,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 58
+  stars: 59
   topics:
     - nomad
   updated_at: "2026-08-17T11:51:33Z"
@@ -124,7 +124,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 25
+  stars: 26
   topics:
     - kite
     - terraform
@@ -160,7 +160,7 @@
   dogfood: true
   language: Jinja
   license: MIT
-  stars: 13
+  stars: 14
   topics:
     - consul
     - nomad
@@ -178,7 +178,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 12
+  stars: 13
   topics:
     - kong
   updated_at: "2021-03-30T06:45:29Z"

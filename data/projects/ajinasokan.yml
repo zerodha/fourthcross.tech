@@ -7,7 +7,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 230
+  stars: 231
   topics:
     - android
     - flutter
@@ -26,7 +26,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 129
+  stars: 130
   topics: []
   updated_at: "2025-07-31T10:30:35Z"
   github_uri: ajinasokan/autopilot
@@ -42,7 +42,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 92
+  stars: 93
   topics: []
   updated_at: "2026-03-30T08:58:43Z"
   github_uri: ajinasokan/flutter_fgbg
@@ -58,7 +58,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 84
+  stars: 85
   topics: []
   updated_at: "2025-05-22T09:32:07Z"
   github_uri: ajinasokan/apkc
@@ -74,7 +74,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 68
+  stars: 69
   topics:
     - curl
     - flutter
@@ -95,7 +95,7 @@
   dogfood: false
   language: Dart
   license: MIT
-  stars: 50
+  stars: 51
   topics: []
   updated_at: "2023-06-04T18:59:21Z"
   github_uri: ajinasokan/recharge
@@ -111,7 +111,7 @@
   dogfood: false
   language: Dart
   license: GPL-3.0
-  stars: 43
+  stars: 44
   topics: []
   updated_at: "2021-03-15T09:50:07Z"
   github_uri: ajinasokan/ditto
@@ -127,7 +127,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 39
+  stars: 40
   topics:
     - flutter
     - state-management
@@ -145,7 +145,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 38
+  stars: 39
   topics:
     - code-generation
     - dart

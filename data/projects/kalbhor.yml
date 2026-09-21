@@ -7,7 +7,7 @@
   dogfood: true
   language: Go
   license: BSD-2-Clause
-  stars: 464
+  stars: 465
   topics:
     - background-jobs
     - distributed-systems

@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 74
+  stars: 76
   topics:
     - listmonk
     - messenger

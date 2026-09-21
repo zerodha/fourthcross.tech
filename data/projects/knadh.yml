@@ -7,7 +7,7 @@
   dogfood: true
   language: CSS
   license: MIT
-  stars: 5491
+  stars: 5504
   topics:
     - component-library
     - css
@@ -34,7 +34,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 4194
+  stars: 4205
   topics:
     - config
     - config-loader
@@ -63,7 +63,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 2827
+  stars: 2828
   topics:
     - dns
     - dns-server
@@ -84,7 +84,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 1175
+  stars: 1178
   topics:
     - exporter
     - static-site
@@ -106,7 +106,7 @@
   dogfood: false
   language: Go
   license: AGPL-3.0
-  stars: 987
+  stars: 988
   topics:
     - chat
     - chat-room
@@ -129,7 +129,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 903
+  stars: 904
   topics:
     - dom-manipulation
     - drag-and-drop
@@ -150,7 +150,7 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 426
+  stars: 427
   topics:
     - blog
     - blog-theme
@@ -172,14 +172,14 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 352
+  stars: 353
   topics:
     - autocomplete
     - autosuggestions
     - search
     - suggestions
     - typeahead
-  updated_at: "2025-11-30T15:25:53Z"
+  updated_at: "2026-09-16T16:14:59Z"
   github_uri: knadh/autocomp.js
   repo_url: https://github.com/knadh/autocomp.js
   homepage_url: https://knadh.github.io/autocomp.js
@@ -209,7 +209,7 @@
   dogfood: true
   language: Go
   license:
-  stars: 204
+  stars: 205
   topics: []
   updated_at: "2026-06-28T06:35:42Z"
   github_uri: knadh/stuffbin
@@ -225,7 +225,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 183
+  stars: 184
   topics:
     - email-client
     - email-sender
@@ -246,7 +246,7 @@
   dogfood: false
   language: Go
   license:
-  stars: 178
+  stars: 181
   topics: []
   updated_at: "2019-11-05T14:44:39Z"
   github_uri: knadh/go-get-youtube
@@ -262,7 +262,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 156
+  stars: 158
   topics:
     - autocomplete
     - autosuggestion
@@ -285,7 +285,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 141
+  stars: 143
   topics:
     - alpinejs
     - browser-navigation
@@ -307,7 +307,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 133
+  stars: 134
   topics:
     - bandwidth-saver
     - browser-cache
@@ -329,7 +329,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 110
+  stars: 111
   topics: []
   updated_at: "2024-07-31T12:14:41Z"
   github_uri: knadh/git-bars
@@ -345,7 +345,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 95
+  stars: 96
   topics:
     - email-client
     - mail
@@ -367,7 +367,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 94
+  stars: 95
   topics: []
   updated_at: "2025-04-26T15:45:08Z"
   github_uri: knadh/highlighted-input.js
@@ -383,7 +383,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 92
+  stars: 93
   topics:
     - digital-signature
     - pdf
@@ -403,7 +403,7 @@
   dogfood: true
   language: Go
   license: BSD-2-Clause
-  stars: 78
+  stars: 79
   topics:
     - mysql
     - postgresql
@@ -424,7 +424,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 71
+  stars: 72
   topics:
     - static-site
     - static-site-generator
@@ -446,7 +446,7 @@
   dogfood: false
   language: Go
   license: GPL-3.0
-  stars: 65
+  stars: 66
   topics: []
   updated_at: "2019-06-24T17:24:10Z"
   github_uri: knadh/knphone
@@ -462,7 +462,7 @@
   dogfood: false
   language: HTML
   license:
-  stars: 63
+  stars: 64
   topics: []
   updated_at: "2025-05-01T14:46:42Z"
   github_uri: knadh/tinytabs
@@ -478,7 +478,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 52
+  stars: 53
   topics:
     - browser-game
     - canvas
@@ -501,7 +501,7 @@
   dogfood: false
   language: Zig
   license: MIT
-  stars: 50
+  stars: 51
   topics:
     - cli
     - csv
@@ -524,7 +524,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 40
+  stars: 41
   topics:
     - pprof
     - profiler
@@ -544,7 +544,7 @@
   dogfood: false
   language: Rust
   license: Apache-2.0
-  stars: 39
+  stars: 43
   topics:
     - element
     - matrix
@@ -567,7 +567,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 35
+  stars: 36
   topics:
     - limit
     - offset
@@ -589,7 +589,7 @@
   dogfood: false
   language: Rust
   license: MIT
-  stars: 31
+  stars: 32
   topics: []
   updated_at: "2025-07-13T09:26:52Z"
   github_uri: knadh/yesqlr
@@ -605,7 +605,7 @@
   dogfood: true
   language: Python
   license: MIT
-  stars: 28
+  stars: 29
   topics:
     - changelog
     - changelog-generator
@@ -643,7 +643,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 21
+  stars: 22
   topics: []
   updated_at: "2022-06-09T18:04:52Z"
   github_uri: knadh/querytostruct
@@ -659,7 +659,7 @@
   dogfood: false
   language: Shell
   license: MIT
-  stars: 17
+  stars: 18
   topics:
     - build-release
     - build-tool
@@ -683,7 +683,7 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 15
+  stars: 16
   topics:
     - documentation
     - scylladb
@@ -701,7 +701,7 @@
   dogfood: false
   language: Rust
   license: MIT
-  stars: 15
+  stars: 16
   topics:
     - conceptnet
     - conceptnet-api
@@ -721,7 +721,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 12
+  stars: 13
   topics: []
   updated_at: "2015-03-19T09:11:47Z"
   github_uri: knadh/chunkedreader
@@ -737,7 +737,7 @@
   dogfood: false
   language: Rust
   license: MIT
-  stars: 12
+  stars: 13
   topics: []
   updated_at: "2026-01-11T18:45:06Z"
   github_uri: knadh/tinyi18n-rs

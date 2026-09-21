@@ -27,7 +27,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 23408
+  stars: 23505
   topics:
     - campaign
     - campaign-management
@@ -56,7 +56,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 2918
+  stars: 2948
   topics:
     - ai-agent
     - chat-widget
@@ -76,7 +76,7 @@
     - ticketing-system
     - vue
     - zendesk
-  updated_at: "2026-09-10T21:19:10Z"
+  updated_at: "2026-09-21T06:54:32Z"
   github_uri: abhinavxd/libredesk
   repo_url: https://github.com/abhinavxd/libredesk
   homepage_url: https://libredesk.io
@@ -90,12 +90,12 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 891
+  stars: 901
   topics:
     - clickhouse
     - log-analytics
     - logging
-  updated_at: "2026-09-11T06:01:50Z"
+  updated_at: "2026-09-16T09:11:02Z"
   github_uri: mr-karan/logchef
   repo_url: https://github.com/mr-karan/logchef
   homepage_url: https://logchef.app/
@@ -109,7 +109,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 1273
+  stars: 1276
   topics:
     - broker-backend
     - database
@@ -136,7 +136,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 1683
+  stars: 1703
   topics:
     - whatsapp
     - whatsapp-api
@@ -146,7 +146,7 @@
     - whatsapp-chat
     - whatsapp-voice-call
     - whatsapp-voip
-  updated_at: "2026-09-13T02:16:50Z"
+  updated_at: "2026-09-21T07:27:37Z"
   github_uri: shridarpatil/whatomate
   repo_url: https://github.com/shridarpatil/whatomate
   homepage_url: https://whatomate.io/
@@ -160,7 +160,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 549
+  stars: 552
   topics:
     - email-verification
     - mobile-number-verification
@@ -183,7 +183,7 @@
   dogfood: true
   language: Go
   license: Apache-2.0
-  stars: 339
+  stars: 340
   topics:
     - automation
     - devops
@@ -193,7 +193,7 @@
     - self-service
     - workflow
     - workflow-automation
-  updated_at: "2026-09-11T04:33:49Z"
+  updated_at: "2026-09-18T00:39:34Z"
   github_uri: cvhariharan/flowctl
   repo_url: https://github.com/cvhariharan/flowctl
   homepage_url: https://flowctl.net
@@ -207,7 +207,7 @@
   dogfood: true
   language: Rust
   license: AGPL-3.0
-  stars: 49
+  stars: 50
   topics: []
   updated_at: "2026-09-08T18:27:42Z"
   github_uri: iamd3vil/blobasaur
@@ -230,7 +230,7 @@
     - rust-smtp
     - smtp
     - smtp-server
-  updated_at: "2026-09-08T20:46:19Z"
+  updated_at: "2026-09-17T13:39:43Z"
   github_uri: iamd3vil/hedwig
   repo_url: https://github.com/iamd3vil/hedwig
   homepage_url: https://hedwig-mail.dev
@@ -244,7 +244,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 103
+  stars: 104
   topics:
     - franz-go
     - high-availability
@@ -266,7 +266,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 68
+  stars: 69
   topics: []
   updated_at: "2026-08-19T07:14:18Z"
   github_uri: lebmatter/exampro
@@ -303,7 +303,7 @@
   dogfood: true
   language: Rust
   license: MIT
-  stars: 28
+  stars: 29
   topics:
     - ci
     - ci-cd
@@ -341,14 +341,14 @@
   dogfood: true
   language: Go
   license: Apache-2.0
-  stars: 15
+  stars: 16
   topics:
     - compliance
     - device-management
     - observability
     - osquery
     - security
-  updated_at: "2026-09-02T06:26:36Z"
+  updated_at: "2026-09-17T16:46:48Z"
   github_uri: cvhariharan/checkpost
   repo_url: https://github.com/cvhariharan/checkpost
   homepage_url: https://checkpost.dev
@@ -362,7 +362,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 8
+  stars: 9
   topics: []
   updated_at: "2026-08-04T18:25:05Z"
   github_uri: toriigateorg/torii
@@ -378,7 +378,7 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 469
+  stars: 471
   topics:
     - academic
     - academic-website
@@ -403,9 +403,9 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 22
+  stars: 23
   topics: []
-  updated_at: "2026-09-12T10:24:14Z"
+  updated_at: "2026-09-16T09:59:39Z"
   github_uri: johnnybravo-xyz/suchi
   repo_url: https://github.com/johnnybravo-xyz/suchi
   homepage_url: https://suchi.page
@@ -414,12 +414,12 @@
   author_github: johnnybravo-xyz
 
 - name: pkg.bot
-  description: Super fast Linux package search engine for major Linux distros
+  description: Super fast Linux package search engine for Linux distros
   category: apps
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 45
+  stars: 74
   topics:
     - linux-package-manager
     - linux-packages
@@ -428,7 +428,7 @@
     - package-registry
     - package-search
     - packages
-  updated_at: "2026-09-16T17:00:36Z"
+  updated_at: "2026-09-19T04:24:15Z"
   github_uri: knadh/pkg.bot
   repo_url: https://github.com/knadh/pkg.bot
   homepage_url: https://pkg.bot
