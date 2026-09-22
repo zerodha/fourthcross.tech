@@ -1,6 +1,24 @@
 # Projects owned by github.com/codingcoffee. Same schema as data/featured.yml —
 # see the field documentation there. Aggregated via config.extra.project_files.
 
+- name: dummie
+  description: secure network and kvm sandboxed VMs for hosting and experimentation
+  category: libs
+  dogfood: false
+  language: Go
+  license: AGPLv3
+  stars: 1
+  topics:
+    - filter
+  updated_at: "2026-05-10T08:09:48Z"
+  github_uri: getdummie/dummie
+  repo_url: https://github.com/getdummie/dummie
+  homepage_url: https://www.dummie.dev
+  image: dummie.png
+  logo: logos/dummie.svg
+  author_github: codingcoffee
+
+
 - name: pi-websearch-crawl4ai
   description: a pi extension to let your LLM crawl & see the web
   category: libs
@@ -49,7 +67,7 @@
 - name: osquery-nftables-ext
   description: An osquery extension that adds a queryable nftables table to osqueryd on Linux
   category: libs
-  dogfood: false
+  dogfood: true
   language: Go
   license: Apache-2.0
   stars: 3
@@ -65,7 +83,7 @@
 - name: openmetadata-ingestion-go
   description: Single-binary metadata ingestion tool for OpenMetadata. Pushes schema metadata from Postgres, MySQL and ClickHouse.
   category: utils
-  dogfood: false
+  dogfood: true
   language: Go
   license: MIT
   stars: 2
@@ -77,3 +95,4 @@
   image:
   logo:
   author_github: codingcoffee
+
