@@ -294,8 +294,8 @@
   repo_url: https://github.com/bureaucatorg/bureaucat
   homepage_url: https://bureaucat.org
   image: bureaucat.png
-  logo: logos/bureaucat.png
-  author_github:
+  logo: logos/bureaucat.svg
+  author_github: codingcoffee
 
 - name: oore.build
   description: Self-hosted, Flutter-first mobile CI and internal app distribution platform.
@@ -369,8 +369,8 @@
   repo_url: https://github.com/toriigateorg/torii
   homepage_url: https://toriigate.org
   image: torii.png
-  logo:
-  author_github:
+  logo: logos/torii.svg
+  author_github: codingcoffee
 
 - name: dictpress
   description: A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language.
