@@ -198,7 +198,7 @@
   repo_url: https://github.com/cvhariharan/flowctl
   homepage_url: https://flowctl.net
   image: flowctl.png
-  logo:
+  logo: logos/flowctl.svg
   author_github: cvhariharan
 
 - name: blobasaur
@@ -353,7 +353,7 @@
   repo_url: https://github.com/cvhariharan/checkpost
   homepage_url: https://checkpost.dev
   image: checkpost.png
-  logo:
+  logo: logos/checkpost.svg
   author_github: cvhariharan
 
 - name: torii
