@@ -27,12 +27,12 @@
   dogfood: false
   language: TypeScript
   license:
-  stars: 5
+  stars: 6
   topics: []
   updated_at: "2026-08-13T09:26:33Z"
   github_uri: devaryakjha/kapi.run
   repo_url: https://github.com/devaryakjha/kapi.run
   homepage_url: https://kapi.run/
   image:
-  logo:
+  logo: logos/kapi.png
   author_github: devaryakjha

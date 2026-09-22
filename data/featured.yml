@@ -316,8 +316,8 @@
   repo_url: https://github.com/oore-ci/oore.build
   homepage_url: https://oore.build
   image: oore-build.png
-  logo:
-  author_github:
+  logo: logos/oore.svg
+  author_github: devaryakjha
 
 - name: toru
   description: Toru is a Go module proxy with caching and rewrite capabilities
