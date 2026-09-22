@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 40
+  stars: 41
   topics:
     - dotfile-manager
     - dotfiles

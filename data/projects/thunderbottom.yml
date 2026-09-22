@@ -7,7 +7,7 @@
   dogfood: true
   language: Go
   license: 0BSD
-  stars: 43
+  stars: 45
   topics: []
   updated_at: "2020-11-09T23:06:51Z"
   github_uri: Thunderbottom/grafana-export
@@ -39,7 +39,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 18
+  stars: 19
   topics:
     - golang
     - hashicorp

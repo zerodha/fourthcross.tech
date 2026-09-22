@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% import "macros/project.html" as project %}
 
 {% block meta %}
   {% set_global meta_title = page.title ~ " (@" ~ page.extra.github ~ ") / " ~ config.title %}
@@ -9,12 +8,12 @@
 {% block body %}
 {% set_global projects = [] %}
 {% for f in config.extra.project_files %}
-  {% set_global projects = projects | concat(with=load_data(path="data/projects/" ~ f ~ ".yml")) %}
+  {% set_global projects = [...projects, ...load_data(path="data/projects/" ~ f ~ ".yml")] %}
 {% endfor %}
 {% set_global projects = projects | sort(attribute="stars") | reverse %}
 
-{% set all = load_data(path="data/featured.yml") | concat(with=projects) %}
-{% set mine = all | filter(attribute="author_github", value=page.extra.github) %}
+{% set all = [...load_data(path="data/featured.yml"), ...projects] %}
+{% set mine = [p for p in all if p.author_github == page.extra.github] %}
 
 <header class="topbar">
   {% set brand = true %}
@@ -31,7 +30,7 @@
       <nav class="hstack author-meta">
         <a href="https://github.com/{{ page.extra.github }}"><img class="icon" src="{{ get_url(path='git.svg') }}" alt="" width="14" height="14">@{{ page.extra.github }}</a>
         {% if page.extra.homepage %}
-        <a href="{{ page.extra.homepage }}"><img class="icon" src="{{ get_url(path='globe.svg') }}" alt="" width="14" height="14">{{ page.extra.homepage | trim_start_matches(pat="https://") | trim_start_matches(pat="http://") | trim_end_matches(pat="/") }}</a>
+        <a href="{{ page.extra.homepage }}"><img class="icon" src="{{ get_url(path='globe.svg') }}" alt="" width="14" height="14">{{ page.extra.homepage | trim_start(pat="https://") | trim_start(pat="http://") | trim_end(pat="/") }}</a>
         {% endif %}
         {% if page.extra.email %}
         <a href="mailto:{{ page.extra.email }}">{{ page.extra.email }}</a>
@@ -45,7 +44,7 @@
     <div class="section-head">
       <h2>Projects ({{ mine | length }})</h2>
     </div>
-    {{ project::grid(projects=mine) }}
+    {{ <project.grid projects={mine} /> }}
   </section>
 </main>
 {% endblock body %}

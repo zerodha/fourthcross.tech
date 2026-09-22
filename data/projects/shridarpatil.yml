@@ -7,7 +7,7 @@
   dogfood: true
   language: Python
   license:
-  stars: 471
+  stars: 479
   topics:
     - erpnext
     - erpnext-whatsapp
@@ -38,7 +38,7 @@
   dogfood: false
   language: Python
   license:
-  stars: 48
+  stars: 51
   topics:
     - editor
     - frappe
@@ -61,7 +61,7 @@
   dogfood: false
   language: Python
   license:
-  stars: 19
+  stars: 20
   topics:
     - discourse
     - discourse-sso
