@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license:
-  stars: 29
+  stars: 30
   topics: []
   updated_at: "2026-09-18T09:11:28Z"
   github_uri: warp-tech/terraform-provider-warpgate

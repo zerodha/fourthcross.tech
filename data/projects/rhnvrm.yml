@@ -43,7 +43,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 41
+  stars: 43
   topics: []
   updated_at: "2026-01-13T04:02:00Z"
   github_uri: rhnvrm/listmonk-mcp
@@ -59,9 +59,9 @@
   dogfood: false
   language: Python
   license:
-  stars: 10
+  stars: 11
   topics: []
-  updated_at: "2026-09-21T03:36:26Z"
+  updated_at: "2026-09-27T20:58:24Z"
   github_uri: rhnvrm/stock-market-circulars
   repo_url: https://github.com/rhnvrm/stock-market-circulars
   homepage_url: https://exchangecirculars.com/

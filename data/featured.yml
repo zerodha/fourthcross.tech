@@ -27,7 +27,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 23505
+  stars: 23603
   topics:
     - campaign
     - campaign-management
@@ -42,7 +42,7 @@
     - sms-gateway
     - smtp
     - transactional-emails
-  updated_at: "2026-09-13T21:49:56Z"
+  updated_at: "2026-09-25T02:20:41Z"
   github_uri: knadh/listmonk
   repo_url: https://github.com/knadh/listmonk
   homepage_url: https://listmonk.app
@@ -56,7 +56,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 2948
+  stars: 2969
   topics:
     - ai-agent
     - chat-widget
@@ -76,7 +76,7 @@
     - ticketing-system
     - vue
     - zendesk
-  updated_at: "2026-09-21T06:54:32Z"
+  updated_at: "2026-09-27T18:14:57Z"
   github_uri: abhinavxd/libredesk
   repo_url: https://github.com/abhinavxd/libredesk
   homepage_url: https://libredesk.io
@@ -90,12 +90,12 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 901
+  stars: 906
   topics:
     - clickhouse
     - log-analytics
     - logging
-  updated_at: "2026-09-16T09:11:02Z"
+  updated_at: "2026-09-25T07:30:13Z"
   github_uri: mr-karan/logchef
   repo_url: https://github.com/mr-karan/logchef
   homepage_url: https://logchef.app/
@@ -109,7 +109,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 1276
+  stars: 1277
   topics:
     - broker-backend
     - database
@@ -136,7 +136,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 1703
+  stars: 1714
   topics:
     - whatsapp
     - whatsapp-api
@@ -146,7 +146,7 @@
     - whatsapp-chat
     - whatsapp-voice-call
     - whatsapp-voip
-  updated_at: "2026-09-21T07:27:37Z"
+  updated_at: "2026-09-23T10:08:21Z"
   github_uri: shridarpatil/whatomate
   repo_url: https://github.com/shridarpatil/whatomate
   homepage_url: https://whatomate.io/
@@ -244,7 +244,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 104
+  stars: 105
   topics:
     - franz-go
     - high-availability
@@ -266,7 +266,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 69
+  stars: 70
   topics: []
   updated_at: "2026-08-19T07:14:18Z"
   github_uri: lebmatter/exampro
@@ -289,7 +289,7 @@
     - task-management
     - task-manager
     - todo
-  updated_at: "2026-08-17T17:54:16Z"
+  updated_at: "2026-09-22T07:45:28Z"
   github_uri: bureaucatorg/bureaucat
   repo_url: https://github.com/bureaucatorg/bureaucat
   homepage_url: https://bureaucat.org
@@ -348,7 +348,7 @@
     - observability
     - osquery
     - security
-  updated_at: "2026-09-17T16:46:48Z"
+  updated_at: "2026-09-23T11:11:56Z"
   github_uri: cvhariharan/checkpost
   repo_url: https://github.com/cvhariharan/checkpost
   homepage_url: https://checkpost.dev
@@ -364,7 +364,7 @@
   license: AGPL-3.0
   stars: 9
   topics: []
-  updated_at: "2026-08-04T18:25:05Z"
+  updated_at: "2026-09-22T07:35:33Z"
   github_uri: toriigateorg/torii
   repo_url: https://github.com/toriigateorg/torii
   homepage_url: https://toriigate.org
@@ -403,9 +403,9 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 23
+  stars: 28
   topics: []
-  updated_at: "2026-09-16T09:59:39Z"
+  updated_at: "2026-09-28T04:39:19Z"
   github_uri: johnnybravo-xyz/suchi
   repo_url: https://github.com/johnnybravo-xyz/suchi
   homepage_url: https://suchi.page
@@ -419,7 +419,7 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 74
+  stars: 76
   topics:
     - linux-package-manager
     - linux-packages

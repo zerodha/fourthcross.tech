@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 1183
+  stars: 1184
   topics:
     - cli
     - data-visualization
@@ -26,7 +26,7 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 445
+  stars: 444
   topics:
     - hugo
     - hugo-blog

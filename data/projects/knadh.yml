@@ -7,7 +7,7 @@
   dogfood: true
   language: CSS
   license: MIT
-  stars: 5504
+  stars: 5512
   topics:
     - component-library
     - css
@@ -34,7 +34,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 4205
+  stars: 4212
   topics:
     - config
     - config-loader
@@ -49,7 +49,7 @@
     - toml
     - viper
     - yaml
-  updated_at: "2026-09-02T07:23:56Z"
+  updated_at: "2026-09-24T17:15:39Z"
   github_uri: knadh/koanf
   repo_url: https://github.com/knadh/koanf
   homepage_url:
@@ -63,7 +63,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 2828
+  stars: 2829
   topics:
     - dns
     - dns-server
@@ -84,7 +84,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 1178
+  stars: 1177
   topics:
     - exporter
     - static-site
@@ -345,7 +345,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 96
+  stars: 98
   topics:
     - email-client
     - mail
@@ -403,7 +403,7 @@
   dogfood: true
   language: Go
   license: BSD-2-Clause
-  stars: 79
+  stars: 80
   topics:
     - mysql
     - postgresql
@@ -501,7 +501,7 @@
   dogfood: false
   language: Zig
   license: MIT
-  stars: 51
+  stars: 50
   topics:
     - cli
     - csv
@@ -643,7 +643,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 22
+  stars: 23
   topics: []
   updated_at: "2022-06-09T18:04:52Z"
   github_uri: knadh/querytostruct

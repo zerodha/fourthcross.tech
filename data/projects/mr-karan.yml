@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: GPL-3.0
-  stars: 4480
+  stars: 4490
   topics:
     - dns
     - dns-client
