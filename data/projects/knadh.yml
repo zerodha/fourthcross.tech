@@ -7,7 +7,7 @@
   dogfood: true
   language: CSS
   license: MIT
-  stars: 5512
+  stars: 5522
   topics:
     - component-library
     - css
@@ -20,7 +20,7 @@
     - web-ui
     - web-ui-framework
     - webcomponents
-  updated_at: "2026-09-13T17:37:48Z"
+  updated_at: "2026-09-28T11:24:10Z"
   github_uri: knadh/oat
   repo_url: https://github.com/knadh/oat
   homepage_url: https://oat.ink
@@ -34,7 +34,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 4212
+  stars: 4215
   topics:
     - config
     - config-loader
@@ -49,7 +49,7 @@
     - toml
     - viper
     - yaml
-  updated_at: "2026-09-24T17:15:39Z"
+  updated_at: "2026-10-05T08:21:26Z"
   github_uri: knadh/koanf
   repo_url: https://github.com/knadh/koanf
   homepage_url:
@@ -63,7 +63,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 2829
+  stars: 2830
   topics:
     - dns
     - dns-server
@@ -225,14 +225,14 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 184
+  stars: 183
   topics:
     - email-client
     - email-sender
     - pool
     - smtp
     - smtp-client
-  updated_at: "2026-08-31T08:54:51Z"
+  updated_at: "2026-10-05T07:38:47Z"
   github_uri: knadh/smtppool
   repo_url: https://github.com/knadh/smtppool
   homepage_url:
@@ -262,7 +262,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 158
+  stars: 159
   topics:
     - autocomplete
     - autosuggestion
@@ -285,7 +285,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 143
+  stars: 141
   topics:
     - alpinejs
     - browser-navigation
@@ -307,7 +307,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 134
+  stars: 133
   topics:
     - bandwidth-saver
     - browser-cache
@@ -544,7 +544,7 @@
   dogfood: false
   language: Rust
   license: Apache-2.0
-  stars: 43
+  stars: 44
   topics:
     - element
     - matrix

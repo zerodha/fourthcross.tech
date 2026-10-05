@@ -26,7 +26,7 @@
   dogfood: false
   language: Rust
   license: MIT
-  stars: 44
+  stars: 45
   topics:
     - card
     - credit

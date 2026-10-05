@@ -23,7 +23,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 25
+  stars: 26
   topics: []
   updated_at: "2020-09-30T08:11:01Z"
   github_uri: Thunderbottom/aws-exporter
