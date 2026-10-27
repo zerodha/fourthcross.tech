@@ -36,3 +36,19 @@
   image:
   logo: logos/kapi.png
   author_github: devaryakjha
+
+- name: chek
+  description: Cross-platform reader for manga, manhwa, comics, and books, with self-hosted server support.
+  category: apps
+  dogfood: false
+  language: Rust
+  license: AGPL-3.0
+  stars: 1
+  topics: []
+  updated_at: "2026-10-27T07:36:01Z"
+  github_uri: readchek/chek
+  repo_url: https://github.com/readchek/chek
+  homepage_url: https://chek.page
+  image: chek.webp
+  logo: logos/chek.svg
+  author_github: devaryakjha
