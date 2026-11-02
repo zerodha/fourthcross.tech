@@ -7,9 +7,9 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 326
+  stars: 329
   topics: []
-  updated_at: "2026-10-23T06:16:17Z"
+  updated_at: "2026-11-02T10:15:59Z"
   github_uri: zerodha/kite-mcp-server
   repo_url: https://github.com/zerodha/kite-mcp-server
   homepage_url: https://mcp.kite.trade
@@ -48,7 +48,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 80
+  stars: 81
   topics:
     - session
     - session-cookie

@@ -13,7 +13,7 @@
     - html
     - html-to-flutter
     - tagflow
-  updated_at: "2026-10-26T04:28:54Z"
+  updated_at: "2026-10-27T02:49:48Z"
   github_uri: devaryakjha/tagflow
   repo_url: https://github.com/devaryakjha/tagflow
   homepage_url: https://pub.dev/packages/tagflow
@@ -43,9 +43,9 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 1
+  stars: 3
   topics: []
-  updated_at: "2026-10-27T07:36:01Z"
+  updated_at: "2026-10-29T03:37:47Z"
   github_uri: readchek/chek
   repo_url: https://github.com/readchek/chek
   homepage_url: https://chek.page

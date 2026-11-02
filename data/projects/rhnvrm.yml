@@ -7,7 +7,7 @@
   dogfood: true
   language: Go
   license:
-  stars: 208
+  stars: 209
   topics:
     - aws
     - aws-s3
@@ -61,7 +61,7 @@
   license: MIT
   stars: 11
   topics: []
-  updated_at: "2026-10-26T03:29:09Z"
+  updated_at: "2026-11-02T00:24:10Z"
   github_uri: rhnvrm/exchange-circulars
   repo_url: https://github.com/rhnvrm/exchange-circulars
   homepage_url: https://exchangecirculars.com/
@@ -75,7 +75,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 11
+  stars: 12
   topics: []
   updated_at: "2026-06-29T03:57:14Z"
   github_uri: rhnvrm/mattermost-cli

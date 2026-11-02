@@ -7,7 +7,7 @@
   dogfood: true
   language: CSS
   license: MIT
-  stars: 5550
+  stars: 5582
   topics:
     - component-library
     - css
@@ -20,7 +20,7 @@
     - web-ui
     - web-ui-framework
     - webcomponents
-  updated_at: "2026-10-19T05:32:49Z"
+  updated_at: "2026-11-01T11:40:16Z"
   github_uri: knadh/oat
   repo_url: https://github.com/knadh/oat
   homepage_url: https://oat.ink
@@ -34,7 +34,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 4224
+  stars: 4230
   topics:
     - config
     - config-loader
@@ -63,7 +63,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 2832
+  stars: 2831
   topics:
     - dns
     - dns-server
@@ -129,7 +129,7 @@
   dogfood: true
   language: JavaScript
   license: MIT
-  stars: 905
+  stars: 906
   topics:
     - dom-manipulation
     - drag-and-drop
@@ -179,7 +179,7 @@
     - search
     - suggestions
     - typeahead
-  updated_at: "2026-09-16T16:14:59Z"
+  updated_at: "2026-11-01T13:24:00Z"
   github_uri: knadh/autocomp.js
   repo_url: https://github.com/knadh/autocomp.js
   homepage_url: https://knadh.github.io/autocomp.js
@@ -232,7 +232,7 @@
     - pool
     - smtp
     - smtp-client
-  updated_at: "2026-10-15T11:42:12Z"
+  updated_at: "2026-10-31T15:09:35Z"
   github_uri: knadh/smtppool
   repo_url: https://github.com/knadh/smtppool
   homepage_url:
@@ -367,7 +367,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 95
+  stars: 96
   topics: []
   updated_at: "2025-04-26T15:45:08Z"
   github_uri: knadh/highlighted-input.js
@@ -383,7 +383,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 93
+  stars: 94
   topics:
     - digital-signature
     - pdf

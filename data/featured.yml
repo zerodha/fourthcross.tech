@@ -27,7 +27,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 23972
+  stars: 24119
   topics:
     - campaign
     - campaign-management
@@ -42,7 +42,7 @@
     - sms-gateway
     - smtp
     - transactional-emails
-  updated_at: "2026-10-24T02:18:43Z"
+  updated_at: "2026-11-02T02:16:09Z"
   github_uri: knadh/listmonk
   repo_url: https://github.com/knadh/listmonk
   homepage_url: https://listmonk.app
@@ -56,7 +56,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 3079
+  stars: 3108
   topics:
     - ai-agent
     - chat-widget
@@ -76,7 +76,7 @@
     - ticketing-system
     - vue
     - zendesk
-  updated_at: "2026-10-25T17:13:15Z"
+  updated_at: "2026-11-01T13:18:06Z"
   github_uri: abhinavxd/libredesk
   repo_url: https://github.com/abhinavxd/libredesk
   homepage_url: https://libredesk.io
@@ -90,12 +90,12 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 919
+  stars: 923
   topics:
     - clickhouse
     - log-analytics
     - logging
-  updated_at: "2026-10-23T09:32:41Z"
+  updated_at: "2026-10-29T04:50:11Z"
   github_uri: mr-karan/logchef
   repo_url: https://github.com/mr-karan/logchef
   homepage_url: https://logchef.app/
@@ -109,7 +109,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 1282
+  stars: 1285
   topics:
     - broker-backend
     - database
@@ -122,7 +122,7 @@
     - sql
     - sql-query
     - workers
-  updated_at: "2026-10-26T07:09:51Z"
+  updated_at: "2026-10-27T08:31:15Z"
   github_uri: zerodha/dungbeetle
   repo_url: https://github.com/zerodha/dungbeetle
   homepage_url:
@@ -136,7 +136,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 1749
+  stars: 1756
   topics:
     - whatsapp
     - whatsapp-api
@@ -183,7 +183,7 @@
   dogfood: true
   language: Go
   license: Apache-2.0
-  stars: 342
+  stars: 344
   topics:
     - automation
     - devops
@@ -193,7 +193,7 @@
     - self-service
     - workflow
     - workflow-automation
-  updated_at: "2026-10-21T07:07:27Z"
+  updated_at: "2026-10-29T06:48:03Z"
   github_uri: cvhariharan/flowctl
   repo_url: https://github.com/cvhariharan/flowctl
   homepage_url: https://flowctl.net
@@ -207,7 +207,7 @@
   dogfood: true
   language: Rust
   license: AGPL-3.0
-  stars: 63
+  stars: 65
   topics: []
   updated_at: "2026-10-21T06:12:46Z"
   github_uri: iamd3vil/blobasaur
@@ -223,7 +223,7 @@
   dogfood: true
   language: Rust
   license: AGPL-3.0
-  stars: 69
+  stars: 70
   topics:
     - mail-server
     - rust
@@ -244,7 +244,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 106
+  stars: 107
   topics:
     - franz-go
     - high-availability
@@ -252,7 +252,7 @@
     - kafka-consumer
     - kafka-producer
     - kafka-replicator
-  updated_at: "2026-07-29T11:10:42Z"
+  updated_at: "2026-10-27T05:58:23Z"
   github_uri: zerodha/kaf-relay
   repo_url: https://github.com/zerodha/kaf-relay
   homepage_url:
@@ -282,14 +282,14 @@
   dogfood: true
   language: Vue
   license: AGPL-3.0
-  stars: 57
+  stars: 59
   topics:
     - jira
     - task
     - task-management
     - task-manager
     - todo
-  updated_at: "2026-10-21T08:19:38Z"
+  updated_at: "2026-11-02T06:44:53Z"
   github_uri: bureaucatorg/bureaucat
   repo_url: https://github.com/bureaucatorg/bureaucat
   homepage_url: https://www.bureaucat.org
@@ -311,7 +311,7 @@
     - dart
     - flutter
     - rust
-  updated_at: "2026-10-26T07:50:58Z"
+  updated_at: "2026-10-31T08:06:28Z"
   github_uri: oore-ci/oore.build
   repo_url: https://github.com/oore-ci/oore.build
   homepage_url: https://oore.build
@@ -362,7 +362,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 9
+  stars: 10
   topics: []
   updated_at: "2026-09-22T07:35:33Z"
   github_uri: toriigateorg/torii
@@ -405,7 +405,7 @@
   license: AGPL-3.0
   stars: 50
   topics: []
-  updated_at: "2026-10-24T11:24:56Z"
+  updated_at: "2026-10-30T06:09:17Z"
   github_uri: johnnybravo-xyz/suchi
   repo_url: https://github.com/johnnybravo-xyz/suchi
   homepage_url: https://suchi.page
@@ -419,7 +419,7 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 79
+  stars: 78
   topics:
     - linux-package-manager
     - linux-packages
