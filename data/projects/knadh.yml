@@ -7,7 +7,7 @@
   dogfood: true
   language: CSS
   license: MIT
-  stars: 5582
+  stars: 5603
   topics:
     - component-library
     - css
@@ -34,7 +34,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 4230
+  stars: 4235
   topics:
     - config
     - config-loader
@@ -49,7 +49,7 @@
     - toml
     - viper
     - yaml
-  updated_at: "2026-10-21T01:04:16Z"
+  updated_at: "2026-11-09T06:53:09Z"
   github_uri: knadh/koanf
   repo_url: https://github.com/knadh/koanf
   homepage_url:
@@ -63,7 +63,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 2831
+  stars: 2832
   topics:
     - dns
     - dns-server
@@ -84,7 +84,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 1173
+  stars: 1172
   topics:
     - exporter
     - static-site
@@ -211,7 +211,7 @@
   license:
   stars: 205
   topics: []
-  updated_at: "2026-06-28T06:35:42Z"
+  updated_at: "2026-11-09T06:42:40Z"
   github_uri: knadh/stuffbin
   repo_url: https://github.com/knadh/stuffbin
   homepage_url:
@@ -225,7 +225,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 183
+  stars: 184
   topics:
     - email-client
     - email-sender
@@ -262,7 +262,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 159
+  stars: 160
   topics:
     - autocomplete
     - autosuggestion
@@ -367,7 +367,7 @@
   dogfood: false
   language: JavaScript
   license: MIT
-  stars: 96
+  stars: 95
   topics: []
   updated_at: "2025-04-26T15:45:08Z"
   github_uri: knadh/highlighted-input.js

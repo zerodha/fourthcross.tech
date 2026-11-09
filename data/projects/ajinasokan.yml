@@ -42,7 +42,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 94
+  stars: 95
   topics: []
   updated_at: "2026-03-30T08:58:43Z"
   github_uri: ajinasokan/flutter_fgbg
@@ -81,7 +81,7 @@
     - http
     - libcurl
     - quic
-  updated_at: "2026-10-28T10:08:08Z"
+  updated_at: "2026-11-05T06:39:50Z"
   github_uri: ajinasokan/flutter_curl
   repo_url: https://github.com/ajinasokan/flutter_curl
   homepage_url:

@@ -27,7 +27,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 24119
+  stars: 24211
   topics:
     - campaign
     - campaign-management
@@ -42,7 +42,7 @@
     - sms-gateway
     - smtp
     - transactional-emails
-  updated_at: "2026-11-02T02:16:09Z"
+  updated_at: "2026-11-07T02:08:53Z"
   github_uri: knadh/listmonk
   repo_url: https://github.com/knadh/listmonk
   homepage_url: https://listmonk.app
@@ -56,7 +56,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 3108
+  stars: 3134
   topics:
     - ai-agent
     - chat-widget
@@ -76,7 +76,7 @@
     - ticketing-system
     - vue
     - zendesk
-  updated_at: "2026-11-01T13:18:06Z"
+  updated_at: "2026-11-08T12:45:35Z"
   github_uri: abhinavxd/libredesk
   repo_url: https://github.com/abhinavxd/libredesk
   homepage_url: https://libredesk.io
@@ -90,12 +90,12 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 923
+  stars: 930
   topics:
     - clickhouse
     - log-analytics
     - logging
-  updated_at: "2026-10-29T04:50:11Z"
+  updated_at: "2026-11-09T09:17:33Z"
   github_uri: mr-karan/logchef
   repo_url: https://github.com/mr-karan/logchef
   homepage_url: https://logchef.app/
@@ -109,7 +109,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 1285
+  stars: 1286
   topics:
     - broker-backend
     - database
@@ -122,7 +122,7 @@
     - sql
     - sql-query
     - workers
-  updated_at: "2026-10-27T08:31:15Z"
+  updated_at: "2026-11-03T10:06:05Z"
   github_uri: zerodha/dungbeetle
   repo_url: https://github.com/zerodha/dungbeetle
   homepage_url:
@@ -136,7 +136,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 1756
+  stars: 1769
   topics:
     - whatsapp
     - whatsapp-api
@@ -183,7 +183,7 @@
   dogfood: true
   language: Go
   license: Apache-2.0
-  stars: 344
+  stars: 346
   topics:
     - automation
     - devops
@@ -230,7 +230,7 @@
     - rust-smtp
     - smtp
     - smtp-server
-  updated_at: "2026-09-29T15:36:19Z"
+  updated_at: "2026-11-06T13:08:13Z"
   github_uri: iamd3vil/hedwig
   repo_url: https://github.com/iamd3vil/hedwig
   homepage_url: https://hedwig-mail.dev
@@ -280,16 +280,16 @@
   description: An Open Source. Self Hosted. No-Nonsense Task Manager
   category: services
   dogfood: true
-  language: Vue
+  language: Go
   license: AGPL-3.0
-  stars: 59
+  stars: 60
   topics:
     - jira
     - task
     - task-management
     - task-manager
     - todo
-  updated_at: "2026-11-02T06:44:53Z"
+  updated_at: "2026-11-07T09:17:07Z"
   github_uri: bureaucatorg/bureaucat
   repo_url: https://github.com/bureaucatorg/bureaucat
   homepage_url: https://www.bureaucat.org
@@ -311,7 +311,7 @@
     - dart
     - flutter
     - rust
-  updated_at: "2026-10-31T08:06:28Z"
+  updated_at: "2026-11-09T02:16:26Z"
   github_uri: oore-ci/oore.build
   repo_url: https://github.com/oore-ci/oore.build
   homepage_url: https://oore.build
@@ -348,7 +348,7 @@
     - observability
     - osquery
     - security
-  updated_at: "2026-10-23T11:34:24Z"
+  updated_at: "2026-11-08T09:45:24Z"
   github_uri: cvhariharan/checkpost
   repo_url: https://github.com/cvhariharan/checkpost
   homepage_url: https://checkpost.dev
@@ -378,7 +378,7 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 472
+  stars: 474
   topics:
     - academic
     - academic-website
@@ -403,7 +403,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 50
+  stars: 52
   topics: []
   updated_at: "2026-10-30T06:09:17Z"
   github_uri: johnnybravo-xyz/suchi
@@ -419,7 +419,7 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 78
+  stars: 79
   topics:
     - linux-package-manager
     - linux-packages

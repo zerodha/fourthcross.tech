@@ -7,7 +7,7 @@
   dogfood: true
   language: Go
   license:
-  stars: 209
+  stars: 211
   topics:
     - aws
     - aws-s3
@@ -27,7 +27,7 @@
   dogfood: false
   language: Go
   license: BSD-2-Clause
-  stars: 138
+  stars: 139
   topics: []
   updated_at: "2026-08-10T14:26:06Z"
   github_uri: rhnvrm/linkpage
@@ -61,7 +61,7 @@
   license: MIT
   stars: 11
   topics: []
-  updated_at: "2026-11-02T00:24:10Z"
+  updated_at: "2026-11-08T12:50:04Z"
   github_uri: rhnvrm/exchange-circulars
   repo_url: https://github.com/rhnvrm/exchange-circulars
   homepage_url: https://exchangecirculars.com/
@@ -109,7 +109,7 @@
   license:
   stars: 8
   topics: []
-  updated_at: "2026-10-22T06:00:12Z"
+  updated_at: "2026-11-05T10:46:45Z"
   github_uri: rhnvrm/s3site
   repo_url: https://github.com/rhnvrm/s3site
   homepage_url: https://rhnvrm.github.io/s3site/
