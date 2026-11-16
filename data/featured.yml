@@ -27,7 +27,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 24211
+  stars: 24322
   topics:
     - campaign
     - campaign-management
@@ -42,7 +42,7 @@
     - sms-gateway
     - smtp
     - transactional-emails
-  updated_at: "2026-11-07T02:08:53Z"
+  updated_at: "2026-11-15T02:16:26Z"
   github_uri: knadh/listmonk
   repo_url: https://github.com/knadh/listmonk
   homepage_url: https://listmonk.app
@@ -56,7 +56,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 3134
+  stars: 3158
   topics:
     - ai-agent
     - chat-widget
@@ -76,7 +76,7 @@
     - ticketing-system
     - vue
     - zendesk
-  updated_at: "2026-11-08T12:45:35Z"
+  updated_at: "2026-11-14T14:13:27Z"
   github_uri: abhinavxd/libredesk
   repo_url: https://github.com/abhinavxd/libredesk
   homepage_url: https://libredesk.io
@@ -90,12 +90,12 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 930
+  stars: 931
   topics:
     - clickhouse
     - log-analytics
     - logging
-  updated_at: "2026-11-09T09:17:33Z"
+  updated_at: "2026-11-16T10:17:20Z"
   github_uri: mr-karan/logchef
   repo_url: https://github.com/mr-karan/logchef
   homepage_url: https://logchef.app/
@@ -109,7 +109,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 1286
+  stars: 1288
   topics:
     - broker-backend
     - database
@@ -146,7 +146,7 @@
     - whatsapp-chat
     - whatsapp-voice-call
     - whatsapp-voip
-  updated_at: "2026-10-14T05:20:35Z"
+  updated_at: "2026-11-16T06:37:44Z"
   github_uri: shridarpatil/whatomate
   repo_url: https://github.com/shridarpatil/whatomate
   homepage_url: https://whatomate.io/
@@ -183,17 +183,18 @@
   dogfood: true
   language: Go
   license: Apache-2.0
-  stars: 346
+  stars: 349
   topics:
     - automation
     - devops
+    - mcp
     - orchestration
     - platform-engineering
     - scheduler
     - self-service
     - workflow
     - workflow-automation
-  updated_at: "2026-10-29T06:48:03Z"
+  updated_at: "2026-11-14T03:10:05Z"
   github_uri: cvhariharan/flowctl
   repo_url: https://github.com/cvhariharan/flowctl
   homepage_url: https://flowctl.net
@@ -277,19 +278,28 @@
   author_github: lebmatter
 
 - name: bureaucat
-  description: An Open Source. Self Hosted. No-Nonsense Task Manager
+  description: 🔥️📝️⏰ Open-source Jira, Linear, Monday, ClickUp, Plane alternative. BureauCat is a modern AI native project management platform to manage tasks, sprints, docs, and triage.
   category: services
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 60
+  stars: 76
   topics:
+    - approval-workflow
+    - boards
+    - bug-tracker
+    - golang
     - jira
+    - kanban
+    - postgresql
+    - project-management
+    - project-planning
     - task
     - task-management
     - task-manager
+    - task-manager-app
     - todo
-  updated_at: "2026-11-07T09:17:07Z"
+  updated_at: "2026-11-13T08:53:30Z"
   github_uri: bureaucatorg/bureaucat
   repo_url: https://github.com/bureaucatorg/bureaucat
   homepage_url: https://www.bureaucat.org
@@ -311,7 +321,7 @@
     - dart
     - flutter
     - rust
-  updated_at: "2026-11-09T02:16:26Z"
+  updated_at: "2026-11-16T08:54:47Z"
   github_uri: oore-ci/oore.build
   repo_url: https://github.com/oore-ci/oore.build
   homepage_url: https://oore.build
@@ -378,7 +388,7 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 474
+  stars: 475
   topics:
     - academic
     - academic-website
@@ -405,7 +415,7 @@
   license: AGPL-3.0
   stars: 52
   topics: []
-  updated_at: "2026-10-30T06:09:17Z"
+  updated_at: "2026-11-12T14:29:22Z"
   github_uri: johnnybravo-xyz/suchi
   repo_url: https://github.com/johnnybravo-xyz/suchi
   homepage_url: https://suchi.page

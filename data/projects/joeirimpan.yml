@@ -26,7 +26,7 @@
   dogfood: false
   language: Rust
   license: MIT
-  stars: 45
+  stars: 46
   topics:
     - card
     - credit
@@ -48,7 +48,7 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 13
+  stars: 14
   topics: []
   updated_at: "2020-09-24T05:40:47Z"
   github_uri: joeirimpan/go-frappe-client

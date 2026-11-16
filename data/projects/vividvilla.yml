@@ -7,12 +7,12 @@
   dogfood: false
   language: Go
   license: MIT
-  stars: 1185
+  stars: 1187
   topics:
     - cli
     - data-visualization
     - golang
-  updated_at: "2026-08-24T07:56:24Z"
+  updated_at: "2026-11-10T19:40:23Z"
   github_uri: vividvilla/csvtotable
   repo_url: https://github.com/vividvilla/csvtotable
   homepage_url: https://vividvilla.github.io/csvtotable/
@@ -26,7 +26,7 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 445
+  stars: 444
   topics:
     - hugo
     - hugo-blog

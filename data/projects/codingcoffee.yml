@@ -7,14 +7,14 @@
   dogfood: false
   language: Go
   license: AGPL-3.0
-  stars: 5
+  stars: 6
   topics:
     - ai
     - code-execution
     - sandbox
     - vm
     - web-development
-  updated_at: "2026-11-09T08:53:07Z"
+  updated_at: "2026-11-11T06:32:49Z"
   github_uri: getdummie/dummie
   repo_url: https://github.com/getdummie/dummie
   homepage_url: https://dummie.dev
@@ -37,8 +37,8 @@
     - search
     - web
   updated_at: "2026-04-26T19:15:04Z"
-  github_uri: codingCoffee/pi-websearch-crawl4ai
-  repo_url: https://github.com/codingCoffee/pi-websearch-crawl4ai
+  github_uri: codingcoffee/pi-websearch-crawl4ai
+  repo_url: https://github.com/codingcoffee/pi-websearch-crawl4ai
   homepage_url: https://pi-websearch-crawl4ai.codingcoffee.dev/
   image:
   logo:
@@ -60,8 +60,8 @@
     - privacy
     - redaction
   updated_at: "2026-05-10T08:09:48Z"
-  github_uri: codingCoffee/pi-privacy-filter
-  repo_url: https://github.com/codingCoffee/pi-privacy-filter
+  github_uri: codingcoffee/pi-privacy-filter
+  repo_url: https://github.com/codingcoffee/pi-privacy-filter
   homepage_url: https://pi-privacy-filter.codingcoffee.dev
   image:
   logo:
@@ -76,8 +76,8 @@
   stars: 3
   topics: []
   updated_at: "2026-06-24T11:34:24Z"
-  github_uri: codingCoffee/osquery-nftables-ext
-  repo_url: https://github.com/codingCoffee/osquery-nftables-ext
+  github_uri: codingcoffee/osquery-nftables-ext
+  repo_url: https://github.com/codingcoffee/osquery-nftables-ext
   homepage_url:
   image:
   logo:
@@ -92,8 +92,8 @@
   stars: 2
   topics: []
   updated_at: "2026-08-25T07:07:18Z"
-  github_uri: codingCoffee/openmetadata-ingestion-go
-  repo_url: https://github.com/codingCoffee/openmetadata-ingestion-go
+  github_uri: codingcoffee/openmetadata-ingestion-go
+  repo_url: https://github.com/codingcoffee/openmetadata-ingestion-go
   homepage_url:
   image:
   logo:
