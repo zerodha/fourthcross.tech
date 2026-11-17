@@ -52,3 +52,19 @@
   image: chek.webp
   logo: logos/chek.svg
   author_github: devaryakjha
+
+- name: matty
+  description: A native Mattermost client
+  category: apps
+  dogfood: false
+  language: Rust
+  license: MIT
+  stars: 4
+  topics: []
+  updated_at: "2026-11-16T21:32:47Z"
+  github_uri: karyalabs/matty
+  repo_url: https://github.com/karyalabs/matty
+  homepage_url: https://karyalabs.dev/matty/
+  image: matty.webp
+  logo: logos/matty.svg
+  author_github: devaryakjha
