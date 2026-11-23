@@ -136,6 +136,34 @@
   logo: logos/dungbeetle.svg
   author_github: knadh
 
+- name: tring
+  description: Open-source, API-first voice CPaaS for browser, telecom and WhatsApp calling.
+  category: services
+  dogfood: true
+  language: Go
+  license: Apache-2.0
+  stars: 17
+  topics:
+    - browser-calling
+    - cpaas
+    - freeswitch
+    - go
+    - ivr
+    - pstn
+    - sip
+    - telephony
+    - twilio-alternative
+    - voice
+    - voip
+    - webrtc
+  updated_at: "2026-11-17T12:20:57Z"
+  github_uri: shridarpatil/tring
+  repo_url: https://github.com/shridarpatil/tring
+  homepage_url: https://tring.tel/
+  image: tring.png
+  logo: logos/tring.svg
+  author_github: shridarpatil
+
 - name: whatomate
   description: Whatomate is an open-source WhatsApp integration
   category: services
