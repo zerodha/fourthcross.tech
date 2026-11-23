@@ -155,7 +155,7 @@
   repo_url: https://github.com/shridarpatil/tring
   homepage_url: https://tring.tel/
   image: tring.png
-  logo:
+  logo: logos/tring.svg
   author_github: shridarpatil
 
 - name: whatomate
