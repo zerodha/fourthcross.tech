@@ -4,4 +4,38 @@
 # All of this owner's projects are currently featured, so they live in
 # data/featured.yml instead. Add non-featured ones to the list below.
 
-[]
+- name: mvm
+  description: "A quick CLI to create development sandbox microVMs from container images"
+  category: utils
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 23
+  topics:
+    - microvm
+    - sandbox
+    - docker
+  updated_at: "2026-06-28T12:01:00Z"
+  github_uri: cvhariharan/mvm
+  repo_url: https://github.com/cvhariharan/mvm
+  homepage_url:
+  image:
+  logo:
+  author_github: cvhariharan
+
+- name: qssh
+  description: "SSH over QUIC"
+  category: utils
+  dogfood: false
+  language: Go
+  license: MIT
+  stars: 2
+  topics:
+    - SSH
+  updated_at: "2025-11-02T05:59:00Z"
+  github_uri: cvhariharan/qssh
+  repo_url: https://github.com/cvhariharan/qssh
+  homepage_url:
+  image:
+  logo:
+  author_github: cvhariharan
