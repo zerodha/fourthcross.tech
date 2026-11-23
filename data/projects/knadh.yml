@@ -7,7 +7,7 @@
   dogfood: true
   language: CSS
   license: MIT
-  stars: 5612
+  stars: 5620
   topics:
     - component-library
     - css
@@ -34,7 +34,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 4242
+  stars: 4243
   topics:
     - config
     - config-loader
@@ -49,7 +49,7 @@
     - toml
     - viper
     - yaml
-  updated_at: "2026-11-14T03:51:21Z"
+  updated_at: "2026-11-19T16:02:38Z"
   github_uri: knadh/koanf
   repo_url: https://github.com/knadh/koanf
   homepage_url:
@@ -106,7 +106,7 @@
   dogfood: false
   language: Go
   license: AGPL-3.0
-  stars: 987
+  stars: 988
   topics:
     - chat
     - chat-room
@@ -172,7 +172,7 @@
   dogfood: false
   language: HTML
   license: MIT
-  stars: 354
+  stars: 353
   topics:
     - autocomplete
     - autosuggestions
@@ -225,7 +225,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 185
+  stars: 187
   topics:
     - email-client
     - email-sender
@@ -544,7 +544,7 @@
   dogfood: false
   language: Rust
   license: Apache-2.0
-  stars: 49
+  stars: 52
   topics:
     - element
     - matrix
@@ -605,7 +605,7 @@
   dogfood: true
   language: Python
   license: MIT
-  stars: 29
+  stars: 30
   topics:
     - changelog
     - changelog-generator

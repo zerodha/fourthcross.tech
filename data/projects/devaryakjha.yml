@@ -59,9 +59,9 @@
   dogfood: false
   language: Rust
   license: MIT
-  stars: 4
+  stars: 5
   topics: []
-  updated_at: "2026-11-16T21:32:47Z"
+  updated_at: "2026-11-22T18:47:43Z"
   github_uri: karyalabs/matty
   repo_url: https://github.com/karyalabs/matty
   homepage_url: https://karyalabs.dev/matty/

@@ -27,7 +27,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 24322
+  stars: 24425
   topics:
     - campaign
     - campaign-management
@@ -42,7 +42,7 @@
     - sms-gateway
     - smtp
     - transactional-emails
-  updated_at: "2026-11-15T02:16:26Z"
+  updated_at: "2026-11-23T02:14:02Z"
   github_uri: knadh/listmonk
   repo_url: https://github.com/knadh/listmonk
   homepage_url: https://listmonk.app
@@ -56,7 +56,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 3158
+  stars: 3195
   topics:
     - ai-agent
     - chat-widget
@@ -85,17 +85,23 @@
   author_github: abhinavxd
 
 - name: logchef
-  description: Lightweight, single-binary log analytics interface for ClickHouse, focused on high-performance querying and visualization
+  description: "Self-hosted log analytics for ClickHouse, VictoriaLogs and Grafana Loki: LogchefQL search, dashboards, alerts, audit log and an MCP server in a single binary"
   category: apps
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 931
+  stars: 936
   topics:
     - clickhouse
+    - kibana-alternative
     - log-analytics
     - logging
-  updated_at: "2026-11-16T10:17:20Z"
+    - mcp
+    - observability
+    - opentelemetry
+    - self-hosted
+    - victorialogs
+  updated_at: "2026-11-22T21:21:05Z"
   github_uri: mr-karan/logchef
   repo_url: https://github.com/mr-karan/logchef
   homepage_url: https://logchef.app/
@@ -109,7 +115,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 1288
+  stars: 1290
   topics:
     - broker-backend
     - database
@@ -136,7 +142,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 1769
+  stars: 1780
   topics:
     - whatsapp
     - whatsapp-api
@@ -146,7 +152,7 @@
     - whatsapp-chat
     - whatsapp-voice-call
     - whatsapp-voip
-  updated_at: "2026-11-16T06:37:44Z"
+  updated_at: "2026-11-18T09:12:14Z"
   github_uri: shridarpatil/whatomate
   repo_url: https://github.com/shridarpatil/whatomate
   homepage_url: https://whatomate.io/
@@ -160,7 +166,7 @@
   dogfood: true
   language: Go
   license: MIT
-  stars: 553
+  stars: 554
   topics:
     - email-verification
     - mobile-number-verification
@@ -183,7 +189,7 @@
   dogfood: true
   language: Go
   license: Apache-2.0
-  stars: 349
+  stars: 352
   topics:
     - automation
     - devops
@@ -208,9 +214,9 @@
   dogfood: true
   language: Rust
   license: AGPL-3.0
-  stars: 65
+  stars: 308
   topics: []
-  updated_at: "2026-10-21T06:12:46Z"
+  updated_at: "2026-11-22T17:49:31Z"
   github_uri: iamd3vil/blobasaur
   repo_url: https://github.com/iamd3vil/blobasaur
   homepage_url:
@@ -224,14 +230,14 @@
   dogfood: true
   language: Rust
   license: AGPL-3.0
-  stars: 70
+  stars: 73
   topics:
     - mail-server
     - rust
     - rust-smtp
     - smtp
     - smtp-server
-  updated_at: "2026-11-06T13:08:13Z"
+  updated_at: "2026-11-22T07:45:26Z"
   github_uri: iamd3vil/hedwig
   repo_url: https://github.com/iamd3vil/hedwig
   homepage_url: https://hedwig-mail.dev
@@ -283,7 +289,7 @@
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 76
+  stars: 87
   topics:
     - approval-workflow
     - boards
@@ -299,7 +305,7 @@
     - task-manager
     - task-manager-app
     - todo
-  updated_at: "2026-11-13T08:53:30Z"
+  updated_at: "2026-11-18T11:59:47Z"
   github_uri: bureaucatorg/bureaucat
   repo_url: https://github.com/bureaucatorg/bureaucat
   homepage_url: https://www.bureaucat.org
@@ -321,7 +327,7 @@
     - dart
     - flutter
     - rust
-  updated_at: "2026-11-16T08:54:47Z"
+  updated_at: "2026-11-18T03:55:15Z"
   github_uri: oore-ci/oore.build
   repo_url: https://github.com/oore-ci/oore.build
   homepage_url: https://oore.build
@@ -388,7 +394,7 @@
   dogfood: false
   language: Rust
   license: AGPL-3.0
-  stars: 475
+  stars: 476
   topics:
     - academic
     - academic-website
@@ -408,14 +414,22 @@
   author_github: knadh
 
 - name: suchi
-  description: Document management as one Go binary. SQLite-first, content-addressed blobs.
+  description: Self-hosted document archive that files itself. A single-binary Paperless-ngx alternative with OCR, numbered filing and a mobile app.
   category: apps
   dogfood: true
   language: Go
   license: AGPL-3.0
-  stars: 52
-  topics: []
-  updated_at: "2026-11-12T14:29:22Z"
+  stars: 54
+  topics:
+    - dms
+    - document-management
+    - go
+    - ocr
+    - paperless-alternative
+    - paperless-ngx
+    - self-hosted
+    - sqlite
+  updated_at: "2026-11-21T10:42:54Z"
   github_uri: johnnybravo-xyz/suchi
   repo_url: https://github.com/johnnybravo-xyz/suchi
   homepage_url: https://suchi.page

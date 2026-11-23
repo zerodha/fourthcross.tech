@@ -39,7 +39,7 @@
   dogfood: true
   language: Python
   license: MIT
-  stars: 42
+  stars: 43
   topics: []
   updated_at: "2025-05-09T05:51:31Z"
   github_uri: zerodha/pdf_text_overlay
@@ -55,7 +55,7 @@
   dogfood: false
   language: Python
   license: MIT
-  stars: 21
+  stars: 22
   topics: []
   updated_at: "2020-07-22T10:44:16Z"
   github_uri: zerodha/rms-consolidated-scrips-status

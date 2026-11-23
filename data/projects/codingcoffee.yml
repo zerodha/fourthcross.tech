@@ -7,7 +7,7 @@
   dogfood: false
   language: Go
   license: AGPL-3.0
-  stars: 6
+  stars: 7
   topics:
     - ai
     - code-execution

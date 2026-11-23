@@ -74,7 +74,7 @@
   dogfood: true
   language: Dart
   license: MIT
-  stars: 70
+  stars: 69
   topics:
     - curl
     - flutter
