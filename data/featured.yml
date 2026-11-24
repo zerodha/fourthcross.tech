@@ -46,7 +46,7 @@
   github_uri: knadh/listmonk
   repo_url: https://github.com/knadh/listmonk
   homepage_url: https://listmonk.app
-  image: listmonk.png
+  image: listmonk.webp
   logo: logos/listmonk.svg
   author_github: knadh
 
@@ -487,3 +487,56 @@
   image: pkgbot.png
   logo: logos/pkgbot.svg
   author_github: knadh
+
+- name: dummie
+  description: Secure computers for everyone.
+  category: libs
+  dogfood: false
+  language: Go
+  license: AGPL-3.0
+  stars: 7
+  topics:
+    - ai
+    - code-execution
+    - sandbox
+    - vm
+    - web-development
+  updated_at: "2026-11-11T06:32:49Z"
+  github_uri: getdummie/dummie
+  repo_url: https://github.com/getdummie/dummie
+  homepage_url: https://dummie.dev
+  image: dummie.png
+  logo: logos/dummie.svg
+  author_github: codingcoffee
+
+- name: matty
+  description: A native Mattermost client
+  category: apps
+  dogfood: false
+  language: Rust
+  license: MIT
+  stars: 5
+  topics: []
+  updated_at: "2026-11-22T18:47:43Z"
+  github_uri: karyalabs/matty
+  repo_url: https://github.com/karyalabs/matty
+  homepage_url: https://karyalabs.dev/matty/
+  image: matty.webp
+  logo: logos/matty.svg
+  author_github: devaryakjha
+
+- name: chek
+  description: Cross-platform reader for manga, manhwa, comics, and books, with self-hosted server support.
+  category: apps
+  dogfood: false
+  language: Rust
+  license: AGPL-3.0
+  stars: 3
+  topics: []
+  updated_at: "2026-11-11T21:07:08Z"
+  github_uri: readchek/chek
+  repo_url: https://github.com/readchek/chek
+  homepage_url: https://chek.page
+  image: chek.webp
+  logo: logos/chek.svg
+  author_github: devaryakjha

@@ -1,27 +1,6 @@
 # Projects owned by github.com/codingcoffee. Same schema as data/featured.yml —
 # see the field documentation there. Aggregated via config.extra.project_files.
 
-- name: dummie
-  description: Secure computers for everyone.
-  category: libs
-  dogfood: false
-  language: Go
-  license: AGPL-3.0
-  stars: 7
-  topics:
-    - ai
-    - code-execution
-    - sandbox
-    - vm
-    - web-development
-  updated_at: "2026-11-11T06:32:49Z"
-  github_uri: getdummie/dummie
-  repo_url: https://github.com/getdummie/dummie
-  homepage_url: https://dummie.dev
-  image: dummie.png
-  logo: logos/dummie.svg
-  author_github: codingcoffee
-
 - name: pi-websearch-crawl4ai
   description: a pi extension to let your LLM crawl & see the web
   category: libs
